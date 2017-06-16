@@ -33,23 +33,193 @@ $(function() {
     $(window).on('resize', resize).trigger('resize');
 });
 
-
-
 /*
-$(' .nav-tabs a').on('click', function(){
-    for(var i=0;i<5; i++){
-        $(' .nav-tabs a').style.background="rgba(0,0,0,0.3);";
+$('.footer-tab').mousemove(function(){
+    $(".footer-im ").removeClass("shows ");
+    $(".footer-im ").addClass("showr");
 
+})
+
+$('.footer-tab').mouseout(function(){
+    $(".footer-im").removeClass("showr ");
+    $(".footer-im").addClass("shows");
+})*/
+function footertab(id,obj,name1,name2){
+    $(id).mousemove(function(){
+        $(obj).removeClass(name1);
+        $(obj).addClass( name2);
+
+    })
+
+    $(id).mouseout(function(){
+        $(obj).removeClass(name2);
+        $(obj).addClass(name1);
+    })
+}
+footertab('#tab1',".footer-im1 ","shows1 ","showr1")
+footertab('#tab2',".footer-im2 ","shows2 ","showr2")
+footertab('#tab3',".footer-im3 ","shows3 ","showr3")
+footertab('#tab4',".footer-im4 ","shows4 ","showr4")
+footertab('#tab5',".footer-im5 ","shows5 ","showr5")
+/*console.log($('.footer-tab'))*/
+
+
+/*门票详情*/
+
+/* 滚动监听 */
+// 定义一个获取所有div的距离高度
+var arrOffsetTop = [
+    $('.men-li1').offset().top,
+    $('.men-li2').offset().top,
+    $('.men-li3').offset().top,
+    $('.men-li4').offset().top,
+];
+
+// 获取每个div的平均高度
+var fTotalHgt = 0;
+for(var i=0; i<$('.men').length; i++) {
+    fTotalHgt += $('.men').eq(i).outerHeight();
+}
+var fAverageHgt = parseFloat(fTotalHgt / $('.men').length);
+
+// 滚动事件(每次滚动都做一次循环判断)
+$(window).scroll(function() {
+    for(var i=0; i<$('.men').length; i++) {
+        if($(this).scrollTop() > arrOffsetTop[i] - fAverageHgt) {  // 减去一个固定值，是定位准确点
+            $('.menpiao-nav').eq(i).addClass('active').siblings().removeClass('active');
+        }
     }
-   this.style.background="rgba(48,181,244,0.3)";
 });
 
-$(' .nav-tabs a').onmousemove=function(){
-    for(var i=0;i<5; i++){
-        $(' .nav-tabs a').style.background="rgba(0,0,0,0.3);";
-    }
-    this.style.background="rgba(48,181,244,0.3)";
-}*/
+$(function () {
+    var H = 490;
+    $(window).scroll(function () {
+        var docSccrollTop = $(document).scrollTop();
+        if(docSccrollTop > H){
+            $("#menpiao-top").css({"position":"fixed","top":0});
+            // 此时 nav的位置固定，如果不设置 main部分的margin-top的话，将有一部分内容被挡住 nav的高度+开始设置的20
+            $(".men").css("margin-top",60);
+        }else{
+            $("#menpiao-top").css({"position":"static"});  /*静态定位*/
+            $(".men").css("margin-top",0);
+        }
+    });
+});
 
+
+
+
+
+/* 点击事件 */
+$('.menpiao-nav').click(function() {
+    $(this).addClass('active').siblings().removeClass('active');
+    $('body, html').animate({scrollTop: arrOffsetTop[$(this).index()]}, 500);
+});
+
+
+/*门票预订*/
+var jian=document.getElementsByClassName('jian');
+var shu=document.getElementsByClassName('shu');
+var jia=document.getElementsByClassName('jia');
+for(var i=0;i<jia.length;i++){
+    jian[i].shu=shu[i];
+    jia[i].shu=shu[i];
+    jia[i].jian=jian[i];
+    jian[i].onclick=function(){
+        var n=parseInt(this.shu.innerHTML)
+        if(n>0){
+            n--;
+        }
+        if(n==0){
+            this.id='jian1';
+        }
+        this.shu.innerHTML=n;
+    };
+    jia[i].onclick=function(){
+        var n=parseInt(this.shu.innerHTML)
+        n++;
+        this.shu.innerHTML=n;
+        this.jian.id='jian2';
+    };
+}
+
+
+
+// 百度地图API功能
+var map = new BMap.Map('allmap');
+map.addControl(new BMap.NavigationControl());
+map.centerAndZoom(new BMap.Point(109.609925,28.333864), 18);
+
+/*3订票页面获取时间*/
+
+
+
+
+/*姓名身份证，手机号提交*/
+function isChinaName(name) {
+    var pattern = /^[\u4E00-\u9FA5]{1,6}$/;
+    return pattern.test(name);
+}
+
+// 验证手机号
+function isPhoneNo(phone) {
+    var pattern = /^1[34578]\d{9}$/;
+    return pattern.test(phone);
+}
+
+// 验证身份证
+function isCardNo(card) {
+    var pattern = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+    return pattern.test(card);
+}
+
+// 验证函数
+function formValidate() {
+    var str = '';
+    // 判断名称
+    if($.trim($('#name').val()).length == 0) {
+        str += '名称没有输入\n';
+        $('#name').focus();
+    } else {
+        if(isChinaName($.trim($('#name').val())) == false) {
+            str += '名称不合法\n';
+            $('#name').focus();
+        }
+    }
+
+    // 判断手机号码
+    if ($.trim($('#phone').val()).length == 0) {
+        str += '手机号没有输入\n';
+        $('#phone').focus();
+    } else {
+        if(isPhoneNo($.trim($('#phone').val()) == false)) {
+            str += '手机号码不正确\n';
+            $('#phone').focus();
+        }
+    }
+
+    // 验证身份证
+    if($.trim($('#identity').val()).length == 0) {
+        str += '身份证号码没有输入\n';
+        $('#identity').focus();
+    } else {
+        if(isCardNo($.trim($('#identity').val())) == false) {
+            str += '身份证号不正确；\n';
+            $('#identity').focus();
+        }
+    }
+
+    // 如果没有错误则提交
+    if(str != '') {
+        alert(str);
+        return false;
+    } else {
+        $('.auth-form').submit();
+    }
+}
+
+$('#submit').on('click', function() {
+    formValidate();
+});
 
 

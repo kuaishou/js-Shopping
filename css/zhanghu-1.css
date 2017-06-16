@@ -1,0 +1,482 @@
+
+.zhanghu{
+    margin-top: 20px;
+}
+
+
+
+
+
+.zhanghu .nav-tabs {
+    width: 160px;
+    float: left;
+    border-bottom:none;
+    background-color: #f2f2f2;
+}
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border:none;
+    border-bottom-color: transparent;
+}
+.nav-tabs > li > a {
+    margin-right:0;
+    border: none;
+    border-radius:0;
+    height: 40px;
+    line-height: 40px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+
+
+
+.zhanghu .nav-tabs .nav-title{
+    font-size: 14px;
+    font-weight: 600;
+    height: 38px;
+    width: 160px;
+    line-height: 38px;
+    padding-left: 20px;
+    border-bottom: 2px solid #017cc2;
+}
+.zhanghu .nav-tabs .zhanghu-cart{
+    height: 36px;
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 36px;
+
+
+}
+.zhanghu .nav-tabs .zhanghu-cart span{
+    margin-right: 4px;
+
+
+}
+.zhanghu .nav-tabs .zhanghu-list a{
+    padding-left: 50px;
+
+}
+.zhanghu .tab-pane{
+    float: left;
+    padding-left: 20px;
+    padding-top: 90px;
+}
+/*导航栏右侧内容*/
+.zhanghu .tab-content #home1 .zhanghu-dingdan1{
+    height: 90px;
+    width: 960px;
+    margin-top: 20px;
+    border: 1px solid #b0c7e7;
+
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-title{
+    height: 30px;
+    background-color: #eaf2fd;
+    line-height: 30px;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-title .dingdan-1{
+     margin-left: 30px;
+ }
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-title .dingdan-2{
+    color: #027bc0;
+}
+/*订单内容*/
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont{
+    height: 60px;
+    padding-left: 10px;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont span{
+    display:block;
+    float: left;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-luxian{
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    color: #027bc0;
+    font-size: 14px;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-piao{
+    height: 60px;
+    line-height: 60px;
+    margin-left: 40px;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-name{
+     height: 60px;
+     line-height: 60px;
+     margin-left: 56px;
+ }
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-time{
+    height: 60px;
+    line-height: 60px;
+    margin-left: 80px;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-Price{
+    height: 60px;
+    line-height: 60px;
+    margin-left: 80px;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-zhuangtai{
+    display:block;
+    float: left;
+    height: 40px;
+    margin-left: 160px;
+    margin-top: 8px;
+    line-height: 22px;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-zhuangtai .dingdan1-no{
+    color: #fe0002;
+}
+.zhanghu .tab-content #home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-zhuangtai a{
+    color: #037cc3;
+
+}
+
+
+
+/*资产列表的余额内容*/
+/*.zhanghu .tab-content #money{
+    border: 1px solid blue;
+    float: left;
+    padding-left: 20px;
+    padding-top: 90px;
+}*/
+.zhanghu .tab-content #money .money-cont{
+    border: 1px solid #b0c7e7;
+    height: 200px;
+    width: 960px;
+
+}
+.zhanghu .tab-content #money .money-cont .money-top{
+   background-color: #eaf2fd;
+    height: 90px;
+    padding-top: 18px;
+    padding-left: 50px;
+
+
+}
+.zhanghu .tab-content #money .money-cont .money-top h4{
+    color: #f67e04;
+    font-size: 24px;
+
+}
+.zhanghu .tab-content #money .money-cont .money-top .money-home{
+    margin-top: 12px;
+}
+.zhanghu .tab-content #money .money-cont .money-top .money-home .money-an{
+    margin-left: 30px;
+}
+
+
+
+.zhanghu .tab-content #money .money-cont .money-news{
+    padding-top: 16px;
+    height: 110px;
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left{
+    float: left;
+    height: 90px;
+    width: 478px;
+    border-right: 1px dashed #b3c7ea;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left div{
+    float: left;
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left .money-left1{
+
+    width: 80px;
+    height: 60px;
+
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left .money-left1 h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.zhanghu .tab-content #money .money-cont .money-news .money-left .money-left1 span{
+    display: inline-block;
+    margin-top: 20px;
+
+
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left .money-left1 .money-big ,
+.money-som{
+    font-size: 14px;
+    color: #f57e00;
+
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left .money-left1 .money-big{
+    font-size: 18px;
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left .money-left2{
+    width: 110px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left .money-left3{
+
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-left a{
+    margin-top: 30px;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    font-weight: 600;
+}
+
+/*右侧我的银行卡*/
+
+.zhanghu .tab-content #money .money-cont .money-news .money-right{
+    width: 480px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.zhanghu .tab-content #money .money-cont .money-news .money-right h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.zhanghu .tab-content #money .money-cont .money-news .money-right span{
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.zhanghu .tab-content #money .money-cont .money-news .money-right .yinhang-1{
+    margin-left: 80px;
+
+}
+
+
+/*我的资产-银行卡模块*/
+.zhanghu .tab-content #yinhang .yinka{
+    border: 1px solid #b2c6e7;
+    width: 960px;
+}
+.zhanghu .tab-content #yinhang .yinka h4{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #eaf2fd;
+}
+.zhanghu .tab-content #yinhang .yinka .yinka-cont{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.zhanghu .tab-content #yinhang .yinka a{
+    color: #017cc0;
+}
+
+/*我的资产-优惠券模块*/
+.zhanghu .tab-content #youhui h4{
+    height: 30px;
+    width: 960px;
+    background-color: #eaf2fd;
+    border: 1px solid #b0c7e7;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.zhanghu .tab-content #youhui .youhui-lis{
+    border: 1px solid #cccccc;
+    height: 100px;
+    width: 960px;
+    margin-top: 20px;
+}
+.zhanghu .tab-content #youhui .youhui-lis .youhui-jia{
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    background-color: #027dc3;
+    color: #ffffff;
+    margin-left: 80px;
+    text-align: center;
+}
+.zhanghu .tab-content #youhui .youhui-lis .youhui-jia .youhui-jia-nb{
+    font-size: 24px;
+    margin-top: 4px;
+}
+.zhanghu .tab-content #youhui .youhui-lis .youhui-jia .youhui-jia-nb1{
+    font-size: 12px;
+}
+.zhanghu .tab-content #youhui .youhui-lis .youhui-biaozun{
+    float: left;
+    width: 250px;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.zhanghu .tab-content #youhui .youhui-lis .youhui-biaozun .youhui-biaozun1{
+     font-size: 14px;
+     font-weight: 600;
+ }
+.zhanghu .tab-content #youhui .youhui-lis .youhui-biaozun .youhui-biaozun2{
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.zhanghu .tab-content #youhui .youhui-lis .youhui-zhuangtai{
+    width: 100px;
+    height: 30px;
+    float: left;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 34px;
+    margin-left: 350px;
+    font-weight: 600;
+}
+.zhanghu .tab-content #youhui .youhui-lis .youhui-jia1{
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    color:#000000 ;
+    margin-left: 80px;
+    text-align: center;
+}
+
+
+
+/*我的资料-个人资料模块*/
+.zhanghu .tab-content #zhiliao .people-data{
+    width: 960px;
+    border: 1px solid #b0c7e7;
+
+}
+
+.zhanghu .tab-content #zhiliao .people-data-top{
+    width: 958px;
+    height: 30px;
+    float: left;
+    padding-left: 12px;
+    background-color: #eaf2fd;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 20px;
+
+
+}
+.zhanghu .tab-content #zhiliao .people-data-top p{
+    display: inline-block;
+    float: left;
+
+ }
+.zhanghu .tab-content #zhiliao .people-data-top  span{
+    display: inline-block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+
+}
+.zhanghu .tab-content #zhiliao .people-data-top  a{
+    display: inline-block;
+    float: right;
+    width: 30px;
+
+}
+
+/*我的资料-个人资料信息模块*/
+.zhanghu .tab-content #zhiliao .people-data .people-data-cont{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 160px;
+}
+.zhanghu .tab-content #zhiliao .people-data .people-data-cont .people-data-tel{
+    margin-top: 10px;
+}
+.zhanghu .tab-content #zhiliao .people-data .people-data-cont .people-data-tel .people-data-tel1{
+    margin-left: 30px;
+
+}
+.zhanghu .tab-content #zhiliao .people-data .people-data-cont .people-data-tel .people-data-tel2{
+     margin-left: 20px;
+
+ }
+.zhanghu .tab-content #zhiliao .people-data .people-data-cont .people-data-tel .people-data-tel3{
+    margin-left: 60px;
+    color: #007ec3;
+
+}
+
+
+/*个人资料上传头像模块*/
+
+
+.zhanghu .tab-content #zhiliao .people-data .people-data-cont{
+
+}
+.zhanghu .tab-content #zhiliao  .people-img{
+    margin-top: 20px;
+    width: 960px;
+    border: 1px solid #b0c7e7;
+}
+
+.zhanghu .tab-content #zhiliao .people-imgs-cont-tou{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.zhanghu .tab-content #zhiliao .people-imgs-cont-ipt{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.zhanghu .tab-content #zhiliao .people-imgs-tijiao{
+    float: left;
+    margin-top: 20px;
+}
+
+
+.a-upload {
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}

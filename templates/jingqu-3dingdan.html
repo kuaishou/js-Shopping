@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/jingqu-3dingdan.css"/>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--头部-->
+<header id="header">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ">吉首电子商务欢迎您</div>
+            <div class="col-md-2 ">客服电话:400888888</div>
+            <div class="col-md-2 ">
+                <a href="#">收藏</a>
+                <a href="#" class="btn btn-link ">注册</a>
+                <a href="#" class="btn btn-link ">登录</a>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+<!--头部区域-->
+<!--头部轮播图-->
+<section class="nav-base">
+    <!--导航栏-->
+    <nav id="navs" class="clearfix">
+        <div class="container">
+            <a href="../index.html"><img src="../img/logo.jpg" alt=""/></a>
+            <span>结算页</span>
+            <ul class="money-nav">
+                <li class="money-nav1">1、填写订单信息</li>
+                <li class="money-nav2">2、在线支付</li>
+                <li class="money-nav3">3、支付成功</li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+
+
+<!--预订登录-->
+
+<section class="denglu container">
+    <div class="denglu-box"></div>
+    <div class="denglu-content">
+        <img src="../img/4dingdan3.jpg" alt="denger"/>
+        <span>您还没有登录，登录后购物车的商品将保存在你的账户中</span>
+        <a href="#" type="button" class="btn btn-danger">立即登录</a>
+    </div>
+</section>
+<!--订单信息-->
+<section class="jieshuan clearfix">
+    <div class="container">
+    <div class="jieshuan-left">
+    <div class="dingdan">
+    <h4>订单信息</h4>
+    <div class="dingdan-lis">
+        <span class="dingdan-name">矮寨大桥日票</span>
+        <span class="dingdan-nab">5</span>
+        <span class="dingdan-zhang">张</span>
+        <input class="dingdan-time" type="date" value="请选择日期" placeholder="Search W3School" />
+
+        <span class="dingdan-danjia1">¥280.</span>
+        <span class="dingdan-danjia2">00</span>
+        <span>/张/人</span>
+    </div>
+
+        <div class="dingdan-lis">
+            <span class="dingdan-name">矮寨大桥月票</span>
+            <span class="dingdan-nab">5</span>
+            <span class="dingdan-zhang">张</span>
+         <span id="time" class="time"> <script>
+             document.getElementById('time').innerHTML=new Date().toLocaleString();
+         </script> </span>
+            <span class="dingdan-bigin">生效</span>
+            <span class="dingdan-danjia3">¥280.</span>
+            <span class="dingdan-danjia2">00</span>
+            <span class="dingdan-ren">/张/人</span>
+        </div>
+
+        <div class="dingdan-lis">
+            <span class="dingdan-name">矮寨大桥年票</span>
+            <span class="dingdan-nab">5</span>
+            <span class="dingdan-zhang">张</span>
+         <span id="time1" class="time"> <script>
+             document.getElementById('time1').innerHTML=new Date().toLocaleString();
+         </script> </span>
+            <span class="dingdan-bigin">生效</span>
+            <span class="dingdan-danjia3">¥280.</span>
+            <span class="dingdan-danjia2">00</span>
+            <span>/张/人</span>
+        </div>
+    </div>
+
+
+    <!--二。取票人信息-->
+    <div class="qupiao">
+        <h4>取票人/出行人信息</h4>
+
+        <span class="qupiao-news">出行人信息（至少填写一位）</span>
+        <span class="qupiao-add"><button id="add">+</button>添加其他出行人信息</span>
+        <form class="qupiao-ipt" action="">
+            <div class="form-group">
+                <label class="qupiao-ipt-1">姓名:</label>
+                <input id="name" type="text">
+            </div>
+            <div class="form-group">
+                <label class="qupiao-ipt-2">身份证号码:</label>
+                <input id="identity" type="text" name="fname" maxlength="18">
+            </div>
+            <div class="form-group">
+                <label class="qupiao-ipt-3">手机号号码:</label>
+                <input id="phone" type="tel" name="fname" min="11">
+            </div>
+
+         <!--   <div class="btn-group">
+                <button class="btn btn-md btn-purple ml-20" id="submit" type="button">提交</button>
+            </div>-->
+        </form>
+    </div>
+
+        <!--优惠信息-->
+        <div class="qupiao">
+            <h4>优惠信息</h4>
+            <span class="youhui">无优惠可用</span>
+        </div>
+        </div>
+        <div class="jieshuan-right">
+
+            <h4>购票须知</h4>
+
+            <span>退款规则</span>
+            <p>日票：使用日期开始前两天可申请退款</p>
+            <p>月票：使用日期开始前两天可申请退款</p>
+            <p>年票：使用日期开始前两天可申请退款</p>
+
+
+
+            <span>景点信息</span>
+            <p>景点名称：矮寨大桥</p>
+            <p>入园日期：游玩日期当天有效
+
+            <span>入园方式：</span>
+            <p>凭二维码或身份证</p>
+
+
+            <a href="#">详情购买须知</a>
+
+        </div>
+
+
+
+ </div>
+
+    <div class="zhifu row">
+
+            <div class="col-xs-6"></div>
+            <div class="col-xs-6">
+                <span class="zhifu-word">订单总金额</span>
+                <span class="zhifu-money">:¥288.00</span>
+                <a href="#"> 立即支付</a>
+
+            </div>
+
+
+    </div>
+</section>
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-nav">
+            <a href="#" class="footer-tab" id="tab1"> <span class="footer-tab-sp footer-im1  shows1"></span>景区</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab2"> <span class="footer-tab-sp footer-im2  shows2"></span>酒店</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab3"> <span class="footer-tab-sp footer-im3  shows3"></span>特产</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab4"> <span class="footer-tab-sp footer-im4  shows4"></span>美食</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab5"> <span class="footer-tab-sp footer-im5  shows5"></span>票务</a>
+        </div>
+        <div class="footer-t">
+            <div class="footer-con wrap">
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd><a href="#">账户管理</a></dd>
+                    <dd><a href="#">购物指南</a></dd>
+                    <dd><a href="#">订单操作</a></dd>
+
+                </dl>
+                <dl>
+                    <dt>服务支持</dt>
+                    <dd><a href="#">如何注册</a></dd>
+                    <dd><a href="#">免费注册</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">了解吉首</a></dd>
+                    <dd><a href="#">走进吉首</a></dd>
+                    <dd><a href="#">吉首故事</a></dd>
+                </dl>
+                <dl>
+                    <dt>关注我们</dt>
+                    <dd><a href="#">微信公众号</a></dd>
+                    <dd><a href="#">论坛</a></dd>
+                    <dd><a href="#">官方微博</a></dd>
+                </dl>
+                <dl>
+                    <dt>特色服务</dt>
+                    <dd><a href="#">机票预订</a></dd>
+                    <dd><a href="#">车票预订</a></dd>
+                    <dd><a href="#">酒店门票</a></dd>
+                </dl>
+
+                <div class="lines"></div>
+                <div class="erweima">
+                    <span class="tel">400-888-8888</span>
+                    <span class="time">周一至周五8:00-18:00</span>
+                    <span class="kefu">24小时在线客服</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-b">
+            <p class="wrap">版权所有 2006 - 2018 深圳赛维智能有限公司   京ICP备08001421号京公网安备110108007702</p>
+        </div>
+    </div>
+</footer>
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/main.js"></script>
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>

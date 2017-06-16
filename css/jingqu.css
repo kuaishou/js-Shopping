@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+
+
+.jingqu{
+
+
+}
+
+.jingqu .jingqu-title{
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+
+}
+.jingqu .jingqu-title a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+}
+.jingqu .jingqu-title a:hover{
+    color: #027cc3;
+}
+
+
+/*景点详情*/
+.jingqu .jingqu-list{
+    width: 1140px;
+    height: 220px;
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 20px;
+}
+.jingqu .jingqu-list img{
+    width: 290px;
+    height: 200px;
+
+}
+
+/*.jingqu .jingqu-list .jingqu-list-news{
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+}*/
+
+.jingqu .jingqu-list .list-content{
+    width: 800px;
+    margin-left: 16px;
+}
+.jingqu .jingqu-list .list-content .list-name{
+    margin-top: 16px;
+
+}
+
+.jingqu .jingqu-list .list-content .list-tit{
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+.jingqu .jingqu-list .list-content .list-jia{
+
+    margin-left: 20px;
+    color: #f57b00;
+    font-size: 14px;
+
+}
+/*等级*/
+.jingqu .jingqu-list .list-content .dengji{
+    font-size: 14px;
+    margin-top: 16px;
+
+}
+.jingqu .jingqu-list .list-content .list-words{
+    width: 800px;
+    height: 40px;
+    text-decoration: none;
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+.jingqu .jingqu-list .list-content .list-words a{
+    color: #027bc4;
+
+}
+.jingqu .jingqu-list .list-content .list-buy{
+    width: 170px;
+    height: 30px;
+    float: right;
+    margin-top: 32px;
+
+}
+.jingqu .jingqu-list .list-content .list-buy i{
+ margin-top: 8px;
+    color: #dcdcdc;
+}
+.jingqu .jingqu-list .list-content .list-buy a{
+    float:right;
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f57e00;
+    color: #ffffff;
+}
+
+
+.jingqu .jingqu-list .list-content  .dd{
+    width:380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

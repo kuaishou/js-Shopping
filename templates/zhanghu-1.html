@@ -15,7 +15,6 @@
     <![endif]-->
 </head>
 <body>
-
 <!--头部-->
 <header id="header">
 
@@ -68,293 +67,35 @@
     <div class="nav-tab">
 
 <!--左侧导航栏-->
-        <ul class="nav nav-tabs nav-stacked" role="tablist">
+        <ul class="nav nav-tabs nav-stacked" role="tablist" id="nav-tabs">
             <h4 class="nav-title">个人中心</h4>
-            <li class="zhanghu-cart"><span class="glyphicon glyphicon-shopping-cart"></span>
-                <span class="zhanghu-cartwd">我的购物车</span></li>
-            <li class="zhanghu-cart"><span  class="glyphicon glyphicon-menu-hamburger"></span><span>订单</span></li>
-            <li role="presentation" class="zhanghu-list active"><a href="#home1" aria-controls="home" role="tab" data-toggle="tab">全部订单</a></li>
+            <p class="zhanghu-cart"><span class="glyphicon glyphicon-shopping-cart"></span>
+            <span class="zhanghu-cartwd">我的购物车</span></p>
+            <p class="zhanghu-cart"><span  class="glyphicon glyphicon-menu-hamburger"></span><span>订单</span></p>
+            <li role="presentation" class="zhanghu-list active"><a href="home1" aria-controls="home" role="tab" data-toggle="tab">全部订单</a></li>
             <li role="presentation" class="zhanghu-list "><a href="#profile1" aria-controls="profile" role="tab" data-toggle="tab"> 未出行</a></li>
             <li role="presentation" class="zhanghu-list "><a href="#messages1" aria-controls="messages" role="tab" data-toggle="tab">未完成订单</a></li>
             <li role="presentation" class="zhanghu-list "><a href="#home" aria-controls="home" role="tab" data-toggle="tab">退货/退款</a></li>
-            <li class="zhanghu-cart"><span  class="glyphicon glyphicon-yen"></span><span>资产</span></li>
+            <p class="zhanghu-cart"><span  class="glyphicon glyphicon-yen"></span><span>资产</span></p>
             <li role="presentation" class="zhanghu-list "><a href="#money" aria-controls="profile" role="tab" data-toggle="tab">  余额</a></li>
             <li role="presentation" class="zhanghu-list "><a href="#yinhang" aria-controls="messages" role="tab" data-toggle="tab">银行卡</a></li>
             <li role="presentation" class="zhanghu-list "><a href="#youhui" aria-controls="messages" role="tab" data-toggle="tab">优惠券</a></li>
-            <li class="zhanghu-cart"><span  class="glyphicon glyphicon-duplicate"></span><span>我的资料</span></li>
+            <p class="zhanghu-cart"><span  class="glyphicon glyphicon-duplicate"></span><span>我的资料</span></p>
             <li role="presentation" class="zhanghu-list "><a href="#zhiliao" aria-controls="profile" role="tab" data-toggle="tab"> 个人资料</a></li>
             <li role="presentation" class="zhanghu-list "><a href="#messages2" aria-controls="messages" role="tab" data-toggle="tab">地址管理</a></li>
-            <li role="presentation" class="zhanghu-list "><a href="#home3" aria-controls="messages" role="tab" data-toggle="tab">修改密码</a></li>
-            <li role="presentation" class="zhanghu-list "><a href="#profile3" aria-controls="profile" role="tab" data-toggle="tab"> 个人资料</a></li>
+            <li role="presentation" class="zhanghu-list "><a href="#password" aria-controls="messages" role="tab" data-toggle="tab">修改密码</a></li>
+            <li role="presentation" class="zhanghu-list "><a href="#xiaoxi" aria-controls="profile" role="tab" data-toggle="tab"> 系统消息</a></li>
 
-            <h4 class="">卖家中心</h4>
-            <p>商品管理</p>
-            <p>商品入库</p>
+            <p class="zhanghu-cart"><span  class="glyphicon glyphicon-user"></span><span>卖家中心</span></p>
+            <li role="presentation" class="zhanghu-list "><a href="#Seller_shangpin" aria-controls="profile" role="tab" data-toggle="tab"> 商品管理</a></li>
+            <li role="presentation" class="zhanghu-list "><a href="#messages2" aria-controls="messages" role="tab" data-toggle="tab">商品入库</a></li>
         </ul>
+
         <!--右侧内容-->
         <div class="tab-content">
-            <div role="tabpanel" class="tab-pane " id="home1">
-                <div class="zhanghu-dingdan1">
-                    <div class="dingdan1-title">
-                        <span class="dingdan-1">订单号：</span>
-                        <span class="dingdan-2">88888888</span>
-                        <span class="dingdan-1">预定日期：</span>
-                        <span class="dingdan-4">2017-6-18</span>
-                    </div>
-                    <div class="dingdan1-cont">
-                        <span class="dingdan1-luxian">矮寨大桥日票+德了景区+缆车+过山车</span>
-                        <span class="dingdan1-piao">门票</span>
-                        <span class="dingdan1-name">小明</span>
-                        <span class="dingdan1-time">2017-4-18</span>
-                        <span class="dingdan1-Price">¥280</span>
-                        <div  class="dingdan1-zhuangtai">
-                            <p class="dingdan1-no">待付款</p>
-                            <a href="#">订单详情</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="zhanghu-dingdan1">
-                    <div class="dingdan1-title">
-                        <span class="dingdan-1">订单号：</span>
-                        <span class="dingdan-2">88888888</span>
-                        <span class="dingdan-1">预定日期：</span>
-                        <span class="dingdan-4">2017-6-18</span>
-                    </div>
-                    <div class="dingdan1-cont">
-                        <span class="dingdan1-luxian">矮寨大桥日票+德了景区+缆车+过山车</span>
-                        <span class="dingdan1-piao">门票</span>
-                        <span class="dingdan1-name">小明</span>
-                        <span class="dingdan1-time">2017-4-18</span>
-                        <span class="dingdan1-Price">¥280</span>
-                        <div  class="dingdan1-zhuangtai">
-                            <p class="dingdan1-no">待付款</p>
-                            <a href="#">订单详情</a>
-                        </div>
-                    </div>
-                </div>
-<!--账户订单-->
-                <div class="zhanghu-dingdan1">
-                    <div class="dingdan1-title">
-                        <span class="dingdan-1">订单号：</span>
-                        <span class="dingdan-2">88888888</span>
-                        <span class="dingdan-1">预定日期：</span>
-                        <span class="dingdan-4">2017-6-18</span>
-                    </div>
-                    <div class="dingdan1-cont">
-                        <span class="dingdan1-luxian">矮寨大桥日票+德了景区+缆车+过山车</span>
-                        <span class="dingdan1-piao">门票</span>
-                        <span class="dingdan1-name">小明</span>
-                        <span class="dingdan1-time">2017-4-18</span>
-                        <span class="dingdan1-Price">¥280</span>
-                        <div  class="dingdan1-zhuangtai">
-                            <p class="dingdan1-no">待付款</p>
-                            <a href="#">订单详情</a>
-                        </div>
-                    </div>
-                </div>
-                <nav aria-label="...">
-                    <ul class="pager">
-                        <li><a href="#">上一页</a></li>
-                        <li><a href="#">下一页</a></li>
-                    </ul>
-                </nav>
-
-            </div>
-            <div role="tabpanel" class="tab-pane" id="profile1">   sadfsdfsdsdf </div>
-            <div role="tabpanel" class="tab-pane" id="messages1">  a111111111111  </div>
-            <div role="tabpanel" class="tab-pane" id="home">
-                <p>拿出手机扫</p>
-                <img src="../img/weixin01.jpg" alt="weixin"/>
-            </div>
-            <!--资产--余额模块-->
-            <div role="tabpanel" class="tab-pane" id="money">
-                <div class="money-cont">
-                    <div class="money-top">
-                        <h4>我的钱包</h4>
-                        <div class="money-home">
-                            <span class="money-name">账户：</span>
-                            <span class="money-nub">8888888888888</span>
-                            <span class="money-an">安全等级：</span>
-                            <span>一般</span>
-                        </div>
-                    </div>
-                    <div class="money-news">
-                        <div class="money-left">
-                            <div class="money-left1">
-                            <h4>现金余额</h4>
-                            <span class="money-big">188.</span>
-                            <span class="money-som" >00</span>
-                            <span >元</span>
-                            </div>
-                            <div class="money-left2">不可用余额：110.00</div>
-                            <div class="money-left3">
-                                <a href="#">充值</a>
-                                <a href="#">提现</a>
-                            </div>
-
-                        </div>
-                        <div class="money-right">
-                            <h4>我的银行卡</h4>
-
-                            <span class="yinhang-1">0</span>
-                            <span>张</span>
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-
-
-            </div>
-            <!--资产--银行卡模块-->
-            <div role="tabpanel" class="tab-pane" id="yinhang">
-                <div class="yinka">
-                    <h4>我的银行卡</h4>
-                    <div class="yinka-cont">
-                        您还没有添加银行卡，点击 <a href="#">绑定</a>新的银行卡
-                    </div>
-                </div>
-
-
-
-
-
-
-            </div>
-            <!--资产--优惠券模块-->
-            <div role="tabpanel" class="tab-pane" id="youhui">
-                <h4>我的优惠券</h4>
-                <div class="youhui-lis">
-                    <div class="youhui-jia">
-                        <p class="youhui-jia-nb">¥10元</p>
-                        <p class="youhui-jia-nb1">满 <span> 100</span>可用</p>
-                    </div>
-                    <div class="youhui-biaozun">
-                        <p class="youhui-biaozun1">仅限于购买商城内特产</p>
-                        <p class="youhui-biaozun2">有效期2017.6.18-2017.8.18</p>
-                    </div>
-                    <div class="youhui-zhuangtai">已领取</div>
-                </div>
-                <div class="youhui-lis">
-                    <div class="youhui-jia youhui-jia1 ">
-                        <p class="youhui-jia-nb">¥5元</p>
-                        <p class="youhui-jia-nb1">满 <span> 100</span>可用</p>
-                    </div>
-                    <div class="youhui-biaozun">
-                        <p class="youhui-biaozun1">全部品类可用</p>
-                        <p class="youhui-biaozun2">有效期2017.6.18-2017.8.18</p>
-                    </div>
-                    <div class="youhui-zhuangtai">已过期</div>
-                </div>
-            </div>
-            <div role="tabpanel" class="tab-pane  active" id="zhiliao">
-                <div class="people-title">
-                    <div class="people-data clearfix">
-                        <div class="people-data-top">
-                            <p>个人资料</p>
-
-                            <a href="#">编辑</a>
-                            <span class="glyphicon glyphicon-pencil"></span>
-                        </div>
-                        <div class="people-data-cont">
-                            <div class="people-data-tel">
-                                <span class="people-data-tel1">手机</span>
-                                <span class="people-data-tel2">188888888888</span>
-                                <a class="people-data-tel3" href="#">修改</a>
-                            </div>
-                            <!--邮箱-->
-                            <div class="people-data-tel">
-                                <span class="people-data-tel1">邮箱</span>
-                                <span class="people-data-tel2">9999999@qq.com</span>
-                                <a class="people-data-tel3" href="#">修改</a>
-                            </div>
-                            <!--昵称-->
-                            <div class="people-data-tel">
-                                <span class="people-data-tel1">昵称</span>
-                                <span class="people-data-tel2">小明</span>
-                            </div>
-                            <!--姓名-->
-                            <div class="people-data-tel">
-                                <span class="people-data-tel1">姓名</span>
-                                <span class="people-data-tel2">李白</span>
-                            </div>
-                            <!--性别-->
-                            <div class="people-data-tel">
-                                <span class="people-data-tel1">姓别</span>
-                                <span class="people-data-tel2">男</span>
-                            </div>
-                            <!--生日-->
-                            <div class="people-data-tel">
-                                <span class="people-data-tel1">生日</span>
-                                <span class="people-data-tel2">1991-9-24</span>
-                            </div>
-                            <!--生日-->
-                            <div class="people-data-tel">
-                                <span >常驻城市</span>
-                                <span class="people-data-tel2">深圳</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="people-img">
-                    <div class="people-imgs clearfix">
-                    <div class="people-data-top">
-                        <p>个人资料</p>
-
-                        <a href="#">编辑</a>
-                        <span class="glyphicon glyphicon-pencil"></span>
-                    </div>
-                     <div class="people-imgs-cont">
-
-                         <form enctype="multipart/form-data" action="" method="post">
-                             <div class="form-group">
-                                 <label for="exampleInputFile">File input</label>
-                                 <input type="file" id="exampleInputFile">
-                                 <p class="help-block">Example block-level help text here.</p>
-                             </div>
-<!--
-
-                             <label class="people-imgs-cont-tou" for="fileId2">头像</label>
-                             <input id="fileId2" class="people-imgs-cont-ipt" type="file" multiple="multiple" name="file" value="上传图片" />
-                            &lt;!&ndash; <input type="file" id="choosefile"/>&ndash;&gt;
-                            &lt;!&ndash; <input type="submit" value="上传文件" id="submitBtn" />&ndash;&gt;
-                             <input class="people-imgs-tijiao" type="submit" value="保存" />-->
-                         </form>
-                        <!-- <form enctype="multipart/form-data" action="" method="post">
-                             <input type="file" id="choosefile" />
-                             <input type="file"  id="f" style="display:none;" />
-                             <input type="submit" value="上传文件" id="submitBtn" />
-                         </form>-->
-
-                     </div>
-
-
-
-                     </div>
-                </div>
-
-
-            </div>
-            <div role="tabpanel" class="tab-pane" id="messages2">  0000000000000001111111  </div>
-            <div role="tabpanel" class="tab-pane" id="#home3">  0000000000000001111111  </div>
-            <div role="tabpanel" class="tab-pane" id="profile3">  0000000000000001111111  </div>
+            <iframe src="zhanghulis1.html" name="home1" id="Iframe" frameborder="0" scrolling="no" style="border:0px;"></iframe>
         </div>
-
     </div>
-
-
-
-
 
 </section>
 
@@ -420,10 +161,33 @@
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/cropbox.js"></script>
 
 <script type="text/javascript">
+            $(window).load(function() {
 
+                /*list切换模块*/
+                var ifm= document.getElementById("Iframe");
+                ifm.height=document.documentElement.clientHeight;
+
+
+                /*列表点击事件*/
+                var navTtabs=$("#nav-tabs li")
+                for(var i=0;i<navTtabs.length;i++){
+                    $("#nav-tabs li")[i].index = i;
+                    $("#nav-tabs li")[i].onclick=function(){//点击连接触发
+
+                        var j=this.index+1;
+                        $("#Iframe").attr("src","zhanghulis"+j+".html");
+
+                        /*iframe的高度自适应*/
+                        var ifm= document.getElementById("Iframe");
+                        ifm.height=document.documentElement.clientHeight;
+                    }
+                }
+            });
 </script>
+
 
 </body>
 </html>

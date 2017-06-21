@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>个人资料</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/zhanghu-1.css"/>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div role="tabpanel" class="tab-pane" id="zhiliao">
+    <div class="people-title">
+        <div class="people-data clearfix">
+            <div class="people-data-top">
+                <p>个人资料</p>
+
+                <a href="#">编辑</a>
+                <span class="glyphicon glyphicon-pencil"></span>
+            </div>
+            <div class="people-data-cont">
+                <div class="people-data-tel">
+                    <span class="people-data-tel1">手机</span>
+                    <span class="people-data-tel2">188888888888</span>
+                    <a class="people-data-tel3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">修改</a>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="exampleModalLabel">修改手机号</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="" class="form-horizontal">
+                                        <div class="form-group form-1">
+                                            <label for="inputphone" class="control-label">新手机号</label>
+                                                <input type="tel" class="form-control" id="inputphone" placeholder="手机号">
+                                        </div>
+                                        <div class="form-group form-2">
+                                            <label for="yanzhengma1" class="control-label form-2lin">验证码</label>
+                                                <input type="text" class=" form-control clearfix" id="yanzhengma1" placeholder="验证码">
+                                                <input type="button" class=" button clearfix" value="发送验证码"/>
+                                        </div>
+                                        <button type="submit" class="btn btn-default">保存</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--邮箱-->
+                <div class="people-data-tel">
+                    <span class="people-data-tel1">邮箱</span>
+                    <span class="people-data-tel2">9999999@qq.com</span>
+                    <a class="people-data-tel3" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo">修改</a>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="exampleModalLabel1">修改邮箱</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="" class="form-horizontal">
+                                        <div class="form-group form-1">
+                                            <label for="inputphone1" class="control-label">新邮箱</label>
+                                            <input type="email" class="form-control" id="inputphone1" placeholder="手机号">
+                                        </div>
+                                        <div class="form-group form-2">
+                                            <label for="yanzhengma" class="control-label form-2lin1 ">验证码</label>
+                                            <input type="text" class=" form-control clearfix" id="yanzhengma" placeholder="验证码">
+                                            <input type="button" class=" button clearfix" value="发送验证码"/>
+                                        </div>
+                                        <button type="submit" class="btn btn-default">保存</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--昵称-->
+                <div class="people-data-tel">
+                    <span class="people-data-tel1">昵称</span>
+                    <span class="people-data-tel2">小明</span>
+                </div>
+                <!--姓名-->
+                <div class="people-data-tel">
+                    <span class="people-data-tel1">姓名</span>
+                    <span class="people-data-tel2">李白</span>
+                </div>
+                <!--性别-->
+                <div class="people-data-tel">
+                    <span class="people-data-tel1">姓别</span>
+                    <span class="people-data-tel2">男</span>
+                </div>
+                <!--生日-->
+                <div class="people-data-tel">
+                    <span class="people-data-tel1">生日</span>
+                    <span class="people-data-tel2">1991-9-24</span>
+                </div>
+                <!--生日-->
+                <div class="people-data-tel">
+                    <span >常驻城市</span>
+                    <span class="people-data-tel2">深圳</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="people-img">
+        <div class="people-imgs clearfix">
+            <div class="people-data-top">
+                <p>上传头像</p>
+
+                <a href="#">编辑</a>
+                <span class="glyphicon glyphicon-pencil"></span>
+            </div>
+            <div class="people-imgs-cont">
+                <form enctype="multipart/form-data" action="" method="post">
+
+                    <div class="new-contentarea tc"> <a href="javascript:void(0)" class="upload-img">
+                        <label for="upload-file">上传头像</label>
+                    </a>
+                        <input type="file" class="" name="upload-file" id="upload-file" />
+                    </div>
+
+                    <div class="contain">
+                        <div class="imageBox">
+                            <div class="thumbBox"></div>
+                            <div class="spinner" style="display: none">Loading...</div>
+                        </div>
+                        <div class="action">
+                            <input type="button" id="btnZoomIn" class="Btnsty_peyton" value="+"  >
+                            <input type="button" id="btnZoomOut" class="Btnsty_peyton" value="-" >
+                            <input type="button" id="btnCrop"  class="Btnsty_peyton" value="提交">
+                        </div>
+                        <div class="cropped"></div>
+                    </div>
+                    <!--   <label class="people-imgs-cont-tou" for="fileId2">头像</label>
+                       <input id="fileId2" class="people-imgs-cont-ipt" type="file" multiple="multiple" name="file" value="上传图片" />
+                       <input type="file" id="choosefile"/>&ndash;&gt;
+                       <input type="submit" value="上传文件" id="submitBtn" />
+                       <input class="people-imgs-tijiao" type="submit" value="保存" />-->
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/cropbox.js"></script>
+<script>
+    /*头像模块*/
+    var options =
+    {
+        thumbBox: '.thumbBox',
+        spinner: '.spinner',
+        imgSrc: 'images/avatar.png'
+    }
+    var cropper = $('.imageBox').cropbox(options);
+    $('#upload-file').on('change', function(){
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            options.imgSrc = e.target.result;
+            cropper = $('.imageBox').cropbox(options);
+        }
+        reader.readAsDataURL(this.files[0]);
+        this.files = [];
+    })
+    $('#btnCrop').on('click', function(){
+        var img = cropper.getDataURL();
+        $('.cropped').html('');
+        $('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:150px;margin-top:20px;margin-left:20px;border-radius:180px;box-shadow:0px 0px 12px #7E7E7E;">');
+        $('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:100px;margin-top:48px;margin-left:20px;border-radius:128px;box-shadow:0px 0px 12px #7E7E7E;">');
+        $('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:64px;margin-top:64px;margin-left:20px;border-radius:64px;box-shadow:0px 0px 12px #7E7E7E;" >');
+
+
+    })
+    $('#btnZoomIn').on('click', function(){
+        cropper.zoomIn();
+    })
+    $('#btnZoomOut').on('click', function(){
+        cropper.zoomOut();
+    })
+</script>
+
+</body>
+</html>

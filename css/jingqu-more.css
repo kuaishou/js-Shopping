@@ -37,6 +37,10 @@ body{
     padding-top: 4px;
     background-color: #f2f2f2;
 }
+.jingqu .jingqu-list .nav-tab .nav-tabs .tablist-small a img{
+    height: 52px;
+}
+
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     color: #555;
@@ -154,8 +158,9 @@ body{
 
 .menpiao .container .menpiao-top{
     height: 40px;
-    width: 1160px;
-    background: rgba(0,0,0,0.3);
+    width: 1140px;
+    /*background: rgba(0,0,0,0.3);*/
+    background-color: #f2f2f2;
     margin-bottom: 10px;
     z-index: 1111;
 }
@@ -201,7 +206,7 @@ body{
     width: 74px;
 }
 .menpiao .container .menpiao-box .men-li1 .men-li1-title .men-li1-1{
-    margin-left: 620px;
+    margin-left: 460px;
 }
 .menpiao .container .menpiao-box .men-li1 .men-li1-title .men-li1-2{
     margin-left: 70px;
@@ -234,7 +239,7 @@ body{
 }
 .pro-body-des-text .pro-text-one{
     height: 59px;
-    width: 620px;
+    width: 460px;
     float: left;
 
 }
@@ -321,8 +326,7 @@ body{
     border:1px solid #ccc;
     cursor: pointer;
 }
-
-.menpiao .container .menpiao-box .men-li1 .li1-buy{
+.menpiao .container .menpiao-box .men-li1 .li1-buy {
     display: block;
     float: right;
     width: 90px;
@@ -331,12 +335,12 @@ body{
     color: #ffffff;
     line-height: 30px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
+    border-radius: 4px;
     margin-right: 30px;
     text-decoration: none;
     cursor: pointer;
 }
-
 
 /*第二部分内容订票须知*/
 

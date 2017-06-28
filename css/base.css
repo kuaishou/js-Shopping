@@ -101,10 +101,21 @@ body{
     max-width: 2000px;
 
 }
-
-/*
-头部区域
-*/
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color:#027cc3 ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+    /*
+    头部区域
+    */
 #header{
 
 }
@@ -191,7 +202,7 @@ body{
     padding-left: 20px;
     overflow: hidden;
     font-size: 14px;
-    border-radius: 15px;
+    border-radius: 4px;
     float: left;
 
 }
@@ -212,11 +223,8 @@ body{
     width: 46px;
     line-height: 30px;
      padding-right: 10px;
-     border-radius: 15px;
+     border-radius:0  4px 4px 0;
 }
-
-
-
 
 
 .footer{

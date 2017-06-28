@@ -20,12 +20,12 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8 ">吉首电子商务欢迎您</div>
+            <div class="col-md-6 ">吉首电子商务欢迎您</div>
             <div class="col-md-2 ">客服电话:400888888</div>
-            <div class="col-md-2 ">
+            <div class="col-md-4 ">
+                <a href="zhanghu-1.html " class="btn btn-link">个人中心</a>
                 <a href="#">收藏</a>
-                <a href="#" class="btn btn-link ">注册</a>
-                <a href="#" class="btn btn-link ">登录</a>
+                <a href="zhanghu-1.html" class="btn btn-link">邢浩东</a>
             </div>
         </div>
 
@@ -87,15 +87,17 @@
             <li role="presentation" class="zhanghu-list "><a href="#xiaoxi" aria-controls="profile" role="tab" data-toggle="tab"> 系统消息</a></li>
 
             <p class="zhanghu-cart"><span  class="glyphicon glyphicon-user"></span><span>卖家中心</span></p>
-            <li role="presentation" class="zhanghu-list "><a href="#Seller_shangpin" aria-controls="profile" role="tab" data-toggle="tab"> 商品管理</a></li>
+            <li role="presentation" class="zhanghu-list "><a href="#seller_shangpin" aria-controls="profile" role="tab" data-toggle="tab"> 商品管理</a></li>
+            <li role="presentation" class="zhanghu-list "><a href="#messages2" aria-controls="messages" role="tab" data-toggle="tab">交易管理</a></li>
+            <li role="presentation" class="zhanghu-list "><a href="#messages2" aria-controls="messages" role="tab" data-toggle="tab">物流管理</a></li>
             <li role="presentation" class="zhanghu-list "><a href="#messages2" aria-controls="messages" role="tab" data-toggle="tab">商品入库</a></li>
         </ul>
 
         <!--右侧内容-->
-        <div class="tab-content">
             <iframe src="zhanghulis1.html" name="home1" id="Iframe" frameborder="0" scrolling="no" style="border:0px;"></iframe>
-        </div>
+
     </div>
+
 
 </section>
 
@@ -158,34 +160,35 @@
         </div>
     </div>
 </footer>
+
+
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
 <script src="../js/cropbox.js"></script>
-
 <script type="text/javascript">
-            $(window).load(function() {
+    $(window).load(function() {
 
-                /*list切换模块*/
+        /*list切换模块*/
+        var ifm= document.getElementById("Iframe");
+        ifm.height=document.documentElement.clientHeight;
+
+
+        /*列表点击事件*/
+        var navTtabs=$("#nav-tabs li")
+        for(var i=0;i<navTtabs.length;i++){
+            $("#nav-tabs li")[i].index = i;
+            $("#nav-tabs li")[i].onclick=function(){//点击连接触发
+
+                var j=this.index+1;
+                $("#Iframe").attr("src","zhanghulis"+j+".html");
+
+                /*iframe的高度自适应*/
                 var ifm= document.getElementById("Iframe");
                 ifm.height=document.documentElement.clientHeight;
-
-
-                /*列表点击事件*/
-                var navTtabs=$("#nav-tabs li")
-                for(var i=0;i<navTtabs.length;i++){
-                    $("#nav-tabs li")[i].index = i;
-                    $("#nav-tabs li")[i].onclick=function(){//点击连接触发
-
-                        var j=this.index+1;
-                        $("#Iframe").attr("src","zhanghulis"+j+".html");
-
-                        /*iframe的高度自适应*/
-                        var ifm= document.getElementById("Iframe");
-                        ifm.height=document.documentElement.clientHeight;
-                    }
-                }
-            });
+            }
+        }
+    });
 </script>
 
 

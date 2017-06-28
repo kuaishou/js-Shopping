@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title></title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/jingqu-3dingdan.css"/>
@@ -13,8 +12,10 @@
     <script src="../lib/html5shiv/html5shiv.min.js"></script>
     <script src="../lib/respond/respond.min.js"></script>
     <![endif]-->
+    <title>门票订单详情</title>
 </head>
 <body>
+
 
 <!--头部-->
 <header id="header">
@@ -26,8 +27,7 @@
             <div class="col-md-4 ">
                 <a href="zhanghu-1.html " class="btn btn-link">个人中心</a>
                 <a href="#">收藏</a>
-                <a href="zhuche.html" class="btn btn-link ">注册</a>
-                <a href="denglu.html" class="btn btn-link ">登录</a>
+                <a href="zhanghu-1.html" class="btn btn-link">小明</a>
             </div>
         </div>
 
@@ -41,44 +41,72 @@
     <nav id="navs" class="clearfix">
         <div class="container">
             <a href="../index.html"><img src="../img/logo.jpg" alt=""/></a>
-            <span>结算页</span>
-            <ul class="money-nav">
-                <li class="money-nav1">1、填写订单信息</li>
-                <li class="money-nav4">2、在线支付</li>
-                <li class="money-nav3">3、支付成功</li>
-            </ul>
+            <span>订单详情</span>
         </div>
     </nav>
 </section>
 
+<!--订单详情-->
 
+<section class="menpiao-details container">
+    <a href="../index.html">首页</a>
+    <a href="jingqu-3dingdan.html">>我的订单</a>
+    <a href="jingqu-xiangqing.html">>订单详情</a>
+    <div class="menpiao-detailscont">
+        <div class="detailscont-title">
+            <span class="detailscont-title1">当前订单状态：</span>
+            <p class="detailscont-title2">未使用</p>
+        </div>
 
-
-
-<!--在线支付-->
-
-<section class="online container">
-    <h4>在线支付</h4>
-    <span class="online-shop">商户信息：深圳赛维智能有限公司</span>
-    <span class="online-word">金额:</span><span class="online-nb">¥1280.</span><span class="online-nb1">00</span>
-
-
-
-    <div class="nav-tab">
-        <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">微信</a></li>
-            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">  支付宝</a></li>
-            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">快捷支付</a></li>
-        </ul>
-        <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="home">
-                <p>拿出手机扫一扫，快速支付</p>
-                <img src="../img/weixin01.jpg" alt="weixin"/>
+        <div class="detailscont-cont">
+            <h4>订单详情</h4>
+            <ul>
+                <li>使用日期：2017-6-28周三</li>
+                <li>使用方式：凭身份证或商家电子码直接验证</li>
+                <li>电子码：已通过短信发送至您的手机</li>
+            </ul>
+        </div>
+        <div class="detailscont-lis">
+            <div class="lis-title">
+                <span class="lis-title1">商品</span>
+                <span class="lis-title2">单价</span>
+                <span class="lis-title3">数量</span>
+                <span class="lis-title4">支付金额</span>
             </div>
-            <div role="tabpanel" class="tab-pane" id="profile">   <p>拿出手机扫一扫，快速支付</p>
-                <img src="../img/weixin01.jpg" alt="weixin"/>  </div>
-            <div role="tabpanel" class="tab-pane" id="messages">  <p>拿出手机扫一扫，快速支付</p>
-                <img src="../img/weixin01.jpg" alt="weixin"/>  </div>
+            <div class="lis-title lis-titlecont ">
+                <a href=""><span class="lis-title1">吉首矮寨大桥日票</span></a>
+                <span class="lis-title2">288.00</span>
+                <span class="lis-title3">1</span>
+                <span class="lis-title4">288.00</span>
+            </div>
+        </div>
+
+        <div class="detailscont-tel">
+            <div class="detailscont-tel1">
+            <span>游玩人：李白</span>
+            <span>身份证：411888888888888888</span>
+            <span>手机：188888888</span>
+            </div>
+        </div>
+
+
+        <div class="detailscont-cont">
+            <h4>订单信息</h4>
+            <ul>
+                <li>订单编号：888888</li>
+                <li>下单时间：2017-8-25</li>
+                <li>付款方式：微信</li>
+                <li>付款时间：2017-8-24&nbsp;18:88</li>
+                <li>供应商：深圳赛维智能股份有限公司</li>
+            </ul>
+        </div>
+
+        <p class="out-tel">如遇到商品相关问题，请拨打客服电话：400-888888</p>
+
+        <div class="out-btn">
+            <button class="out-btn1">退款</button>
+            <button class="out-btn2">删除订单</button>
+
         </div>
 
     </div>
@@ -86,7 +114,13 @@
 
 
 
+
+
 </section>
+
+
+
+
 
 
 
@@ -150,13 +184,12 @@
         </div>
     </div>
 </footer>
+
+
+
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
-
-<script type="text/javascript">
-
-</script>
-
+<script src="../js/cropbox.js"></script>
 </body>
 </html>

@@ -22,8 +22,7 @@
             <div class="people-data-top">
                 <p>个人资料</p>
 
-                <a href="#">编辑</a>
-                <span class="glyphicon glyphicon-pencil"></span>
+
             </div>
             <div class="people-data-cont">
                 <div class="people-data-tel">
@@ -86,30 +85,42 @@
                     </div>
                 </div>
                 <!--昵称-->
-                <div class="people-data-tel">
-                    <span class="people-data-tel1">昵称</span>
-                    <span class="people-data-tel2">小明</span>
-                </div>
-                <!--姓名-->
-                <div class="people-data-tel">
-                    <span class="people-data-tel1">姓名</span>
-                    <span class="people-data-tel2">李白</span>
-                </div>
-                <!--性别-->
-                <div class="people-data-tel">
-                    <span class="people-data-tel1">姓别</span>
-                    <span class="people-data-tel2">男</span>
-                </div>
-                <!--生日-->
-                <div class="people-data-tel">
-                    <span class="people-data-tel1">生日</span>
-                    <span class="people-data-tel2">1991-9-24</span>
-                </div>
-                <!--生日-->
-                <div class="people-data-tel">
-                    <span >常驻城市</span>
-                    <span class="people-data-tel2">深圳</span>
-                </div>
+
+                <form class="form-horizontal" action="">
+                    <div class="form-group form-btm">
+                        <label for="people-dataipt" class="people-data-tel01 col-sm-2  control-label">ID</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="people-data-tel02" id="people-dataipt" disabled="true"  value="小明">
+                        </div>
+
+                    <div class="form-group form-btm">
+                        <label for="people-dataipt1" class="people-data-tel002 col-sm-2  control-label">姓名</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="people-data-tel02" id="people-dataipt1" disabled="true"  value="李白">
+                        </div>
+
+                    </div>
+                    <div class="form-group form-btm">
+                        <label for="people-dataipt2" class="people-data-tel002 col-sm-2  control-label">性别</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="people-data-tel02" id="people-dataipt2" disabled="true" value="男">
+                        </div>
+
+                    </div>
+                    <div class="form-group form-btm">
+                        <label for="people-dataipt3" class="people-data-tel002 col-sm-2  control-label">常驻城市</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="people-data-tel02" id="people-dataipt3" disabled="true" value="深圳">
+                        </div>
+                    </div>
+                    <div class="people-databtns">
+                        <button type="submit" id="people-datasub" class="people-datasub">保存</button>
+                        <div class="people-databtns1">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                            <button type="button" id="people-databtn" class="people-databtn">编辑</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -142,11 +153,7 @@
                         </div>
                         <div class="cropped"></div>
                     </div>
-                    <!--   <label class="people-imgs-cont-tou" for="fileId2">头像</label>
-                       <input id="fileId2" class="people-imgs-cont-ipt" type="file" multiple="multiple" name="file" value="上传图片" />
-                       <input type="file" id="choosefile"/>&ndash;&gt;
-                       <input type="submit" value="上传文件" id="submitBtn" />
-                       <input class="people-imgs-tijiao" type="submit" value="保存" />-->
+
                 </form>
             </div>
 
@@ -164,6 +171,22 @@
 <script src="../js/main.js"></script>
 <script src="../js/cropbox.js"></script>
 <script>
+
+
+    /*编辑按钮*/
+    function buttonShow(btn,show,sbtn){
+    $(btn).click(function(){
+        $(show).removeAttr("disabled");
+        $(show).addClass("people-data-show");
+        $(sbtn).addClass("people-datasubshow");
+    });
+
+    }
+    buttonShow("#people-databtn",".people-data-tel02","#people-datasub");
+   /* buttonShow("#people-databtn1","#people-dataipt1","#people-datasub1");
+    buttonShow("#people-databtn2","#people-dataipt2","#people-datasub2");
+    buttonShow("#people-databtn3","#people-dataipt3","#people-datasub3");*/
+
     /*头像模块*/
     var options =
     {

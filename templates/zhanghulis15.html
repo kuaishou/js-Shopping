@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title></title>
+    <title>商品入库</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/zhanghu-1.css"/>
@@ -15,27 +15,10 @@
     <![endif]-->
 </head>
 <body>
-<div id="seller_shangpin">
-    <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="tablist-small  active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">全部商品</a></li>
-        <li role="presentation" class="tablist-small "><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">商品分类</a></li>
-    </ul>
+<div id="seller_shangpin" >
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active"id="home">
-            <form action="" method="get">
-                <label class="shangpin-label">商品状态</label>
-                <select class="shangpin-chang" name="">
-                    <option value="0">请选择商品状态</option>
-                    <option value="1">上架</option>
-                    <option value="2">下架</option>
-                </select>
-                <label for="shangpin_name" class="shangpin-label">商品名称</label>
-                <input type="search" class="form-control shangpin_seaech" id="shangpin_name" placeholder="请输入商品名称...">
-                <input type="button" class="button clearfix" value="搜索"/>
-
-                <a href="addshangpin.html" class="shangpin-add">+添加商品</a>
-            </form>
-            <div class="shangpin-addcont">
+            <div class="shangpin-addcont shangpin-addcontx ">
                 <div class="addcont-title">
                     <span class="addcont-title1">商品编号</span>
                     <span class="addcont-title2">商品名称</span>
@@ -43,7 +26,7 @@
                     <span class="addcont-title4">单位</span>
                     <span class="addcont-title5">商品分类</span>
                     <span class="addcont-title6">显示顺序</span>
-                    <span class="addcont-title7">操作</span>
+                    <span class="addcont-title7x">商品数量</span>
                 </div>
                 <div class="addcont-cont" id="chang">
                     <div class="addcont-contline">
@@ -53,9 +36,8 @@
                         <span class="addcont-cont4">个</span>
                         <span class="addcont-cont5">特产、饮料</span>
                         <span class="addcont-cont6">1</span>
-                        <a href="addshangpin.html" class="addcont-cont7">编辑</a>
-                        <button class="addcont-cont8" id="bm1">上架</button>
-                        <button class="addcont-cont9" id="bm2">下架</button>
+                        <input type="text" class="addcont-cont7x" id="addcont-cont7x" disabled="false" value="1"/>
+                        <button class="addcont-cont8" id="addcont-cont8">编辑</button>
                     </div>
 
                     <div class="addcont-contline">
@@ -65,9 +47,8 @@
                         <span class="addcont-cont4">个</span>
                         <span class="addcont-cont5">特产、饮料</span>
                         <span class="addcont-cont6">1</span>
-                        <a href="addshangpin.html" class="addcont-cont7">编辑</a>
-                        <button class="addcont-cont8" id="bm1">上架</button>
-                        <button class="addcont-cont9" id="bm2">下架</button>
+                        <input type="text" class="addcont-cont7x" id="addcont-cont7x" disabled="false" value="1"/>
+                        <button class="addcont-cont8" id="addcont-cont8">编辑</button>
                     </div>
 
                     <div class="addcont-contline">
@@ -77,15 +58,11 @@
                         <span class="addcont-cont4">个</span>
                         <span class="addcont-cont5">特产、饮料</span>
                         <span class="addcont-cont6">1</span>
-                        <a href="addshangpin.html" class="addcont-cont7">编辑</a>
-                        <button class="addcont-cont8" id="bm1">上架</button>
-                        <button class="addcont-cont9" id="bm2">下架</button>
+                        <input type="text" class="addcont-cont7x" id="addcont-cont7x" disabled="false" value="1"/>
+                        <button class="addcont-cont8" id="addcont-cont8">编辑</button>
                     </div>
                 </div>
             </div>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="profile">
-            szdzdzdzdzdzdzdzdzdzdzdzdzdzdzdzdzdf
         </div>
     </div>
 </div>
@@ -94,5 +71,13 @@
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
+<script>
+    /*编辑按钮*/
+    $(".addcont-cont8").click(function(){
+        $('.addcont-cont7x').removeAttr("disabled");
+        $(".addcont-cont7x").addClass("addcont-cont7click");
+    });
+
+</script>
 </body>
 </html>

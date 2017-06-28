@@ -4,13 +4,29 @@
 
 /*轮播图*/
 .carousel{
-    height: 693px;
     position: relative;
+}
+.carousel-inner{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
 }
 
 .carousel .item{
     height: 693px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+
+.carousel-inner> .item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;}
 #carousel-example-generic #nav{
     height: 76px;
     width: 100%;
@@ -187,6 +203,9 @@
     border: 1px solid #a6a6a8;
     text-decoration: none;
 }
+.jingqu .jingqu-content .more:hover{
+    color: #047ac4;
+}
 
 /*路线推荐*/
 .jingqu .luxian{
@@ -340,6 +359,9 @@
     border: 1px solid #a6a6a8;
     text-decoration: none;
 }
+.jiudian .jiudian-mores:hover{
+    color: #047ac4;
+}
 
 
 /*美食模块开始*/
@@ -436,4 +458,7 @@
     text-decoration: none;
 }
 
+.meishi .meishi-more:hover{
+    color: #047ac4;
+}
 

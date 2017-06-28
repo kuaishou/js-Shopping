@@ -131,18 +131,6 @@ body{
     margin-top: 8px;
     color: #dcdcdc;
 }
-/*.jingqu .jingqu-list .list-content .list-buy a{
-    float:right;
-    display: block;
-    width: 100px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #f57e00;
-    color: #ffffff;
-}*/
-
 
 .jingqu .jingqu-list .list-content  .dd {
     width: 380px;
@@ -159,7 +147,6 @@ body{
 .menpiao .container .menpiao-top{
     height: 40px;
     width: 1140px;
-    /*background: rgba(0,0,0,0.3);*/
     background-color: #f2f2f2;
     margin-bottom: 10px;
     z-index: 1111;
@@ -181,13 +168,13 @@ body{
 }
 
 .menpiao .container .menpiao-box .men-li1{
-    height: 482px;
-    padding-top: 12px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 60px;
 }
 .menpiao .container .menpiao-box .men-li1 .men-li1-content{
+    width: 100%;
     border: 1px solid #e5e5e5;
-    height: 410px;
-    padding-top: 12px;
+
 }
 .menpiao .container .menpiao-box .men-li1 .men-li1-title{
     height: 42px;
@@ -206,7 +193,7 @@ body{
     width: 74px;
 }
 .menpiao .container .menpiao-box .men-li1 .men-li1-title .men-li1-1{
-    margin-left: 460px;
+    margin-left: 384px;
 }
 .menpiao .container .menpiao-box .men-li1 .men-li1-title .men-li1-2{
     margin-left: 70px;
@@ -215,7 +202,7 @@ body{
     margin-left: 70px;
 }
 
-
+/*
 .menpiao .container .menpiao-box .men-li1 .men-li1-content .li1-left{
     float: left;
     height: 354px;
@@ -224,14 +211,14 @@ body{
     font-size: 14px;
     width: 74px;
     border-right: 1px solid #e5e5e5;
-}
+}*/
 .menpiao .container .menpiao-box .men-li1 .men-li1-content .li1-right{
     float: left;
-    width: 1062px;
+    width: 100%;
 }
 .pro-body-des{
     background-color:#fff;
-    width: 1064px;
+    width: 100%;
     height:59px;
     border-bottom:1px solid #dfdfdf;
     overflow: hidden;

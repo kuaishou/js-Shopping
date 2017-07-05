@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1736b96b-6d5f-48b4-a7ff-f53077476327" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/a2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/a2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/a3圆形进度条.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/addshangpin.html" afterPath="$PROJECT_DIR$/templates/addshangpin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/denglu-zhaohuimima.html" afterPath="$PROJECT_DIR$/templates/denglu-zhaohuimima.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/denglu-zhaohuimima1.html" afterPath="$PROJECT_DIR$/templates/denglu-zhaohuimima1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/denglu.html" afterPath="$PROJECT_DIR$/templates/denglu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jingqu-2more.html" afterPath="$PROJECT_DIR$/templates/jingqu-2more.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jingqu-3dingdan.css" afterPath="$PROJECT_DIR$/css/jingqu-3dingdan.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jingqu-3dingdan.html" afterPath="$PROJECT_DIR$/templates/jingqu-3dingdan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jingqu-4zhifu.html" afterPath="$PROJECT_DIR$/templates/jingqu-4zhifu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jingqu-more.css" afterPath="$PROJECT_DIR$/css/jingqu-more.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jingqu-xiangqing.html" afterPath="$PROJECT_DIR$/templates/jingqu-xiangqing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jingqu.css" afterPath="$PROJECT_DIR$/css/jingqu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jingqu.html" afterPath="$PROJECT_DIR$/templates/jingqu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/image-upload/style.css" afterPath="$PROJECT_DIR$/lib/image-upload/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/zhanghu-1.css" afterPath="$PROJECT_DIR$/css/zhanghu-1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghu-1.html" afterPath="$PROJECT_DIR$/templates/zhanghu-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis12.html" afterPath="$PROJECT_DIR$/templates/zhanghulis12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis13.html" afterPath="$PROJECT_DIR$/templates/zhanghulis13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis15.html" afterPath="$PROJECT_DIR$/templates/zhanghulis15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis8.html" afterPath="$PROJECT_DIR$/templates/zhanghulis8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/zhuche.css" afterPath="$PROJECT_DIR$/css/zhuche.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhuche.html" afterPath="$PROJECT_DIR$/templates/zhuche.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jiudian-2more.html" afterPath="$PROJECT_DIR$/templates/jiudian-2more.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jiudian.html" afterPath="$PROJECT_DIR$/templates/jiudian.html" />
     </list>
     <ignored path="aaa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jiudian-2more.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jiudian-2more.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/jiudian-2more.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.28125">
-              <caret line="372" column="26" selection-start-line="372" selection-start-column="26" selection-end-line="372" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.31828704">
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -112,14 +89,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jiudian.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jiudian.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/jiudian.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="364" column="22" selection-start-line="364" selection-start-column="22" selection-end-line="364" selection-end-column="22" />
+            <state vertical-scroll-proportion="-10.15625">
+              <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.53125">
+              <caret line="49" column="44" selection-start-line="45" selection-start-column="16" selection-end-line="49" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,9 +156,10 @@
         <option value="$PROJECT_DIR$/css/a3圆形进度条.html" />
         <option value="$PROJECT_DIR$/css/zhanghu-1.css" />
         <option value="$PROJECT_DIR$/templates/zhanghulis15.html" />
+        <option value="$PROJECT_DIR$/css/jingqu-more.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/jiudian.html" />
         <option value="$PROJECT_DIR$/templates/jiudian-2more.html" />
-        <option value="$PROJECT_DIR$/css/jingqu-more.css" />
       </list>
     </option>
   </component>
@@ -282,7 +270,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -383,13 +371,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -676,6 +657,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.53125">
+          <caret line="49" column="44" selection-start-line="45" selection-start-column="16" selection-end-line="49" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jiudian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.15625">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/jingqu-more.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -686,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/jiudian-2more.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.28125">
-          <caret line="372" column="26" selection-start-line="372" selection-start-column="26" selection-end-line="372" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.31828704">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -698,16 +697,6 @@
             <element signature="n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jiudian.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="364" column="22" selection-start-line="364" selection-start-column="22" selection-end-line="364" selection-end-column="22" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

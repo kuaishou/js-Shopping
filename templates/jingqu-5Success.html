@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title>订单信息</title>
+    <title>找回密码</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/zhuche.css"/>
     <link rel="stylesheet" href="../css/jingqu-3dingdan.css"/>
+
     <!--[if lt IE 9]>
     <script src="../lib/html5shiv/html5shiv.min.js"></script>
     <script src="../lib/respond/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
 
 <!--头部-->
 <header id="header">
@@ -44,114 +45,39 @@
             <span>结算页</span>
             <ul class="money-nav">
                 <li class="money-nav1">1、填写订单信息</li>
-                <li class="money-nav2">2、在线支付</li>
-                <li class="money-nav3">3、支付成功</li>
+                <li class="money-nav4">2、在线支付</li>
+                <li class="money-nav33">3、支付成功</li>
             </ul>
         </div>
     </nav>
 </section>
 
-<!--预订登录-->
+<section class="container zhaohuimima">
+    <div class="zhaohuimima-cont">
 
-<section class="denglu container">
-    <div class="denglu-box"></div>
-    <div class="denglu-content">
-        <img src="../img/4dingdan3.jpg" alt="denger"/>
-        <span>您还没有登录，登录后购物车的商品将保存在你的账户中</span>
-        <a href="denglu.html" type="button" class="btn btn-danger">立即登录</a>
-    </div>
+        <p class="ok-title">支付成功</p>
+        <span id="jumpTo">5</span>
+        <span>秒后自动跳转到首页，没有跳转，点击</span>
+        <a href="../index.html" class="jump">首页</a>
+    <script type="text/javascript">
+        function countDown(secs,surl){
+            //alert(surl);
+            var jumpTo = document.getElementById('jumpTo');
+            jumpTo.innerHTML=secs;
+            if(--secs>0){
+                setTimeout("countDown("+secs+",'"+surl+"')",1000);
+            }
+            else{
+                location.href=surl;
+            }
+        }
+
+        countDown(5,'../index.html');
+    </script>
+
+
+</div>
 </section>
-<!--订单信息-->
-<section class="jieshuan clearfix">
-    <div class="container">
-    <div class="jieshuan-left">
-    <div class="dingdan">
-    <h4>订单信息</h4>
-    <div class="dingdan-lis">
-        <span class="dingdan-name">矮寨大桥日票</span>
-        <span class="dingdan-nab">5</span>
-        <span class="dingdan-zhang">张</span>
-        <input class="dingdan-time" type="date" value="请选择日期" />
-        <span class="dingdan-danjia1">¥280.</span>
-        <span class="dingdan-danjia2">00</span>
-        <span>/张/人</span>
-    </div>
-    </div>
-
-
-    <!--二、取票人信息-->
-    <div class="qupiao">
-        <h4>取票人信息</h4>
-
-       <!-- <span class="qupiao-news">取票人信息&lt;!&ndash;（至少填写一位）&ndash;&gt;</span>-->
-        <!--<span class="qupiao-add"><button id="add">+</button>添加其他出行人信息</span>-->
-        <form class="qupiao-ipt auth-form" action="">
-            <div class="form-group">
-                <label class="qupiao-ipt-1">姓名:</label>
-                <input id="name" type="text"/>
-                <span class="checkExistRong" id="checkExistname"></span>
-            </div>
-            <div class="form-group">
-                <label class="qupiao-ipt-2">身份证号码:</label>
-                <input id="identity" type="text" name="fname" maxlength="18"  >
-                <span class="checkExistRong" id="checkExistID"></span>
-
-            </div>
-            <div class="form-group">
-                <label class="qupiao-ipt-3">手机号号码:</label>
-                <input id="telephone" type="tel" name="fname" min="11">
-                <span class="checkExistRong" id="checkExistPhone"></span>
-            </div>
-        </form>
-    </div>
-
-        <!--优惠信息-->
-        <div class="qupiao">
-            <h4>优惠信息</h4>
-            <span class="youhui">无优惠可用</span>
-        </div>
-        </div>
-        <div class="jieshuan-right">
-
-            <h4>购票须知</h4>
-
-            <span>退款规则</span>
-            <p>日票：使用日期开始前两天可申请退款</p>
-            <p>月票：使用日期开始前两天可申请退款</p>
-            <p>年票：使用日期开始前两天可申请退款</p>
-
-
-
-            <span>景点信息</span>
-            <p>景点名称：矮寨大桥</p>
-            <p>入园日期：游玩日期当天有效
-
-            <span>入园方式：</span>
-            <p>凭二维码或身份证</p>
-            <a href="#">详情购买须知</a>
-        </div>
-
-
-
- </div>
-
-    <div class="zhifu row">
-
-            <div class="col-xs-6"></div>
-            <div class="col-xs-6">
-                <span class="zhifu-word">订单总金额</span>
-                <span class="zhifu-money">:¥288.00</span>
-                <!--<input type="submit" id="submit"/>-->
-                <a href="jingqu-4zhifu.html" id="submit" target="_blank"> 立即支付</a>
-            </div>
-
-
-    </div>
-</section>
-
-
-
-
 
 <footer class="footer">
     <div class="container">
@@ -214,7 +140,5 @@
 </footer>
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
-<script src="../js/main.js"></script>
-<script src="../js/yanzheng.js" ></script>
 </body>
 </html>

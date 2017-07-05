@@ -52,7 +52,7 @@
 }
 
 .jingqu .jingqu-list .list-content .list-tit{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 800;
     margin-top: 16px;
 }
@@ -119,3 +119,143 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+
+/*酒店页面*/
+
+.jiudian-search {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    line-height: 70px;
+    border: 1px solid #eeeeee;
+    background-color: #f9f9f9;
+}
+.jiudian-search .form-control1{
+
+}
+.jiudian-search .form-control1 .shangpin-label{
+    margin-right: 12px;
+    margin-left: 26px;
+
+}
+.jiudian-search .form-control1 .form-unit{
+    width: 200px;
+    height: 36px;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+}
+.jiudian-search .form-control1 .shangpin_seaech{
+      width: 180px;
+      height: 36px;
+      padding-left: 10px;
+      margin-left: 20px;
+      border: 1px solid #dddddd;
+  }
+
+.jiudian-search .form-control1 .shangpin-chang{
+    width: 180px;
+    height: 36px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border: 1px solid #dddddd;
+}
+.jiudian-search .form-control1 .searchbutton{
+    width: 70px;
+    height: 36px;
+    margin-left: 80px;
+    line-height: 36px;
+    background-color: #f57e00;
+    color: #fff;
+}
+
+.jiudian-shunxu{
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+}
+.jiudian-shunxu .shunxu-lis{
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-right:1px solid #eeeeee ;
+    cursor: pointer;
+}
+
+.jiudian-shunxu .shunxu-lis span{
+    margin-left: 3px;
+}
+.jiudian-shunxu .nav-pills .active{
+    border-top: 2px solid #2c88b9;
+}
+
+/*酒店列表内容*/
+
+
+
+
+.jingqu-list .list-content .list-name .jiudian-lei{
+    margin-left: 20px;
+
+}
+
+.jingqu .jingqu-list .list-content .jiudian-weizi{
+    float: left;
+    margin-top: 30px;
+    width: 330px;
+}
+/*地图1*/
+.jingqu .jingqu-list .allmap{width:120%;height:500px;}
+
+
+
+
+
+.jingqu .jingqu-list .list-content .jiudian-weizi .jiudian-star{
+    margin-top: 16px;
+}
+.jingqu .jingqu-list .list-content .jiudian-weizi .jiudian-star img {
+    width: 120px;
+    height: 22px;
+}
+
+.jingqu .jingqu-list .list-content .jiudian-pinglun{
+    float: left;
+    margin-top: 30px;
+}
+.jingqu .jingqu-list .list-content .jiudian-pinglun .wifi img{
+    width: 100px;
+    height: 22px;
+    margin-top: 14px;
+}
+.jingqu .jingqu-list .list-content .jiudian-pinglun .pingfen-nub{
+    color: #017cc0;
+}
+.jingqu .jingqu-list .list-content .jiudian-pinglun a{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #fbfaff;
+}
+
+.jingqu .jingqu-list .list-buy .mastbuy {
+    display: block;
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f57e00;
+    color: #ffffff;
+}
+
+
+
+

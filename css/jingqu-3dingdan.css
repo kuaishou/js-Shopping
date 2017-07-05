@@ -192,6 +192,10 @@ body{
     background-color: #ffffff;
     margin-right: 6px;
 }
+.qupiao .qupiao-ipt{
+    padding-top: 20px;
+}
+
 .qupiao .qupiao-ipt .form-group{
     height: 30px;
     margin-bottom: 15px;
@@ -202,26 +206,23 @@ body{
     float: left;
     height: 20px;
     line-height: 30px;
-    margin-top: 20px;
 
 }
 .qupiao .qupiao-ipt .form-group .qupiao-ipt-1{
     margin-left: 100px;
-   /* letter-spacing:6px;*/
+
 }
 .qupiao .qupiao-ipt .form-group .qupiao-ipt-2{
     margin-left: 58px;
-  /*  letter-spacing: 6px;*/
+
 }
 .qupiao .qupiao-ipt .form-group .qupiao-ipt-3{
     margin-left: 58px;
-  /*  letter-spacing: 6px;*/
 }
 
 
 .qupiao .qupiao-ipt .form-group input{
     margin-left: 10px;
-    margin-top: 20px;
     width: 326px;
     height: 28px;
     border: 1px solid #cccccc;
@@ -547,6 +548,12 @@ body{
 }
 .menpiao-details .menpiao-detailscont .out-btn .out-btn2{
    background-color: #f57e00;
+}
+
+
+.nav-base  #navs .money-nav .money-nav33{
+    background-image: url("../img/4dingdan1.jpg");
+    color: #ffffff;
 }
 
 

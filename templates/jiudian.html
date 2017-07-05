@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/jingqu.css"/>
+    <style type="text/css">
+        body, html {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+        #allmap{width:100%;height:500px;}
+        #r-result{width:100%;margin-top:5px;}
+        p{margin:5px; font-size:14px;}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=D2d2d2a3b3b5405b6b74b49173fd899a"></script>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!--头部-->
+<header id="header">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">吉首电子商务欢迎您</div>
+            <div class="col-md-2 ">客服电话:400888888</div>
+            <div class="col-md-4 ">
+                <a href="zhanghu-1.html " class="btn btn-link">个人中心</a>
+                <a href="#">收藏</a>
+                <a href="zhuche.html" class="btn btn-link ">注册</a>
+                <a href="denglu.html" class="btn btn-link ">登录</a>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+<!--头部区域-->
+<!--头部轮播图-->
+<section class="nav-base">
+        <!--导航栏-->
+        <nav id="nav" class="clearfix">
+            <div class="container">
+                <a href="../index.html"><img src="../img/logo.jpg" alt=""/></a>
+                <ul class="navs">
+                    <li ><a href="#">景区</a></li>
+                    <li ><a href="#">酒店</a></li>
+                    <li ><a href="#">特产</a></li>
+                    <li ><a href="#">美食</a></li>
+                    <li ><a href="#">票务</a></li>
+                </ul>
+
+                <!--搜索框-->
+                <form class="nav-search">
+                    <input type="search" class="nav-search-ipt" placeholder="请输入搜索内容...">
+                        <button class="search-btn-btns"> <span class="search-btn_icon"></span></button>
+                </form>
+
+
+            </div>
+
+        </nav>
+</section>
+<!--景区门票-->
+
+
+<section class="jingqu container">
+    <div class="jingqu-title">
+
+        <a href="../index.html">首页</a>
+        <span>></span>
+        <a href="jiudian.html.html">酒店</a>
+    </div>
+<!--景点介绍-->
+    <div class="jiudian-search">
+        <form action="" class="form-control1" method="get">
+                <label for="startDate" class="shangpin-label">入住</label>
+                <input class="form-unit form-date hasDatepicker" id="startDate" name="startDate"  placeholder="请输入开始日期" type="date">
+                <label for="endDate" class="shangpin-label">离店</label>
+                <input class="form-unit form-date hasDatepicker" id="endDate" name="endDate"  placeholder="请输入结束日期" type="date">
+            <input type="search" class="shangpin_seaech" id="shangpin_bianhao" placeholder="酒店名/位置/品牌">
+            <select class="shangpin-chang" name="">
+                <option  value="">酒店级别</option>
+                <option  value="">一星级</option>
+                <option  value="">二星级</option>
+                <option  value="">三星级</option>
+                <option  value="">四星级</option>
+                <option  value="">五星级</option>
+            </select>
+            <input type="submit" class="searchbutton" value="搜索"/>
+        </form>
+    </div>
+
+    <div class="jiudian-shunxu">
+        <ul class="nav nav-pills">
+            <li class="shunxu-lis active">默认排序</li>
+            <li class="shunxu-lis">好评<span class="glyphicon glyphicon-arrow-down"></span> </li>
+            <li class="shunxu-lis">人气<span class="glyphicon glyphicon-arrow-down"></span></li>
+            <li class="shunxu-lis">价格<span class="glyphicon glyphicon-arrow-up"></span></li>
+        </ul>
+    </div>
+    <div class="jingqu-list">
+        <a href="jingqu-2more.html" target="_blank"><img class="pull-left" src="../img/jiudian1.jpg" alt=""/></a>
+        <div class="list-content pull-left">
+            <div class="list-name">
+                <span class="list-tit">吉天大酒店</span>
+                <span class="jiudian-lei">豪华酒店</span>
+
+            </div>
+
+            <div class="jiudian-weizi">
+                <span>位置：矮寨大桥禁区内</span>
+                    <button type="button" class="" data-toggle="modal" data-target=".bs-example-modal-lg">查看地图</button>
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="allmap" id="allmap"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="jiudian-star">
+                    <span>星级:</span>
+                    <img src="../img/star1.jpg" alt="酒店星级"/>
+                </div>
+
+
+            </div>
+            <div class="jiudian-pinglun">
+                <span>用户评分：</span>
+                <span class="pingfen-nub">4.5</span>
+                <span>/5</span>
+                <a href="jiudian-2more.html">18条用户评论</a>
+                <div class="wifi">
+                    <img src="../img/wifi.jpg" alt="酒店wifi"/>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-buy">
+            <a class="mastbuy" href="jiudian-2more.html" target="_blank" target="_blank">点击预订</a>
+        </div>
+    </div>
+
+    <!--循环一次-->
+    <div class="jingqu-list">
+        <a href="jingqu-2more.html" target="_blank"><img class="pull-left" src="../img/jiudian1.jpg" alt=""/></a>
+        <div class="list-content pull-left">
+            <div class="list-name">
+                <span class="list-tit">吉天大酒店</span>
+                <span class="jiudian-lei">豪华酒店</span>
+
+            </div>
+
+            <div class="jiudian-weizi">
+                <span>位置：矮寨大桥禁区内</span>
+                <button type="button" class="" data-toggle="modal" data-target=".bs-example-modal-lg1">查看地图</button>
+                <div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="allmap" id="allmap1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jiudian-star">
+                    <span>星级:</span>
+                    <img src="../img/star1.jpg" alt="酒店星级"/>
+                </div>
+
+
+            </div>
+            <div class="jiudian-pinglun">
+                <span>用户评分：</span>
+                <span class="pingfen-nub">4.5</span>
+                <span>/5</span>
+                <a href="jiudian-2more.html">18条用户评论</a>
+                <div class="wifi">
+                    <img src="../img/wifi.jpg" alt="酒店wifi"/>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-buy">
+            <a class="mastbuy" href="jiudian-2more.html" target="_blank" target="_blank">点击预订</a>
+        </div>
+    </div>
+
+    <div class="jingqu-list">
+        <a href="jingqu-2more.html" target="_blank"><img class="pull-left" src="../img/jiudian1.jpg" alt=""/></a>
+        <div class="list-content pull-left">
+            <div class="list-name">
+                <span class="list-tit">吉天大酒店</span>
+                <span class="jiudian-lei">豪华酒店</span>
+
+            </div>
+
+            <div class="jiudian-weizi">
+                <span>位置：矮寨大桥禁区内</span>
+                <button type="button" class="" data-toggle="modal" data-target=".bs-example-modal-lg2">查看地图</button>
+                <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="allmap" id="allmap2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jiudian-star">
+                    <span>星级:</span>
+                    <img src="../img/star1.jpg" alt="酒店星级"/>
+                </div>
+
+
+            </div>
+            <div class="jiudian-pinglun">
+                <span>用户评分：</span>
+                <span class="pingfen-nub">4.5</span>
+                <span>/5</span>
+                <a href="jiudian-2more.html">18条用户评论</a>
+                <div class="wifi">
+                    <img src="../img/wifi.jpg" alt="酒店wifi"/>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-buy">
+            <a class="mastbuy" href="jiudian-2more.html" target="_blank" target="_blank">点击预订</a>
+        </div>
+    </div>
+
+    <div class="jingqu-list">
+        <a href="jingqu-2more.html" target="_blank"><img class="pull-left" src="../img/jiudian1.jpg" alt=""/></a>
+        <div class="list-content pull-left">
+            <div class="list-name">
+                <span class="list-tit">吉天大酒店</span>
+                <span class="jiudian-lei">豪华酒店</span>
+
+            </div>
+
+            <div class="jiudian-weizi">
+                <span>位置：矮寨大桥禁区内</span>
+                <button type="button" class="" data-toggle="modal" data-target=".bs-example-modal-lg3">查看地图</button>
+                <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="allmap" id="allmap3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jiudian-star">
+                    <span>星级:</span>
+                    <img src="../img/star1.jpg" alt="酒店星级"/>
+                </div>
+
+
+            </div>
+            <div class="jiudian-pinglun">
+                <span>用户评分：</span>
+                <span class="pingfen-nub">4.5</span>
+                <span>/5</span>
+                <a href="jiudian-2more.html">18条用户评论</a>
+                <div class="wifi">
+                    <img src="../img/wifi.jpg" alt="酒店wifi"/>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-buy">
+            <a class="mastbuy" href="jiudian-2more.html" target="_blank" target="_blank">点击预订</a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-nav">
+            <a href="#" class="footer-tab" id="tab1"> <span class="footer-tab-sp footer-im1  shows1"></span>景区</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab2"> <span class="footer-tab-sp footer-im2  shows2"></span>酒店</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab3"> <span class="footer-tab-sp footer-im3  shows3"></span>特产</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab4"> <span class="footer-tab-sp footer-im4  shows4"></span>美食</a>
+            <div class="line"></div>
+            <a href="#" class="footer-tab" id="tab5"> <span class="footer-tab-sp footer-im5  shows5"></span>票务</a>
+        </div>
+
+
+        <div class="footer-t">
+            <div class="footer-con wrap">
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd><a href="#">账户管理</a></dd>
+                    <dd><a href="#">购物指南</a></dd>
+                    <dd><a href="#">订单操作</a></dd>
+
+                </dl>
+                <dl>
+                    <dt>服务支持</dt>
+                    <dd><a href="#">如何注册</a></dd>
+                    <dd><a href="#">免费注册</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">了解吉首</a></dd>
+                    <dd><a href="#">走进吉首</a></dd>
+                    <dd><a href="#">吉首故事</a></dd>
+                </dl>
+                <dl>
+                    <dt>关注我们</dt>
+                    <dd><a href="#">微信公众号</a></dd>
+                    <dd><a href="#">论坛</a></dd>
+                    <dd><a href="#">官方微博</a></dd>
+                </dl>
+                <dl>
+                    <dt>特色服务</dt>
+                    <dd><a href="#">机票预订</a></dd>
+                    <dd><a href="#">车票预订</a></dd>
+                    <dd><a href="#">酒店门票</a></dd>
+                </dl>
+
+                <div class="lines"></div>
+                <div class="erweima">
+                    <span class="tel">400-888-8888</span>
+                    <span class="time">周一至周五8:00-18:00</span>
+                    <span class="kefu">24小时在线客服</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-b">
+            <p class="wrap">版权所有 2006 - 2018 深圳赛为智能有限公司   京ICP备08001421号京公网安备110108007702</p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/main.js"></script>
+<script>
+      $(document).ready(function(){
+          $(".shunxu-lis").eq(
+                  $(".shunxu-lis").on('click',function(){
+                      $(".shunxu-lis").removeClass("active")
+                      $(this).addClass("active");
+                  })
+          )
+
+          var ddd = new Date();
+          var day =ddd.getDate();
+          var day1=day+1;
+
+          if(ddd.getMonth()<10){
+              var month = "0"+(ddd.getMonth()+1);
+          }
+
+          if(ddd.getDate()<10){
+              day = "0"+ddd.getDate();
+          }
+          if(day1<10){
+              day1 = "0"+day1;
+          }
+          var datew = ddd.getFullYear()+"-"+month+"-"+day;
+          var dateend= ddd.getFullYear()+"-"+month+"-"+day1;
+          var datew = datew.toString();
+          var dateend=dateend.toString();
+          $("#startDate").val(datew);
+          $("#endDate").val(dateend);
+
+// 百度地图API功能
+          var map = new BMap.Map('allmap');
+          map.addControl(new BMap.NavigationControl());
+          map.centerAndZoom(new BMap.Point(109.609925,28.333864), 18);
+
+          var map1 = new BMap.Map('allmap1');
+          map1.addControl(new BMap.NavigationControl());
+          map1.centerAndZoom(new BMap.Point(109.609925,28.333864), 18);
+
+          var map2 = new BMap.Map('allmap2');
+          map2.addControl(new BMap.NavigationControl());
+          map2.centerAndZoom(new BMap.Point(109.609925,28.333864), 18);
+
+          var map3 = new BMap.Map('allmap3');
+          map3.addControl(new BMap.NavigationControl());
+          map3.centerAndZoom(new BMap.Point(109.609925,28.333864), 18);
+
+});
+</script>
+</body>
+</html>

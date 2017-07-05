@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title>添加商品</title>
+    <title>编辑商品</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/zhanghu-1.css"/>
@@ -164,6 +164,104 @@
                     <div id="wrapper">
                         <div id="container">
                             <!--头部，相册选择和格式选择-->
+                            <div class="blockImg">
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#exampleModal"></span>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                        <h4 class="modal-title1" id="exampleModalLabel">编辑图片信息</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form>
+                                                            <input type="text" class="form-control" id="recipient-name" placeholder="图片名称">
+                                                            <input type="text" class="form-control" id="recipient-name1" placeholder="图片排序">
+                                                            <textarea class="form-control form-control-x" id="message-text" placeholder="图片描述信息"  maxlength="200"></textarea>
+                                                        </form>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary">保存</button>
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#exampleModal1"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+
+
+
+                            </div>
 
                             <div id="uploader">
                                 <div class="queueList">
@@ -184,13 +282,9 @@
                 </div>
             </div>
             <input type="submit" id="allbaocun"  class="btn btn-primary btn-sm btn-block allbaocun" value="保存"/>
-          <!--  <input type="button" id="backlis"  class="btn btn-primary btn-sm btn-block allbaocun" value="保存"/>-->
-            <a href="#" id="backlis"  class="btn btn-primary btn-sm btn-block allbaocun"> 返回列表</a>
-            <!--<button type="button" class="btn btn-primary btn-lg btn-block">（块级元素）Block level button</button>-->
         </form>
     </div>
 </div>
-
 
 <footer class="footer">
     <div class="container">
@@ -251,8 +345,6 @@
         </div>
     </div>
 </footer>
-
-
 </body>
 
 <script src="../lib/jquery/jquery.js"></script>
@@ -260,5 +352,21 @@
 <script src="../js/main.js"></script>
 <script type="text/javascript" src="../js/webuploader.min.js"></script>
 <script type="text/javascript" src="../lib/image-upload/upload.js"></script>
+<script>
+  /*  $(document).ready(function(){
+        $(".blockImg-1").each(function(){
+
+            $(".blockImg-1").mouseover(function(){
+                $(this).children("div").show();
+                $(this).children("div").on(click,function(){
+                    $(this).children("div").children("span").show();
+                })
+            });
+            $(".blockImg-1").mouseout(function(){
+                $(this).children("div").hide();
+            });
+        });
+    });*/
+</script>
 
 </html>

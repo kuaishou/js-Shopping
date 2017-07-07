@@ -15,116 +15,80 @@
     <![endif]-->
 </head>
 <body>
-<div class="jiaoyi">
-    <form action="" class="form-control1" method="get">
-        <label class="shangpin-label">交易状态</label>
-        <select class="shangpin-chang" name="">
-            <option value="0">请选择商品状态</option>
-            <option value="1">等待买家付款</option>
-            <option value="2">买家已付款</option>
-            <option value="2">卖家已发货</option>
-            <option value="2">交易成功</option>
-            <option value="2">交易关闭</option>
-            <option value="2">待发货</option>
-            <option value="2">退款中</option>
-            <option value="2">异常订单</option>
-        </select>
-        <label for="shangpin_name" class="shangpin-label1">商品名称</label>
-        <input type="search" class="shangpin_seaech" id="shangpin_name" placeholder="请输入商品名称...">
-        <label for="shangpin_bianhao" class="shangpin-label1">商品编号</label>
-        <input type="search" class="shangpin_seaech" id="shangpin_bianhao" placeholder="请输入商品编号...">
-        <div class="shangpin-time">
-        <label for="startDate" class="shangpin-label">成交时间</label>
-            <input class="form-unit form-date hasDatepicker" id="startDate" name="startDate" value="2017-05-26" placeholder="请输入开始日期" type="date">
-            &nbsp;&nbsp;至
-            <input class="form-unit form-date hasDatepicker" id="endDate" name="endDate" value="2017-06-26"  placeholder="请输入结束日期" type="date">
+
+<div id="seller_shangpin">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="tablist-small  active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">全部商品</a></li>
+        <li role="presentation" class="tablist-small "><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">商品分类</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active"id="home">
+            <form action="" method="get">
+                <label class="shangpin-label">商品状态</label>
+                <select class="shangpin-chang" name="">
+                    <option value="0">请选择商品状态</option>
+                    <option value="1">上架</option>
+                    <option value="2">下架</option>
+                </select>
+                <label for="shangpin_name" class="shangpin-label">商品名称</label>
+                <input type="search" class="form-control shangpin_seaech" id="shangpin_name" placeholder="请输入商品名称...">
+                <input type="button" class="button clearfix" value="搜索"/>
+
+                <a href="addshangpin.html" target="_top" class="shangpin-add">+添加商品</a>
+            </form>
+            <div class="shangpin-addcont">
+                <div class="addcont-title">
+                    <span class="addcont-title1">商品编号</span>
+                    <span class="addcont-title2">商品名称</span>
+                    <span class="addcont-title3">价格（元）</span>
+                    <span class="addcont-title4">单位</span>
+                    <span class="addcont-title5">商品分类</span>
+                    <span class="addcont-title6">显示顺序</span>
+                    <span class="addcont-title7">操作</span>
+                </div>
+                <div class="addcont-cont" id="chang">
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <a href="editshangpin.html" target="_top" class="addcont-cont7">编辑</a>
+                        <button class="addcont-cont8" id="bm1">上架</button>
+                        <button class="addcont-cont9" id="bm2">下架</button>
+                    </div>
+
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <a href="editshangpin.html" target="_top" class="addcont-cont7">编辑</a>
+                        <button class="addcont-cont8" id="bm1">上架</button>
+                        <button class="addcont-cont9" id="bm2">下架</button>
+                    </div>
+
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <a href="editshangpin.html" target="_top" class="addcont-cont7">编辑</a>
+                        <button class="addcont-cont8" id="bm1">上架</button>
+                        <button class="addcont-cont9" id="bm2">下架</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <input type="button" class="searchbutton" value="搜索订单"/>
-    </form>
-
-    <div class="jiaoyi-lis">
-
-        <button class="allchang">批量发货</button>
-        <div class="jiaoyi-liscont">
-            <div class="jiaoyi-lisone">
-                <span class="lisone1">商品</span>
-                <span class="lisone2">单价</span>
-                <span class="lisone3">数量</span>
-                <span class="lisone4">买家</span>
-                <span class="lisone5">交易状态</span>
-                <span class="lisone6">实收款</span>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-
+        <div role="tabpanel" class="tab-pane" id="profile">
+            szdzdzdzdzdzdzdzdzdzdzdzdzdzdzdzdzdf
         </div>
-
-        <nav aria-label="...">
-            <ul class="pager">
-                <li><a href="#">上一页</a></li>
-                <li><a href="#">下一页</a></li>
-            </ul>
-        </nav>
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
 

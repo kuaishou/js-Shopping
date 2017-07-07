@@ -168,7 +168,18 @@ iframe{
     background-color: #f57e00;
     color: #ffffff;
 }
-
+#home1 .zhanghu-dingdan1 .dingdan1-cont .dingdan1-ok{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 14px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f6f6f6;
+}
 
 /*资产列表的余额内容*/
 /*#money{

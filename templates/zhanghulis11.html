@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title></title>
+    <title>修改密码</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/zhanghu-1.css"/>
@@ -16,38 +16,35 @@
 </head>
 <body>
 
-<div role="tabpanel" class="tab-pane  active" id="xiaoxi">
-    <h4>系统消息</h4>
-    <div class="xiaoxi">
-        <div class="xiaoxi-title">
-                            <span class="xiaoxi-1">
-                                <input type="checkbox"  class="checkAll regular-checkbox">全选
-                                <a href="javascript">×删除</a>
-                            </span>
-            <span class="xiaoxi-2">主题</span>
-            <span class="xiaoxi-3">发送时间</span>
-            <span class="xiaoxi-4">操作</span>
-        </div>
-        <div class="xiaoxi1-cont">
-                            <span class="xiaoxi1-ipt">
-                                <input type="checkbox" id="check1" class="checkAll regular-checkbox">
-                            </span>
-            <span class="xiaoxi1-zhu"><a href="#">优惠券到期提醒</a></span>
-            <span class="xiaoxi1-time">2017-4-18</span>
-            <span class="xiaoxi1-delt"><a href="#">删除</a></span>
-        </div>
+<div role="tabpanel" class="tab-pane" id="password">
+    <div class="xiugai">
+        <h4>修改密码</h4>
+        <div class="xiugai-mima">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputPassword1" class="col-sm-2 control-label">旧密码</label>
+                    <input type="password" class="form-control" id="inputPassword1" placeholder="旧密码"/>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword2" class="col-sm-2 control-label">新密码</label>
+                    <input type="password" class="form-control" id="inputPassword2" placeholder="新密码"/>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">再次确认</label>
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="确认密码"/>
+                </div>
+                <div class="form-group">
+                    <!-- <button type="submit" class="btn btn-default">保存</button>-->
+                    <input class="btn baocun btn-default" type="submit" value="保存">
+                </div>
+            </form>
 
-        <div class="xiaoxi1-cont">
-                            <span class="xiaoxi1-ipt">
-                                <input type="checkbox" id="check1" class="checkAll regular-checkbox">
-                            </span>
-            <span class="xiaoxi1-zhu"><a href="#">优惠券到期提醒</a></span>
-            <span class="xiaoxi1-time">2017-4-18</span>
-            <span class="xiaoxi1-delt"><a href="#">删除</a></span>
         </div>
     </div>
-</div>
 
+
+
+</div>
 
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>

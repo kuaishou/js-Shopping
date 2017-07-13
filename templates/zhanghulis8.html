@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title>优惠券</title>
+
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/zhanghu-1.css"/>
@@ -13,41 +13,48 @@
     <script src="../lib/html5shiv/html5shiv.min.js"></script>
     <script src="../lib/respond/respond.min.js"></script>
     <![endif]-->
+
+    <title>资产-余额</title>
 </head>
 <body>
 
-<div role="tabpanel" class="tab-pane" id="youhui">
-    <h4>我的优惠券</h4>
-    <div class="youhui-lis">
-        <div class="youhui-jia">
-            <p class="youhui-jia-nb">¥10元</p>
-            <p class="youhui-jia-nb1">满 <span> 100</span>可用</p>
+<div role="tabpanel" class="tab-pane" id="money">
+    <div class="money-cont">
+        <div class="money-top">
+            <h4>我的钱包</h4>
+            <div class="money-home">
+                <span class="money-name">账户：</span>
+                <span class="money-nub">8888888888888</span>
+                <span class="money-an">安全等级：</span>
+                <span>一般</span>
+            </div>
         </div>
-        <div class="youhui-biaozun">
-            <p class="youhui-biaozun1">仅限于购买商城内特产</p>
-            <p class="youhui-biaozun2">有效期2017.6.18-2017.8.18</p>
+        <div class="money-news">
+            <div class="money-left">
+                <div class="money-left1">
+                    <h4>现金余额</h4>
+                    <span class="money-big">188.</span>
+                    <span class="money-som" >00</span>
+                    <span >元</span>
+                </div>
+                <div class="money-left2">不可用余额：110.00</div>
+                <div class="money-left3">
+                    <a href="#">充值</a>
+                    <a href="#">提现</a>
+                </div>
+            </div>
+            <div class="money-right">
+                <h4>我的银行卡</h4>
+                <span class="yinhang-1">0</span>
+                <span>张</span>
+            </div>
         </div>
-        <div class="youhui-zhuangtai">已领取</div>
-    </div>
-    <div class="youhui-lis">
-        <div class="youhui-jia youhui-jia1 ">
-            <p class="youhui-jia-nb">¥5元</p>
-            <p class="youhui-jia-nb1">满 <span> 100</span>可用</p>
-        </div>
-        <div class="youhui-biaozun">
-            <p class="youhui-biaozun1">全部品类可用</p>
-            <p class="youhui-biaozun2">有效期2017.6.18-2017.8.18</p>
-        </div>
-        <div class="youhui-zhuangtai">已过期</div>
     </div>
 </div>
-
-
-
-
 
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/cropbox.js"></script>
 </body>
 </html>

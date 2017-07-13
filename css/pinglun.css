@@ -1,0 +1,166 @@
+@charset "UTF-8";
+.pinglun h4{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background-color: #f5f5f5;
+}
+
+.pinglun .pinglun-cont{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d6d6d6;
+
+}
+
+
+
+.pinglun .pinglun-cont .pinglun-title{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+}
+.pinglun .pinglun-cont .pinglun-title .title-1{
+    margin-left: 40px;
+}
+
+.pinglun .pinglun-cont .pinglun-more{
+    padding: 40px 50px 20px 50px;
+}
+.pinglun .pinglun-cont .pinglun-more .pinglun-more1{
+    float: left;
+    width: 150px;
+}
+.pinglun .pinglun-cont .pinglun-more .pinglun-more1wd{
+    text-align: center;
+    margin-top: 14px;
+
+
+}
+.pinglun .pinglun-cont .pinglun-more .pinglun-more2{
+    float: left;
+    width: 630px;
+    margin-left: 70px;
+}
+
+.pinglun .pinglun-cont .pinglun-more .pinglun-more2 .pinglun-star{
+    height: 50px;
+}
+.pinglun .pinglun-cont .pinglun-more .pinglun-more2  .pinglun-star1{
+    display: inline-block;
+    float: left;
+   color: #ff575a;
+  font-size: 16px;
+    margin-top: 14px;
+}
+.pinglun .pinglun-cont .pinglun-more .pinglun-more2 .pinglun-star2{
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    margin-left: 6px;
+}
+
+.pinglun .pinglun-cont .pinglun-more .pinglun-more2  .myfloatleft{
+    float:left;
+}
+
+#showdiv{
+    float: left;
+    margin-top: 8px;
+}
+#showdiv .pinglun-star3{
+     float: left;
+     height: 20px;
+     width: 20px;
+     font-size: 20px;
+     margin-left: 4px;
+     cursor: pointer;
+     color:#c6c6c6;
+ }
+#showdiv .pinglun-star4{
+    float: left;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    margin-left: 4px;
+    cursor: pointer;
+    color:#ffce12;
+}
+
+
+.pinglun-word .pinglunword1{
+    width: 540px;
+    height: 160px;
+    resize: none;
+    margin-left: 10px;
+    margin-top: 12px;
+    padding-left: 14px;
+    font-size: 12px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: auto;
+    font: inherit;
+    color: inherit;
+}
+
+.pinlun-img .pinlun-img1{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+
+.pinlun-img .pinlun-img2{
+    float: left;
+    width: 540px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 16px;
+    border: 1px solid #d6d6d6;
+}
+
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+
+.pinlun-img .form-gimg{
+    width: 110%;
+}
+
+.pinglun-tijiao {
+    width: 100px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+    color: #fff;
+    background-color: #f57e00;
+}

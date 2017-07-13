@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/pinglun.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/webuploader.css">
+    <link rel="stylesheet" href="../lib/image-upload/style.css"/>
+
+
+
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <title>商品评论</title>
+</head>
+<body>
+<section class="pinglun">
+
+    <h4>商品评论</h4>
+
+    <div class="pinglun-cont clearfix">
+        <div class="pinglun-title">
+            <span class="title-0">订单号:01111</span>
+            <span class="title-1">下单时间:2017-07-08 </span>
+            <span class="title-2">12:00:00</span>
+        </div>
+
+        <div class="pinglun-more">
+            <div class="pinglun-more1">
+            <img src="../img/pinglun01.jpg" alt="评论图片"/>
+                <p class="pinglun-more1wd">德夯风景区门票</p>
+            </div>
+
+            <div class="pinglun-more2">
+                <form action="///">
+                <div class="pinglun-star">
+                    <span class="pinglun-star1">*</span>
+                    <span class="pinglun-star2">商品评分</span>
+                    <div id="showdiv">
+                        <div id="1" class="myfloatleft" onclick="test('1')"><p class="pinglun-star4">★</p></div>
+                        <div id="2" class="myfloatleft" onclick="test('2')"><p class="pinglun-star4">★</p></div>
+                        <div id="3" class="myfloatleft" onclick="test('3')"><p class="pinglun-star4">★</p></div>
+                        <div id="4" class="myfloatleft" onclick="test('4')"><p class="pinglun-star4">★</p></div>
+                        <div id="5" class="myfloatleft" onclick="test('5')"><p class="pinglun-star4">★</p></div>
+                    </div>
+                </div>
+
+                <div class="pinglun-word">
+                    <span class="pinglun-star1">*</span>
+                    <span class="pinglun-star2">商品评论</span>
+                 <!--   <textarea class="pinglunword1" name="商品评论" id="" rows="10" cols="30" maxlength="200" >
+
+                    </textarea>-->
+                    <textarea class="pinglunword1" name="商品评论" rows="3"  cols="10" maxlength="200" placeholder="商品怎么样？快来评论吧"></textarea>
+                </div>
+
+                <div class="pinlun-img">
+
+                    <div class="form-group  form-gimg clearfix">
+                        <span class="pinlun-img1">晒图</span>
+                        <div class="col-sm-10">
+                            <div id="wrapper">
+                                <div id="container">
+                                    <!--头部，相册选择和格式选择-->
+
+                                    <div id="uploader">
+                                        <div class="queueList">
+                                            <div id="dndArea" class="placeholder">
+                                                <div id="filePicker"></div>
+                                                <p>单次最多可选3张</p>
+                                            </div>
+                                        </div>
+                                        <div class="statusBar" style="display:none;">
+                                            <div class="btns">
+                                                <div id="filePicker2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" class="pinglun-tijiao" value="评论"/>
+            </form>
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/main.js"></script>
+<script type="text/javascript" src="../js/webuploader.min.js"></script>
+<script type="text/javascript" src="../lib/image-upload/upload4-1.js"></script>
+
+<script language="javascript" type="text/javascript">
+    function test(myvalue){
+        for(var i=1;i<=5;i++){//将所有都变白星星
+            document.getElementById(""+i).innerHTML="<p>★</p>";
+            document.getElementById(""+i).setAttribute("class","pinglun-star3");
+        }
+        for(var i=1;i<=myvalue;i++){//通过传入的id（也是一个数字）确定id以下的div都是橙色星星。
+            document.getElementById(""+i).innerHTML="<p>★</p>";
+            document.getElementById(""+i).setAttribute("class","pinglun-star4");
+        }
+    }
+</script>
+</body>
+</html>

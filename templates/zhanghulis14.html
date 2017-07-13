@@ -15,121 +15,43 @@
     <![endif]-->
 </head>
 <body>
-<div class="jiaoyi">
-    <form action="" class="form-control1" method="get">
-        <label class="shangpin-label">交易状态</label>
-        <select class="shangpin-chang" name="">
-            <option value="0">请选择商品状态</option>
-            <option value="1">等待买家付款</option>
-            <option value="2">买家已付款</option>
-            <option value="2">卖家已发货</option>
-            <option value="2">交易成功</option>
-            <option value="2">交易关闭</option>
-            <option value="2">待发货</option>
-            <option value="2">退款中</option>
-            <option value="2">异常订单</option>
-        </select>
-        <label for="shangpin_name" class="shangpin-label1">商品名称</label>
-        <input type="search" class="shangpin_seaech" id="shangpin_name" placeholder="请输入商品名称...">
-        <label for="shangpin_bianhao" class="shangpin-label1">商品编号</label>
-        <input type="search" class="shangpin_seaech" id="shangpin_bianhao" placeholder="请输入商品编号...">
-        <div class="shangpin-time">
-        <label for="startDate" class="shangpin-label">成交时间</label>
-            <input class="form-unit form-date hasDatepicker" id="startDate" name="startDate" value="2017-05-26" placeholder="请输入开始日期" type="date">
-            &nbsp;&nbsp;至
-            <input class="form-unit form-date hasDatepicker" id="endDate" name="endDate" value="2017-06-26"  placeholder="请输入结束日期" type="date">
+
+<div role="tabpanel" class="tab-pane  active" id="xiaoxi">
+    <h4>系统消息</h4>
+    <div class="xiaoxi">
+        <div class="xiaoxi-title">
+                            <span class="xiaoxi-1">
+                                <input type="checkbox"  class="checkAll regular-checkbox">全选
+                                <a href="javascript">×删除</a>
+                            </span>
+            <span class="xiaoxi-2">主题</span>
+            <span class="xiaoxi-3">发送时间</span>
+            <span class="xiaoxi-4">操作</span>
         </div>
-        <input type="button" class="searchbutton" value="搜索订单"/>
-    </form>
-
-    <div class="jiaoyi-lis">
-
-        <button class="allchang">批量发货</button>
-        <div class="jiaoyi-liscont">
-            <div class="jiaoyi-lisone">
-                <span class="lisone1">商品</span>
-                <span class="lisone2">单价</span>
-                <span class="lisone3">数量</span>
-                <span class="lisone4">买家</span>
-                <span class="lisone5">交易状态</span>
-                <span class="lisone6">实收款</span>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-            <div class="jiaoyi-lisone1">
-                <span class="lisone1">吉首特产猕猴桃</span>
-                <span class="lisone2">288.00</span>
-                <span class="lisone3">1</span>
-                <span class="lisone4">小明</span>
-                <span class="lisone5">等待卖家付款</span>
-                <span class="lisone6">288.00</span>
-                <a href="#" class="lisone7">详情</a>
-                <button class="lisone8">发货</button>
-            </div>
-
-
+        <div class="xiaoxi1-cont">
+                            <span class="xiaoxi1-ipt">
+                                <input type="checkbox" id="check1" class="checkAll regular-checkbox">
+                            </span>
+            <span class="xiaoxi1-zhu"><a href="#">优惠券到期提醒</a></span>
+            <span class="xiaoxi1-time">2017-4-18</span>
+            <span class="xiaoxi1-delt"><a href="#">删除</a></span>
         </div>
 
-        <nav aria-label="...">
-            <ul class="pager">
-                <li><a href="#">上一页</a></li>
-                <li><a href="#">下一页</a></li>
-            </ul>
-        </nav>
-
+        <div class="xiaoxi1-cont">
+                            <span class="xiaoxi1-ipt">
+                                <input type="checkbox" id="check1" class="checkAll regular-checkbox">
+                            </span>
+            <span class="xiaoxi1-zhu"><a href="#">优惠券到期提醒</a></span>
+            <span class="xiaoxi1-time">2017-4-18</span>
+            <span class="xiaoxi1-delt"><a href="#">删除</a></span>
+        </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
 
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/cropbox.js"></script>
 </body>
 </html>

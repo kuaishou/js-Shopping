@@ -231,7 +231,7 @@
 
 .jiudian .row .jiudian-content{
     position: relative;
-    height: 528px;
+   /* height: 528px;*/
     width: 280px;
     background-color: #ffffff;
 }

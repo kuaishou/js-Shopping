@@ -557,4 +557,110 @@ body{
 }
 
 
+/*导游订单页面*/
+.daoyou-name{
+    width: 720px;
+    margin-left: 80px;
+
+}
+
+.daoyou-name .daoyou-nametltle{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.daoyou-name .table-responsive{
+    border: 1px solid #dedcdd;
+
+}
+.daoyou-name .table-responsive  .table {
+    width: 100%;
+    max-width: 100%;
+     margin-bottom: 0px;
+}
+.daoyou-name .table-responsive thead{
+    height: 36px;
+    background-color: #f1faff;
+}
+.daoyou-name .table-responsive tbody tr{
+    height: 44px;
+    line-height: 44px;
+}
+
+.jieshuan .jieshuan-left1 {
+    float: left;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+}
+
+.pro-body-des-con {
+    float: left;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+}
+.pro-body-des-con span {
+    float: left;
+}
+
+#shu {
+    display: block;
+    width: 32px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+#jia {
+    width: 32px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+#jian1 {
+    width: 32px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+}
+#jian2 {
+    width: 32px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+.chuxing-nub {
+    float: left;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.chuxingnub{
+    margin-top: 20px;
+}
+
+.qupiao .qupiao-ipt .form-group .qupiao-ipt-2x {
+    margin-left: 100px;
+}
+
+
 

@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+
+body{
+    position: relative;
+}
+
+.daoyou-title{
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+
+}
+.daoyou-title a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+}
+.daoyou-title a:hover{
+    color: #027cc3;
+}
+
+
+
+/*导游介绍*/
+.daoyou-news{
+    background-color: #f8fff8;
+    width: 100%;
+    height: 510px;
+
+}
+
+.daoyou-left{
+    float: left;
+    width: 300px;
+    height: 415px;
+    margin-top: 34px;
+}
+.daoyou-left img{
+    width: 300px;
+    height: 415px;
+}
+.daoyou-right{
+    float: left;
+    width: 780px;
+    margin-top: 34px;
+    margin-left: 50px;
+}
+
+.daoyou-name{
+    width: 100%;
+}
+.daoyou-right .daoyou-name1{
+    float: left;
+    font-size: 26px;
+    line-height: 50px;
+}
+.daoyou-right .daoyou-name2{
+    float: left;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.daoyou-right .daoyou-name3{
+    float: left;
+    margin-left: 30px;
+    line-height: 50px;
+    color: #f57e00;
+    font-size: 18px;
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    border-radius: 50%;
+    background: #fb4d06;
+}
+.pie_left, .pie_right {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;left: 0;
+}
+.left, .right {
+    display: block;
+    width:50px;
+    height:50px;
+    background:#e6e6e6;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transform: rotate(30deg);*/
+}
+.pie_right, .right {
+    clip:rect(0,auto,auto,35px);
+}
+.pie_left, .left {
+    clip:rect(0,35px,auto,0);
+}
+.mask {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+    background: #FFF;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+
+.jiudian-newslf{
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.daoyou-right .daoyou-work{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 24px;
+}
+.daoyou-right  .daoyou-yuyue{
+    margin-top: 40px;
+}
+
+.daoyou-right  .daoyou-yuyue .daoyou-yuyue1 p{
+    font-size: 14px;
+    line-height: 36px;
+
+}
+
+
+/*导游评论*/
+.menpiao .container .menpiao-box .men-li3 {
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid #e5e5e5;
+    padding-bottom: 40px;
+}
+.menpiao .container .menpiao-box .men-li3{
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid #e5e5e5;
+    padding-bottom: 40px;
+}
+
+.menpiao .container .menpiao-box .men-li3 .men-li3-title{
+    width: 100%;
+    height: 30px;
+    background-color: #66b8a1;
+    padding-left: 12px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.pingfen-x {
+    height: 60px;
+    width: 100%;
+    padding-left: 20px;
+    line-height: 60px;
+}
+.pingfen-x1 {
+    color: #f66320;
+    font-size: 16px;
+}
+
+.jiudian-pinglun .jiudian-pingluncont {
+    height: 50px;
+    background-color: #eeeeee;
+    line-height: 50px;
+}
+
+
+.pingfen-x{
+    height: 60px;
+    width: 100%;
+    padding-left: 20px;
+    line-height: 60px;
+}
+.pingfen-x1{
+    color: #f66320;
+    font-size: 16px;
+
+}
+.pingfen-x3{
+    margin-left: 120px;
+
+}
+.pingyu-tit{
+    width: 80px;
+    height: 20px;
+    padding: 4px;
+    border: 3px solid #ffebd8;
+    color: #fb5f2f;
+
+}
+
+.jiudian-pinglun .jiudian-pingluncont{
+    height: 50px;
+    background-color: #eeeeee;
+    line-height: 50px;
+}
+.jiudian-pinglun .jiudian-pingluncont .pingluncont1{
+    color: #f66320;
+    margin-left: 50px;
+
+}
+.jiudian-pinglun .jiudian-pingluncont .pingluncont2{
+    margin-left: 60px;
+
+}
+.jiudian-pinglun .jiudian-pingluncont .pinglun-check{
+    float: right;
+    margin-top: 16px;
+    margin-right: 26px;
+
+}
+
+
+/*酒店评论*/
+.jiudian-pinglunPeople{
+    border-top: 1px dashed #dddddd;
+
+    padding: 20px 20px 40px 30px;
+
+}
+.jiudian-pinglunPeople .jidian-pinglunImg{
+    float: left;
+    width: 70px;
+    text-align: center;
+}
+.jiudian-pinglunPeople .jidian-pinglunImg img{
+    /*display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;*/
+}
+.jidian-pinglunright{
+    float: left;
+    width: 980px;
+    padding-left: 30px;
+}
+
+.jidian-pinglunright .pinglunright-word p{
+    margin-top: 16px;
+    text-align: justify;
+
+}
+
+.pinglunright-img{
+    margin-top: 20px;
+}
+.pinglunright-img img{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+.huifu{
+    width: 100%;
+    line-height: 50px;
+    margin-top: 30px;
+    padding-left: 30px;
+    border-top: 1px solid #dbdbdb;
+
+
+}
+
+.jiudian-search .form-control1 .form-unit {
+    width: 200px;
+    height: 36px;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+}
+.daoyou-buy {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f57e00;
+    text-align: center;
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.daoyou-buy:hover {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f57e00;
+    text-align: center;
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+}
+

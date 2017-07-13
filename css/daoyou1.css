@@ -1,0 +1,56 @@
+.daoyou .daoyou-title{
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+
+}
+.daoyou .daoyou-title a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+}
+.daoyou .daoyou-title a:hover{
+    color: #027cc3;
+}
+
+.daoyou .col-md-2{
+		width: 20% !important;
+		padding-right: 0px;
+    	padding-left: 22px;
+    	height: 300px;
+}
+	
+.thumbnail {
+    	padding: 0px;
+    	margin-bottom: 30px;
+}
+.thumbnail a img{
+    	width: 210px;
+    	height: 200px;
+}	    
+.pingfen{
+	position: absolute;
+	background-color: #f57d00;
+	top: 3px;
+	right: 3px;
+	padding-left: 5px;
+}
+.fenshucolor{
+	font-family: "微软雅黑";
+	color: white;
+	margin-right: -5px;
+}
+.caption p{
+	font-family: "微软雅黑";
+	color: #666;
+}
+.caption .dyname{
+	font-size: 16px;
+}
+.caption .gxqm{
+	font-size: 12px;
+}
+.thumbnail .gudingfen{
+	font-size: 12px;
+	color: white;
+}

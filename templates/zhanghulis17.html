@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title></title>
+    <title>商品入库</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/zhanghu-1.css"/>
@@ -15,94 +15,187 @@
     <![endif]-->
 </head>
 <body>
+<div id="seller_shangpin" >
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active"id="home">
+            <div class="shangpin-addcont shangpin-addcontx ">
+                <div class="addcont-title">
+                    <span class="addcont-title1">商品编号</span>
+                    <span class="addcont-title2">商品名称</span>
+                    <span class="addcont-title3">价格（元）</span>
+                    <span class="addcont-title4">单位</span>
+                    <span class="addcont-title5">商品分类</span>
+                    <span class="addcont-title6">显示顺序</span>
+                    <span class="addcont-title7x">商品数量</span>
+                </div>
+                <div class="addcont-cont" id="chang">
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <!--<input type="text" class="addcont-cont7x"  value="1"/>-->
+                        <span class="addcont-cont7x">2</span>
+                        <button class="addcont-cont8x" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">入库</button>
+                       <!-- <a class="people-data-tel3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">修改</a>-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="exampleModalLabel">入库</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" class="form-horizontal">
+                                            <div class="hangpin-namex">
+                                                <span class="hangpin-namex1">商品名称:</span><span class="hangpin-namex2">酒</span>
+                                                <span class="hangpin-namex3">商品编号:</span><span class="hangpin-namex2">00001</span>
+                                            </div>
 
-<!--头部-->
-
-<!--头部区域-->
-<!--头部轮播图-->
-
-<!--景区门票-->
-
-<!--账户中心页面-->
-
-<!--左侧导航栏-->
-        <!--右侧内容-->
-
-            <div role="tabpanel" class="tab-pane" id="home1">
-                <div class="zhanghu-dingdan1">
-                    <div class="dingdan1-title">
-                        <span class="dingdan-1">订单号：</span>
-                        <span class="dingdan-2">88888888</span>
-                        <span class="dingdan-1">预定日期：</span>
-                        <span class="dingdan-4">2017-6-18</span>
-                    </div>
-                    <div class="dingdan1-cont">
-                        <span class="dingdan1-luxian">矮寨大桥日票+德了景区+缆车+过山车</span>
-                        <span class="dingdan1-piao">门票</span>
-                        <span class="dingdan1-name">小明</span>
-                        <span class="dingdan1-time">2017-4-18</span>
-                        <span class="dingdan1-Price">¥280</span>
-                        <div  class="dingdan1-zhuangtai">
-                            <p class="dingdan1-no">待付款</p>
-                            <a href="#">订单详情</a>
+                                            <div class="form-group form-2">
+                                                <label for="yanzhengma1" class="control-label form-2linx">入库数量:</label>
+                                                <input type="text" class=" form-control clearfix" id="yanzhengma1" placeholder="请输入入库数量"/>
+                                            </div>
+                                            <button type="submit" class="btn btn-default hangpin-btn">保存</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="zhanghu-dingdan1">
-                    <div class="dingdan1-title">
-                        <span class="dingdan-1">订单号：</span>
-                        <span class="dingdan-2">88888888</span>
-                        <span class="dingdan-1">预定日期：</span>
-                        <span class="dingdan-4">2017-6-18</span>
-                    </div>
-                    <div class="dingdan1-cont">
-                        <span class="dingdan1-luxian">矮寨大桥日票+德了景区+缆车+过山车</span>
-                        <span class="dingdan1-piao">门票</span>
-                        <span class="dingdan1-name">小明</span>
-                        <span class="dingdan1-time">2017-4-18</span>
-                        <span class="dingdan1-Price">¥280</span>
-                        <div  class="dingdan1-zhuangtai">
-                            <p class="dingdan1-no">待付款</p>
-                            <a href="#">订单详情</a>
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <span class="addcont-cont7x">2</span>
+                        <button class="addcont-cont8x" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">入库</button>
+                        <!-- <a class="people-data-tel3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">修改</a>-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="exampleModalLabel">入库</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" class="form-horizontal">
+                                            <div class="hangpin-namex">
+                                                <span class="hangpin-namex1">商品名称:</span><span class="hangpin-namex2">酒</span>
+                                                <span class="hangpin-namex3">商品编号:</span><span class="hangpin-namex2">00001</span>
+                                            </div>
+
+                                            <div class="form-group form-2">
+                                                <label for="yanzhengma1" class="control-label form-2linx">入库数量:</label>
+                                                <input type="text" class=" form-control clearfix" id="yanzhengma1" placeholder="请输入入库数量"/>
+                                            </div>
+                                            <button type="submit" class="btn btn-default hangpin-btn">保存</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-<!--账户订单-->
-                <div class="zhanghu-dingdan1">
-                    <div class="dingdan1-title">
-                        <span class="dingdan-1">订单号：</span>
-                        <span class="dingdan-2">88888888</span>
-                        <span class="dingdan-1">预定日期：</span>
-                        <span class="dingdan-4">2017-6-18</span>
-                    </div>
-                    <div class="dingdan1-cont">
-                        <span class="dingdan1-luxian">矮寨大桥日票+德了景区+缆车+过山车</span>
-                        <span class="dingdan1-piao">门票</span>
-                        <span class="dingdan1-name">小明</span>
-                        <span class="dingdan1-time">2017-4-18</span>
-                        <span class="dingdan1-Price">¥280</span>
-                        <div  class="dingdan1-zhuangtai">
-                            <p class="dingdan1-no">待付款</p>
-                            <a href="#">订单详情</a>
+
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                       <!-- <input type="text" class="addcont-cont7x"  value="1"/>-->
+                        <span class="addcont-cont7x">2</span>
+                        <button class="addcont-cont8x" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">入库</button>
+                        <!-- <a class="people-data-tel3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">修改</a>-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="exampleModalLabel">入库</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" class="form-horizontal">
+                                            <div class="hangpin-namex">
+                                                <span class="hangpin-namex1">商品名称:</span><span class="hangpin-namex2">酒</span>
+                                                <span class="hangpin-namex3">商品编号:</span><span class="hangpin-namex2">00001</span>
+                                            </div>
+
+                                            <div class="form-group form-2">
+                                                <label for="yanzhengma1" class="control-label form-2linx">入库数量:</label>
+                                                <input type="text" class=" form-control clearfix" id="yanzhengma1" placeholder="请输入入库数量"/>
+                                            </div>
+                                            <button type="submit" class="btn btn-default hangpin-btn">保存</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <nav aria-label="...">
-                    <ul class="pager">
-                        <li><a href="#">上一页</a></li>
-                        <li><a href="#">下一页</a></li>
-                    </ul>
-                </nav>
 
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <!--<input type="text" class="addcont-cont7x"  value="1"/>-->
+                        <span class="addcont-cont7x">2</span>
+                        <button class="addcont-cont8x" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">入库</button>
+                        <!-- <a class="people-data-tel3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">修改</a>-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="exampleModalLabel">入库</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" class="form-horizontal">
+                                            <div class="hangpin-namex">
+                                                <span class="hangpin-namex1">商品名称:</span><span class="hangpin-namex2">酒</span>
+                                                <span class="hangpin-namex3">商品编号:</span><span class="hangpin-namex2">00001</span>
+                                            </div>
+
+                                            <div class="form-group form-2">
+                                                <label for="yanzhengma1" class="control-label form-2linx">入库数量:</label>
+                                                <input type="text" class=" form-control clearfix" id="yanzhengma1" placeholder="请输入入库数量"/>
+                                            </div>
+                                            <button type="submit" class="btn btn-default hangpin-btn">保存</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
             </div>
-
-
+        </div>
+    </div>
+</div>
 
 
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
-<script src="../js/cropbox.js"></script>
+<script>
+    /*编辑按钮*/
+    $(".addcont-cont8").click(function(){
+        $('.addcont-cont7x').removeAttr("disabled");
+        $(".addcont-cont7x").addClass("addcont-cont7click");
+    });
+
+</script>
 </body>
 </html>

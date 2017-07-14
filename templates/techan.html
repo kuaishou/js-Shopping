@@ -5,17 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title></title>
+    <title>特产</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/jingqu.css"/>
     <style type="text/css">
-        body, html {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
-        #allmap{width:100%;height:500px;}
-        #r-result{width:100%;margin-top:5px;}
-        p{margin:5px; font-size:14px;}
+
     </style>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=D2d2d2a3b3b5405b6b74b49173fd899a"></script>
     <!--[if lt IE 9]>
     <script src="../lib/html5shiv/html5shiv.min.js"></script>
     <script src="../lib/respond/respond.min.js"></script>
@@ -77,75 +73,35 @@
 
         <a href="../index.html">首页</a>
         <span>></span>
-        <a href="jiudian.html">酒店</a>
+        <a href="techan.html">特产</a>
     </div>
 <!--景点介绍-->
-    <div class="jiudian-search">
-        <form action="" class="form-control1" method="get">
-                <label for="startDate" class="shangpin-label">入住</label>
-                <input class="form-unit form-date hasDatepicker" id="startDate" name="startDate"  placeholder="请输入开始日期" type="date">
-                <label for="endDate" class="shangpin-label">离店</label>
-                <input class="form-unit form-date hasDatepicker" id="endDate" name="endDate"  placeholder="请输入结束日期" type="date">
-            <input type="search" class="shangpin_seaech" id="shangpin_bianhao" placeholder="酒店名/位置/品牌">
-            <select class="shangpin-chang" name="">
-                <option  value="">酒店级别</option>
-                <option  value="">一星级</option>
-                <option  value="">二星级</option>
-                <option  value="">三星级</option>
-                <option  value="">四星级</option>
-                <option  value="">五星级</option>
-            </select>
-            <input type="submit" class="searchbutton" value="搜索"/>
-        </form>
-    </div>
-
-    <div class="jiudian-shunxu">
-        <ul class="nav nav-pills">
-            <li class="shunxu-lis active">默认排序</li>
-            <li class="shunxu-lis">好评<span class="glyphicon glyphicon-arrow-down"></span> </li>
-            <li class="shunxu-lis">人气<span class="glyphicon glyphicon-arrow-down"></span></li>
-            <li class="shunxu-lis">价格<span class="glyphicon glyphicon-arrow-up"></span></li>
-        </ul>
-    </div>
     <div class="jingqu-list">
-        <a href="jingqu-2more.html" target="_blank"><img class="pull-left" src="../img/jiudian1.jpg" alt=""/></a>
+        <a href="jingqu-2more.html" target="_blank"><img class="pull-left" src="../img/techan01.jpg" alt=""/></a>
         <div class="list-content pull-left">
             <div class="list-name">
-                <span class="list-tit">吉天大酒店</span>
-                <span class="jiudian-lei">豪华酒店</span>
+                <span class="list-tit">吉首猕猴桃</span>
+                <span class="jiudian-lei">已出售：20</span>
 
             </div>
 
             <div class="jiudian-weizi">
-                <span>位置：矮寨大桥禁区内</span>
-                    <button type="button" class="" data-toggle="modal" data-target=".bs-example-modal-lg">查看地图</button>
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="allmap" id="allmap"></div>
-                            </div>
-                        </div>
-                    </div>
+                <span>商品名称：吉首猕猴桃</span>
+
                 <div class="jiudian-star">
-                    <span>星级:</span>
-                    <img src="../img/star1.jpg" alt="酒店星级"/>
+                    <span>包装规格：10小包</span>
                 </div>
 
 
             </div>
             <div class="jiudian-pinglun">
-                <span>用户评分：</span>
-                <span class="pingfen-nub">4.5</span>
-                <span>/5</span>
-                <a href="jiudian-2more.html">18条用户评论</a>
-                <div class="wifi">
-                    <img src="../img/wifi.jpg" alt="酒店wifi"/>
-                </div>
+                <span>商品编号：</span>
+                <span>11111111</span>
             </div>
 
         </div>
-        <div class="list-buy">
-            <a class="mastbuy" href="jiudian-2more.html" target="_blank" target="_blank">点击预订</a>
+        <div class="techan-buy" id="techan-buy">
+            <a class="techanbuy" href="jiudian-2more.html" target="_blank" target="_blank">点击预订</a>
         </div>
     </div>
 

@@ -16,34 +16,77 @@
 </head>
 <body>
 
-<div role="tabpanel" class="tab-pane  active" id="xiaoxi">
-    <h4>系统消息</h4>
-    <div class="xiaoxi">
-        <div class="xiaoxi-title">
-                            <span class="xiaoxi-1">
-                                <input type="checkbox"  class="checkAll regular-checkbox">全选
-                                <a href="javascript">×删除</a>
-                            </span>
-            <span class="xiaoxi-2">主题</span>
-            <span class="xiaoxi-3">发送时间</span>
-            <span class="xiaoxi-4">操作</span>
-        </div>
-        <div class="xiaoxi1-cont">
-                            <span class="xiaoxi1-ipt">
-                                <input type="checkbox" id="check1" class="checkAll regular-checkbox">
-                            </span>
-            <span class="xiaoxi1-zhu"><a href="#">优惠券到期提醒</a></span>
-            <span class="xiaoxi1-time">2017-4-18</span>
-            <span class="xiaoxi1-delt"><a href="#">删除</a></span>
-        </div>
+<div id="seller_shangpin">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="tablist-small  active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">全部商品</a></li>
+        <li role="presentation" class="tablist-small "><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">商品分类</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active"id="home">
+            <form action="" method="get">
+                <label class="shangpin-label">商品状态</label>
+                <select class="shangpin-chang" name="">
+                    <option value="0">请选择商品状态</option>
+                    <option value="1">上架</option>
+                    <option value="2">下架</option>
+                </select>
+                <label for="shangpin_name" class="shangpin-label">商品名称</label>
+                <input type="search" class="form-control shangpin_seaech" id="shangpin_name" placeholder="请输入商品名称...">
+                <input type="button" class="button clearfix" value="搜索"/>
 
-        <div class="xiaoxi1-cont">
-                            <span class="xiaoxi1-ipt">
-                                <input type="checkbox" id="check1" class="checkAll regular-checkbox">
-                            </span>
-            <span class="xiaoxi1-zhu"><a href="#">优惠券到期提醒</a></span>
-            <span class="xiaoxi1-time">2017-4-18</span>
-            <span class="xiaoxi1-delt"><a href="#">删除</a></span>
+                <a href="addshangpin.html" target="_top" class="shangpin-add">+添加商品</a>
+            </form>
+            <div class="shangpin-addcont">
+                <div class="addcont-title">
+                    <span class="addcont-title1">商品编号</span>
+                    <span class="addcont-title2">商品名称</span>
+                    <span class="addcont-title3">价格（元）</span>
+                    <span class="addcont-title4">单位</span>
+                    <span class="addcont-title5">商品分类</span>
+                    <span class="addcont-title6">显示顺序</span>
+                    <span class="addcont-title7">操作</span>
+                </div>
+                <div class="addcont-cont" id="chang">
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <a href="editshangpin.html" target="_top" class="addcont-cont7">编辑</a>
+                        <button class="addcont-cont8" id="bm1">上架</button>
+                        <button class="addcont-cont9" id="bm2">下架</button>
+                    </div>
+
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <a href="editshangpin.html" target="_top" class="addcont-cont7">编辑</a>
+                        <button class="addcont-cont8" id="bm1">上架</button>
+                        <button class="addcont-cont9" id="bm2">下架</button>
+                    </div>
+
+                    <div class="addcont-contline">
+                        <span class="addcont-cont1">1000001</span>
+                        <span class="addcont-cont2">米酒hhh</span>
+                        <span class="addcont-cont3">288.00</span>
+                        <span class="addcont-cont4">个</span>
+                        <span class="addcont-cont5">特产、饮料</span>
+                        <span class="addcont-cont6">1</span>
+                        <a href="editshangpin.html" target="_top" class="addcont-cont7">编辑</a>
+                        <button class="addcont-cont8" id="bm1">上架</button>
+                        <button class="addcont-cont9" id="bm2">下架</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+            szdzdzdzdzdzdzdzdzdzdzdzdzdzdzdzdzdf
         </div>
     </div>
 </div>
@@ -52,6 +95,5 @@
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
-<script src="../js/cropbox.js"></script>
 </body>
 </html>

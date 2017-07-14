@@ -1,11 +1,8 @@
 @charset "UTF-8";
 
 
-
-
-.jingqu{
-
-
+.jingqu {
+    margin-bottom: 70px;
 }
 
 .jingqu .jingqu-title{
@@ -257,5 +254,29 @@
 }
 
 
+/*特产页面*/
 
+.techan-buy{
+    float: right;
+    width: 260px;
+    height: 56px;
+    margin-right: 20px;
+    margin-top: 0px;
+    border: 1px solid #a6a6a6;
+    line-height: 56px;
+}
+/*
+.jingqu .techanbuy{
+    display: block;
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f57e00;
+    color: #ffffff;
+}*/
 

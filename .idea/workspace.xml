@@ -3,36 +3,19 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/../dsht/index.html" line="169" />
     <bookmark url="file://$PROJECT_DIR$/templates/daoyou.html" line="106" />
+    <bookmark url="file://$PROJECT_DIR$/css/jingqu-more.css" line="924" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1736b96b-6d5f-48b4-a7ff-f53077476327" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/techan.css" />
-      <change type="DELETED" beforePath="C:\Users\fw\Desktop\aaa\css\a2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fw\Desktop\aaa\css\a3圆形进度条.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fw\Desktop\aaa\templates\zhanghulis19.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/addshangpin.html" afterPath="$PROJECT_DIR$/templates/addshangpin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/editshangpin.html" afterPath="$PROJECT_DIR$/templates/editshangpin.html" />
+      <change type="DELETED" beforePath="C:\Users\fw\Desktop\aaa\images\更多特产_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fw\Desktop\aaa\images\更多特产_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fw\Desktop\aaa\images\更多特产_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\fw\Desktop\aaa\images\更多特产_05.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/daoyou.css" afterPath="$PROJECT_DIR$/css/daoyou.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jingqu-more.css" afterPath="$PROJECT_DIR$/css/jingqu-more.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jingqu.css" afterPath="$PROJECT_DIR$/css/jingqu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/image-upload/style.css" afterPath="$PROJECT_DIR$/lib/image-upload/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/techan.html" afterPath="$PROJECT_DIR$/templates/techan.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/zhanghu-1.css" afterPath="$PROJECT_DIR$/css/zhanghu-1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis10.html" afterPath="$PROJECT_DIR$/templates/zhanghulis10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis11.html" afterPath="$PROJECT_DIR$/templates/zhanghulis11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis12.html" afterPath="$PROJECT_DIR$/templates/zhanghulis12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis13.html" afterPath="$PROJECT_DIR$/templates/zhanghulis13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis14.html" afterPath="$PROJECT_DIR$/templates/zhanghulis14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis15.html" afterPath="$PROJECT_DIR$/templates/zhanghulis15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis16.html" afterPath="$PROJECT_DIR$/templates/zhanghulis16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis17.html" afterPath="$PROJECT_DIR$/templates/zhanghulis17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis2.html" afterPath="$PROJECT_DIR$/templates/zhanghulis2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis3.html" afterPath="$PROJECT_DIR$/templates/zhanghulis3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis4-1.html" afterPath="$PROJECT_DIR$/templates/zhanghulis4-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis7.html" afterPath="$PROJECT_DIR$/templates/zhanghulis7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis8.html" afterPath="$PROJECT_DIR$/templates/zhanghulis8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/zhanghulis9.html" afterPath="$PROJECT_DIR$/templates/zhanghulis9.html" />
     </list>
     <ignored path="aaa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,103 +36,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="daoyou-dingdan.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/daoyou-dingdan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.84375">
-              <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="105" column="18" selection-start-line="97" selection-start-column="11" selection-end-line="105" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dingzhi.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dingzhi.html">
+      <file leaf-file-name="jingqu-2more.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/jingqu-2more.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.78125">
-              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addshangpin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/addshangpin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.53125">
-              <caret line="223" column="30" selection-start-line="207" selection-start-column="23" selection-end-line="223" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editshangpin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/editshangpin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.125">
-              <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+            <state vertical-scroll-proportion="-30.46875">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="techan.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/techan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.9375">
-              <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jingqu.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/jingqu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72098213">
-              <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="techan.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/techan.css">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="79" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zhanghu-1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/zhanghu-1.css">
+      <file leaf-file-name="techan-2more.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/techan-2more.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1374" column="24" selection-start-line="1374" selection-start-column="24" selection-end-line="1374" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.6076389">
+              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/image-upload/style.css">
+      <file leaf-file-name="jiudian-2more.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/jiudian-2more.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+              <caret line="279" column="14" selection-start-line="279" selection-start-column="14" selection-end-line="279" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jingqu-more.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/jingqu-more.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="435" column="20" selection-start-line="435" selection-start-column="20" selection-end-line="435" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://D:/360极速浏览器下载/webuploader-0.1.5/examples/image-upload/index.html">
+        <entry file="file://$PROJECT_DIR$/../monitor/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.84375">
-              <caret line="29" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
+            <state vertical-scroll-proportion="-11.435484">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../monitor/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -171,15 +134,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../dsht/templates/dshtlis4-2.html" />
-        <option value="$PROJECT_DIR$/../dsht/css/inframe.css" />
-        <option value="$PROJECT_DIR$/../dsht/templates/dshtlis5.html" />
-        <option value="$PROJECT_DIR$/../dsht/templates/dshtlis4.html" />
-        <option value="$PROJECT_DIR$/../dsht/css/main.css" />
-        <option value="$PROJECT_DIR$/../dsht/index.html" />
-        <option value="D:/360极速浏览器下载/jquery单选复选框/index.html" />
         <option value="$PROJECT_DIR$/../代码/工程/05 代码/静态页面/main.js" />
-        <option value="$PROJECT_DIR$/css/jingqu-more.css" />
         <option value="$PROJECT_DIR$/../代码/工程/05 代码/静态页面/dsht/img/login.css" />
         <option value="$PROJECT_DIR$/../代码/工程/05 代码/静态页面/dsht/css/main.css" />
         <option value="$PROJECT_DIR$/../代码/工程/05 代码/静态页面/dsht/templates/denglu.html" />
@@ -191,7 +146,6 @@
         <option value="$PROJECT_DIR$/templates/zhanghulis4.html" />
         <option value="$PROJECT_DIR$/templates/denglu.html" />
         <option value="$PROJECT_DIR$/templates/aaa0.html" />
-        <option value="$PROJECT_DIR$/css/daoyou.css" />
         <option value="$PROJECT_DIR$/templates/daoyou.html" />
         <option value="$PROJECT_DIR$/css/jingqu-3dingdan.css" />
         <option value="$PROJECT_DIR$/css/pinglun.css" />
@@ -212,16 +166,25 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/templates/zhanghulis3.html" />
-        <option value="$PROJECT_DIR$/../money/css/main.css" />
-        <option value="$PROJECT_DIR$/../money/index.html" />
         <option value="$PROJECT_DIR$/templates/addshangpin.html" />
         <option value="$PROJECT_DIR$/lib/image-upload/style.css" />
         <option value="$PROJECT_DIR$/css/zhanghu-1.css" />
         <option value="$PROJECT_DIR$/templates/editshangpin.html" />
         <option value="$PROJECT_DIR$/templates/zhanghulis4-1.html" />
         <option value="$PROJECT_DIR$/css/techan.css" />
-        <option value="$PROJECT_DIR$/templates/techan.html" />
         <option value="$PROJECT_DIR$/css/jingqu.css" />
+        <option value="$PROJECT_DIR$/templates/techan.html" />
+        <option value="$PROJECT_DIR$/../money/index.html" />
+        <option value="$PROJECT_DIR$/../money/css/main.css" />
+        <option value="$PROJECT_DIR$/css/daoyou.css" />
+        <option value="$PROJECT_DIR$/../money00/css/main.css" />
+        <option value="$PROJECT_DIR$/../money00/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/templates/techan-2more.html" />
+        <option value="$PROJECT_DIR$/css/jingqu-more.css" />
+        <option value="D:/anli/H5 CANVAS/01Konva库封装一个进度条的案例.html" />
+        <option value="$PROJECT_DIR$/../monitor/css/main.css" />
+        <option value="$PROJECT_DIR$/../monitor/index.html" />
       </list>
     </option>
   </component>
@@ -351,7 +314,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -394,84 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../dsht/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6527778">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dsht/templates/dshtlis5-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dsht/templates/dshtlis4-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6875">
-          <caret line="161" column="26" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jingqu-more.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="761" column="34" selection-start-line="761" selection-start-column="34" selection-end-line="761" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aaa0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5625">
-          <caret line="16" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/denglu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-52.34375">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/daoyou.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="296" column="17" selection-start-line="296" selection-start-column="17" selection-end-line="296" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jingqu-3dingdan.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5535714">
-          <caret line="653" column="22" selection-start-line="653" selection-start-column="22" selection-end-line="653" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/yanzheng.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5625">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27455357">
-          <caret line="126" column="24" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/pinglun.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="24" selection-start-line="162" selection-start-column="24" selection-end-line="162" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/zhanghulis4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-35.03125">
@@ -514,24 +399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/daoyou-dingdan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0625">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/jiaotong.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.625">
           <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jingqu-2more.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5625">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -567,13 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.03125">
           <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jiudian-2more.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.90625">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -626,18 +490,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="220" column="17" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/zhanghulis3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5625">
           <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/daoyou1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/daoyoulist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.84375">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/image-upload/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/zhanghulis4-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4050926">
+          <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addshangpin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.53125">
+          <caret line="223" column="30" selection-start-line="207" selection-start-column="23" selection-end-line="223" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editshangpin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.125">
+          <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/techan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jingqu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="313" column="0" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../money/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="1" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../money/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.099537">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../money00/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../money00/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83258927">
+          <caret line="231" column="1" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/techan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="231" column="16" selection-start-line="231" selection-start-column="16" selection-end-line="231" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6417411">
+          <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/daoyou.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1953125">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/zhanghu-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1374" column="24" selection-start-line="1374" selection-start-column="24" selection-end-line="1374" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -649,126 +633,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/daoyou1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/daoyoulist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../money/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../money/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="111" selection-start-line="82" selection-start-column="111" selection-end-line="82" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.84375">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/360极速浏览器下载/webuploader-0.1.5/examples/image-upload/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.84375">
-          <caret line="29" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/image-upload/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/zhanghulis4-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4050926">
-          <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/dingzhi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.78125">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/daoyou-dingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="18" selection-start-line="97" selection-start-column="11" selection-end-line="105" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/addshangpin.html">
+    <entry file="file://$PROJECT_DIR$/css/jingqu-more.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.53125">
-          <caret line="223" column="30" selection-start-line="207" selection-start-column="23" selection-end-line="223" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="435" column="20" selection-start-line="435" selection-start-column="20" selection-end-line="435" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/editshangpin.html">
+    <entry file="file://$PROJECT_DIR$/templates/jiudian-2more.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.125">
-          <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="279" column="14" selection-start-line="279" selection-start-column="14" selection-end-line="279" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anli/H5 CANVAS/01Konva库封装一个进度条的案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.75">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../无响应aa/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49189815">
+          <caret line="149" column="23" selection-start-line="146" selection-start-column="4" selection-end-line="149" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325893">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monitor/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monitor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.435484">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jingqu-2more.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.46875">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/zhanghu-1.css">
+    <entry file="file://$PROJECT_DIR$/templates/techan-2more.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1374" column="24" selection-start-line="1374" selection-start-column="24" selection-end-line="1374" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/techan.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/techan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.9375">
-          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jingqu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72098213">
-          <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.6076389">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
           <folding />
         </state>
       </provider>

@@ -274,7 +274,7 @@ body{
 .pro-body-des-con span{
     float:left;
 }
-#jian1{
+.jian{
     width:32px;
     height:20px;
     text-align: center;
@@ -284,7 +284,17 @@ body{
     border:1px solid #ccc;
     cursor: pointer;
 }
-#jian2{
+.jian1{
+    width:32px;
+    height:20px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 26px;
+    background-color:#efefef;
+    border:1px solid #ccc;
+    cursor: pointer;
+}
+.jian2{
     width:32px;
     height:20px;
     text-align: center;
@@ -294,7 +304,16 @@ body{
     border:1px solid #ccc;
     cursor: pointer;
 }
-#shu{
+.shu11{
+    display:block;
+    width:96px;
+    height:20px;
+    background-color:#fff;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    text-align:center;
+}
+.shu{
     display:block;
     width:32px;
     height:20px;
@@ -303,7 +322,7 @@ body{
     border-bottom:1px solid #ccc;
     text-align:center;
 }
-#jia{
+.jia{
     width:32px;
     height:20px;
     text-align: center;
@@ -366,6 +385,7 @@ body{
     border: 1px solid #e5e5e5;
     padding-bottom: 40px;
 }
+
 .menpiao .container .menpiao-box .men-li3 .men-li3-title{
     width: 100%;
     height: 30px;
@@ -408,8 +428,6 @@ body{
     color: #ffffff;
     line-height: 30px;
 }
-
-
 .menpiao .container .menpiao-box .men-li4 .men-li4-content{
     padding: 14px;
     width: 100%;
@@ -761,4 +779,174 @@ body{
     padding-left: 30px;
     border-top: 1px solid #dbdbdb;
 }
+
+
+/*特产页面*/
+.positionwordx{
+    margin-left: 40px;
+    text-decoration: line-through;
+}
+.positionwordn{
+    margin-left: 40px;
+}
+
+.techan-nmb{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #ff0135;
+}
+
+.positionx{
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.techan-newsx{
+    width: 670px;
+    height: 42px;
+    margin-top: 30px;
+    padding-top: 4px;
+    border-top: 1px dashed #d2d2d2;
+    border-bottom: 1px dashed #d2d2d2;
+}
+
+.techan-newsx .techan-newslfx{
+    float: left;
+    width: 196px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px dashed #d2d2d2;
+}
+
+.techan-newsx .techan-newslfx2{
+color: #fe0235;
+}
+.techan-newsx .techan-nubx{
+    width: 194px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.techan-kuchun{
+    height: 32px;
+    margin-top: 20px;
+}
+
+.techan-kuchun .techan-kuchun1{
+    float: left;
+    width: 80px;
+    height: 32px;
+    margin-top: 14px;
+    line-height: 32px;
+}
+
+.techan-kuchun .techan-kuchun2{
+    display: inline-block;
+    height: 32px;
+    margin-left: 30px;
+    margin-top: 14px;
+    line-height: 32px;
+}
+
+#techan-kuchun2{
+
+}
+
+#techan-kuchun2 .shux{
+    float: left;
+    display: block;
+    width: 42px;
+    height: 32px;
+    border: 1px solid #666666;
+}
+
+#techan-kuchun2 .techan-kuchun2box{
+    float: left;
+}
+#techan-kuchun2 .shux{
+    display: block;
+    width: 42px;
+    height: 32px;
+    border: 1px solid #666666;
+}
+.techan-content {
+    width: 660px;
+    margin-left: 56px;
+}
+.techan-content .techan-name{
+    font-size: 26px;
+    line-height: 50px;
+    font-family: Microsoft Yahei;
+}
+
+.techan-buymast{
+    width: 650px;
+    margin-top: 50px;
+}
+
+.techan-buymast .techan-buy1{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    margin-left: 80px;
+    line-height: 40px;
+    text-align: center;
+    color: #fe2447;
+    background-color: #ffeded;
+    text-decoration: none;
+    border: 1px solid #f47d00;
+}
+
+.techan-buymast .techan-cart{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #f57e00;
+    text-decoration: none;
+}
+
+.techan-buymast .techan-cart span{
+    line-height: 40px;
+    color: #fff;
+}
+
+.techan-title{
+    height: 56px;
+    line-height: 56px;
+}
+.men-li1-content tr{
+    height: 56px;
+    line-height: 56px;
+}
+.men-li1-content .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+     padding: 0px;
+     line-height:56px;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+    height: 56px;
+    line-height: 56px;
+}
+.techan-title1{
+    text-align: center;
+}
+.menpiao .container .menpiao-box .techan-lis1 {
+    margin-top: 40px;
+    border: none;
+}
+.techan-img{
+    display: block;
+    margin: 0 auto;
+
+}
+
 

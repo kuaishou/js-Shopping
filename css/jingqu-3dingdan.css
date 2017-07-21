@@ -663,4 +663,296 @@ body{
 }
 
 
+/*特产订单页面*/
+
+.techan-dingdan{
+
+}
+
+.techan-dingdan .address{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1000px;
+    height: 90px;
+    border: 1px solid #dddddd;
+}
+.techan-dingdan .address h4{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 16px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+
+
+}
+
+.techan-dingdan .address .address1{
+    height: 60px;
+    line-height: 60px;
+    padding-left: 16px;
+}
+.techan-dingdan .address .address1 a{
+    float: right;
+    margin-right: 20px;
+    color: #007cc2;
+}
+
+.techan-dingdan .dingdian-cont{
+
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #dddddd;
+}
+.techan-dingdan .dingdian-cont h4{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 16px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+.techan-dingdan .dingdian-cont .dingdan-shop{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 20px;
+}
+.techan-dingdan .dingdian-cont .dingdan-shop .dingdan-shoptitle{
+    height: 38px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+.techan-dingdan .dingdian-cont .dingdan-shopcont1{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.techan-dingdan .dingdian-cont .dingdan-shopcont2{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #dddddd;
+}
+.techan-dingdan .dingdian-cont ul li{
+    float: left;
+}
+.techan-dingdan .dingdian-cont ul .shop-tit1{
+    width: 360px;
+    text-align: center;
+}
+.techan-dingdan .dingdian-cont ul .shop-tit1 .shop-tit1-1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.techan-dingdan .dingdian-cont ul .shop-tit1 .shop-tit1-2{
+    float: left;
+    width: 220px;
+    line-height: 24px;
+    margin-left: 40px;
+    margin-top: 16px;
+    text-align: left;
+}
+
+
+.techan-dingdan .dingdian-cont ul .shop-tit2{
+    width: 150px;
+    text-align: center;
+}
+.techan-dingdan .dingdian-cont ul .shop-tit3{
+    width: 120px;
+    text-align: center;
+}
+.techan-dingdan .dingdian-cont ul .shop-tit4{
+    width: 150px;
+    text-align: center;
+}
+.techan-dingdan .dingdian-cont ul .shop-tit5{
+    width: 200px;
+    text-align: center;
+}
+.techan-dingdan .dingdian-cont ul .shop-tit5 p{
+    width: 100%;
+    height: 100%;
+    color: #f68826;
+    border-left: 1px solid #dddddd;
+}
+/*付款*/
+.techan-dingdan .shop-buy{
+    width: 1000px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #f3f3f3;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.techan-dingdan .shop-buy .realymoney1{
+    height: 66px;
+    line-height: 66px;
+
+}
+
+.techan-dingdan .shop-buy .realymoney1 .realymoney-nub{
+    font-size: 20px;
+    color: #f57d02;
+}
+.techan-dingdan .shop-buy  .realymoneytitle{
+    font-weight: 600;
+}
+.techan-dingdan .shop-buy .realymoney2{
+    height: 34px;
+    line-height: 34px;
+}
+.techan-dingdan .shop-buy .realymoney3{
+    height: 34px;
+    line-height: 34px;
+}
+
+.techan-dingdan .shop-button{
+    width: 1000px;
+    height: 40px;
+    margin: 12px auto 50px;
+}
+.techan-dingdan .shop-button a{
+    float: right;
+    width: 140px; ;
+    height: 40px;
+    line-height: 40px; ;
+    text-align: center;
+    color: #fff;
+    background-color: #f57e00;
+    text-decoration: none;
+}
+
+/*特产支付订单情页*/
+.tcdingdan-details{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+}
+.tcdingdan-details h4{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 16px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+.tcdingdan-details ul{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.tcdingdan-details ul li{
+    line-height: 28px;
+    padding-left: 16px;
+}
+
+
+.tcdingdan-details1{
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+}
+
+.tcdingdan-details1 .dingdan-shopcont .dingdan-shopcont1{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:1px solid #dddddd;;
+}
+.tcdingdan-details1 .dingdan-shopcont .dingdan-shopcont2{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+.tcdingdan-details1 .dingdan-shopcont ul li{
+    float: left;
+}
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit1{
+    width: 360px;
+    text-align: center;
+}
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit1 .shop-tit1-1{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit1 .shop-tit1-2{
+    float: left;
+    width: 220px;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-top: 16px;
+    text-align: left;
+}
+
+
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit2{
+    width: 150px;
+    text-align: center;
+}
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit3{
+    width: 120px;
+    text-align: center;
+}
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit4{
+    width: 150px;
+    text-align: center;
+}
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit5{
+    width: 200px;
+    text-align: center;
+}
+.tcdingdan-details1 .dingdan-shopcont ul .shop-tit5 p{
+    width: 100%;
+    height: 100%;
+    color: #f68826;
+}
+
+/*结算金额信息*/
+.tcdingdan-details2{
+    width: 1000px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: right;
+    padding: 20px;
+    padding-right: 50px;
+    background-color: #f3f3f3;
+
+}
+.tcdingdan-details2 .money1 span{
+    font-size: 12px;
+    line-height: 30px;
+
+}
+.tcdingdan-details2 .onebottomx{
+    margin-bottom: 10px;
+}
+.tcdingdan-details2 .money2 span{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+
+}
+.tcdingdan-details2 .money1-title1{
+    margin-right: 80px;
+}
+
+
+/*酒店订单详情*/
+
+.dingdan ul li{
+    line-height: 26px;
+    padding-left: 120px;
+}
+
+
 

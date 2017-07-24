@@ -409,3 +409,17 @@ body{
     margin-top: 30px;
 }
 
+/*¹ºÎï³µ¸úËæ*/
+
+
+.buyCart{
+    width: 36px;
+    height: 120px;
+    position: absolute;
+    top: 600px;
+    right: 100px;
+  /*  background-color:#e27900 ;*/
+}
+.buyCart a img{
+    margin-top: 2px;
+}

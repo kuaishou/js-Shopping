@@ -7,6 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title>订单信息</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-datepicker3.min.css">
+
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/jingqu-3dingdan.css"/>
     <!--[if lt IE 9]>
@@ -71,7 +73,7 @@
         <span class="dingdan-name">矮寨大桥日票</span>
         <span class="dingdan-nab">5</span>
         <span class="dingdan-zhang">张</span>
-        <input class="dingdan-time" type="date" value="请选择日期" />
+        <input class="dingdan-time form-date " type="text" value="" />
         <span class="dingdan-danjia1">¥280.</span>
         <span class="dingdan-danjia2">00</span>
         <span>/张/人</span>
@@ -144,8 +146,6 @@
                 <!--<input type="submit" id="submit"/>-->
                 <a href="jingqu-4zhifu.html" id="submit" target="_blank"> 立即支付</a>
             </div>
-
-
     </div>
 </section>
 
@@ -214,7 +214,16 @@
 </footer>
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.zh-CN.min.js"></script>
 <script src="../js/main.js"></script>
 <script src="../js/yanzheng.js" ></script>
+<script>
+
+    $('.form-date').datepicker({
+        todayHighlight: true,
+        language: "zh-CN"
+    });
+</script>
 </body>
 </html>

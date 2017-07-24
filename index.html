@@ -447,8 +447,73 @@
     </div>
     </div>
 </footer>
+
+
+<div class="pos-box buyCart" id="pic">
+    <a href="templates/cart.html"><img src="img/postion01.jpg" alt="购物车"/></a>
+    <a href="templates/cart.html"><img src="img/postion02.jpg" alt="购物车"/></a>
+    <button id="goTopBtn">
+    <img src="img/postion03.jpg" alt="购物车"/>
+</button>
+
+
+</div>
+
 <script src="lib/jquery/jquery.js"></script>
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <script src="js/main.js"></script>
+<script>
+    window.onload=function(){
+    function scroll() {
+        if(window.pageYOffset != null)  //  ie9+ 和其他浏览器
+        {
+            return {
+                left: window.pageXOffset,
+                top: window.pageYOffset
+            }
+        }
+        else if(document.compatMode == "CSS1Compat")  // 声明的了 DTD
+        // 检测是不是怪异模式的浏览器 -- 就是没有 声明<!DOCTYPE html>
+        {
+            return {
+                left: document.documentElement.scrollLeft,
+                top: document.documentElement.scrollTop
+            }
+        }
+        return { //  剩下的肯定是怪异模式的
+            left: document.body.scrollLeft,
+            top: document.body.scrollTop
+        }
+    };
+
+    var pic =document.getElementById("pic");
+    var leader = 0;
+    var target = 0;
+    var timer = null;  // 定时器
+     var top=pic.offsetTop;
+    window.onscroll = function() {
+        clearInterval(timer);
+        target = scroll().top + top;  // 把最新的 scrolltop 给  target
+        timer = setInterval(function() {
+            leader = leader + (target - leader ) / 10;
+            pic.style.top = leader + 'px';
+        },30)
+    }
+/*返回顶部*/
+        $(window).scroll(function(){
+            var sc=$(window).scrollTop();
+            var rwidth=$(window).width();
+            if(sc>0){
+                $("#goTopBtn").css("display","block");
+                $("#goTopBtn").css("left",(rwidth-36)+"px")
+            }else{
+                $("#goTopBtn").css("display","none");
+            }  }) ;
+        $("#goTopBtn").click(function(){
+            var sc=$(window).scrollTop();
+            $('body,html').animate({scrollTop:0},500);  })
+
+    }
+</script>
 </body>
 </html>

@@ -343,9 +343,16 @@
 
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.zh-CN.min.js"></script>
 <script src="../js/main.js"></script>
 <script>
       $(document).ready(function(){
+          $('.hasDatepicker').datepicker({
+              todayHighlight: true,
+              language: "zh-CN"
+          });
+
           $(".shunxu-lis").eq(
                   $(".shunxu-lis").on('click',function(){
                       $(".shunxu-lis").removeClass("active")
@@ -353,7 +360,7 @@
                   })
           )
 
-          var ddd = new Date();
+         /* var ddd = new Date();
           var day =ddd.getDate();
           var day1=day+1;
 
@@ -373,7 +380,7 @@
           var dateend=dateend.toString();
           $("#startDate").val(datew);
           $("#endDate").val(dateend);
-
+*/
 // 百度地图API功能
           var map = new BMap.Map('allmap');
           map.addControl(new BMap.NavigationControl());

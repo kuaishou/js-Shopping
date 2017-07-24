@@ -7,6 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title></title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-datepicker3.min.css">
+
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/jingqu-more.css"/>
     <!--[if lt IE 9]>
@@ -156,6 +158,22 @@
         <div class="men men-li1 clearfix">
 
             <div class="jiudian-search">
+
+             <!--   <form class="form-inline">
+                    <div class="form-group">
+                        <label for="startDate">入住</label>
+                       &lt;!&ndash; <input type="date" class="form-control" id="exampleInputName2" placeholder="Jane Doe">&ndash;&gt;
+                        <input class="form-control form-unit form-date hasDatepicker" id="startDate " name="startDate" value="2017-05-26" placeholder="请输入开始日期" type="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail2">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                    </div>
+                    <input size="16" type="text" value="2012-06-15 14:45" readonly class="form_datetime">
+
+
+                    <button type="submit" class="btn btn-default">Send invitation</button>
+                </form>-->
                 <form action="" class="form-control1" method="get" name="formtime">
                     <label for="startDate" class="shangpin-label">入住</label>
                     <input class="form-unit form-date hasDatepicker" id="startDate" name="startDate" value="2017-05-26" placeholder="请输入开始日期" type="date">
@@ -247,8 +265,6 @@
                         <span class="jiudian-pro pro-text-3">无早餐</span>
                         <span class="jiudian-pro pro-text-4">188/间</span>
                         <span class="jiudian-pro pro-text-5">288/间</span>
-
-
                         <div class="pro-body-des-con">
                             <span id="jian1" class="jian">-</span>
                             <span id="shu" class="shu">0</span>
@@ -403,12 +419,7 @@
                                 <span>商家回复:</span>
                                 <span>感谢您的支持，我们会更加努力哒</span>
                             </div>
-
-
-
                         </div>
-                        
-                        
                     </div>
 
                     <div class="jiudian-pinglunPeople clearfix">
@@ -437,13 +448,7 @@
                                 <img src="../img/jiudian-pinglunimg1.jpg" alt=""/>
                                 <img src="../img/jiudian-pinglunimg1.jpg" alt=""/>
                             </div>
-                            
-
-
-
                         </div>
-
-
                     </div>
 
                     <div class="jiudian-pinglunPeople clearfix">
@@ -462,17 +467,8 @@
                                     老板服务态度很好，很热情。酒店很卫生。性价比很高。风景如画；美美哒。
                                 </p>
                             </div>
-
-
-
                         </div>
-
-
                     </div>
-                    
-                    
-                    
-
                 </div>
             </div>
       </div>
@@ -546,9 +542,18 @@
 </footer>
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.zh-CN.min.js"></script>
 <script src="../js/main.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
+
+        $('.form-date').datepicker({
+            todayHighlight: true,
+            language: "zh-CN"
+        });
+
+                $(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii'});
         $(function () {
             $('.circle').each(function (index, el) {
                 var num = $(this).find('span').text() * 3.6;

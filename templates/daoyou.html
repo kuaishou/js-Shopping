@@ -7,6 +7,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title></title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-datepicker3.min.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/daoyou.css"/>
     <!--[if lt IE 9]>
@@ -21,19 +22,17 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 ">吉首电子商务欢迎您</div>
-            <div class="col-md-2 ">客服电话:400888888</div>
-
-            <div class="col-md-4 ">
+            <div class="col-md-4 ">吉首电子商务欢迎您</div>
+            <div class="col-md-3 ">客服电话:400888888</div>
+            <div class="col-md-5 ">
+                <a href="cart.html " class="btn btn-link">购物车</a>
+                <a href="#">欢迎：18575699888</a>
                 <a href="zhanghu-1.html " class="btn btn-link">个人中心</a>
-                <a href="#">收藏</a>
-                <a href="zhuche.html" class="btn btn-link ">注册</a>
-                <a href="denglu.html" class="btn btn-link ">登录</a>
+                <a href="" class="btn btn-link">退出</a>
             </div>
         </div>
 
     </div>
-
 </header>
 <!--头部区域-->
 <!--头部轮播图-->
@@ -43,13 +42,14 @@
         <div class="container">
             <a href="../index.html"><img src="../img/logo.jpg" alt=""/></a>
             <ul class="navs">
+
                 <li ><a href="jingqu.html">景区</a></li>
                 <li ><a href="jiudian.html">酒店</a></li>
-                <li ><a href="#">特产</a></li>
-                <li ><a href="#">美食</a></li>
-                <li ><a href="#">票务</a></li>
+                <li ><a href="techan.html">特产</a></li>
+                <li class="diangzhitable" ><a href="dingzhi.html">行程定制</a></li>
+                <li class="diangzhitable" ><a href="daoyoulist.html">预约导游</a></li>
+                <li ><a href="meishi.html">美食</a></li>
             </ul>
-
             <!--搜索框-->
             <form class="nav-search">
                 <input type="search" class="nav-search-ipt" placeholder="请输入搜索内容...">
@@ -114,10 +114,10 @@
                <div class="daoyou-yuyue2">
                      <div class="jiudian-search">
                          <form action="" class="form-control1" method="get" name="formtime">
-                             <label for="startDate" class="shangpin-label">开始日期</label>
-                             <input class="form-unit form-date hasDatepicker" id="startDate" name="startDate" type="date">
+                             <label for="startDate" class="shangpin-label ">开始日期</label>
+                             <input class="form-unit form-date hasDatepicker form-controlstart" id="startDate" name="startDate" type="text" >
                              <label for="endDate" class="shangpin-label">结束日期</label>
-                             <input class="form-unit form-date hasDatepicker" id="endDate" name="endDate"  type="date">
+                             <input class="form-unit form-date hasDatepicker form-controlend" id="endDate" name="endDate"  type="text">
                              <a href="daoyou-dingdan.html" class="daoyou-buy">立即预约</a>
                          </form>
                      </div>
@@ -240,9 +240,6 @@
 
                     </div>
 
-
-
-
                 </div>
             </div>
         </div>
@@ -263,9 +260,9 @@
             <div class="line"></div>
             <a href="#" class="footer-tab" id="tab3"> <span class="footer-tab-sp footer-im3  shows3"></span>特产</a>
             <div class="line"></div>
-            <a href="#" class="footer-tab" id="tab4"> <span class="footer-tab-sp footer-im4  shows4"></span>美食</a>
+            <a href="#" class="footer-tab" id="tab5"> <span class="footer-tab-sp footer-im5  shows5"></span>预约导游</a>
             <div class="line"></div>
-            <a href="#" class="footer-tab" id="tab5"> <span class="footer-tab-sp footer-im5  shows5"></span>票务</a>
+            <a href="#" class="footer-tab" id="tab4"> <span class="footer-tab-sp footer-im4  shows4"></span>美食</a>
         </div>
         <div class="footer-t">
             <div class="footer-con wrap">
@@ -290,21 +287,19 @@
                 <dl>
                     <dt>关注我们</dt>
                     <dd><a href="#">微信公众号</a></dd>
-                    <dd><a href="#">论坛</a></dd>
                     <dd><a href="#">官方微博</a></dd>
                 </dl>
                 <dl>
                     <dt>特色服务</dt>
                     <dd><a href="#">机票预订</a></dd>
-                    <dd><a href="#">车票预订</a></dd>
-                    <dd><a href="#">酒店门票</a></dd>
+                    <dd><a href="#">火车票预订</a></dd>
                 </dl>
 
                 <div class="lines"></div>
                 <div class="erweima">
                     <span class="tel">400-888-8888</span>
                     <span class="time">周一至周五8:00-18:00</span>
-                    <span class="kefu">24小时在线客服</span>
+                    <span class="kefu">在线客服</span>
                 </div>
             </div>
         </div>
@@ -315,6 +310,8 @@
 </footer>
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.zh-CN.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $(function () {
@@ -329,6 +326,27 @@
                 }
                 ;
             });
+        });
+
+
+        /*选择日期插件*/
+
+        $('.form-controlstart').datepicker({
+            todayHighlight: true,
+            language: "zh-CN",
+            startDate:new Date()
+
+        }).on('changeDate', function(e) {
+            var newDate =$(".form-controlstart").datepicker("getDate");//获取
+            $(".form-controlend").datepicker("setStartDate", newDate).data('datepicker');//设置
+            $(".form-controlend").datepicker("setDate", newDate).data('datepicker');//设置
+            console.log(newDate);
+        }).data('datepicker');
+
+        $('.form-controlend').datepicker({
+            todayHighlight: true,
+            language: "zh-CN"
+
         });
 
         var ddd = new Date();
@@ -353,6 +371,7 @@
 
 
 
+        /*加载更多的内容js*/
         (function ($) {
             var pos = 0;
             var LIST_ITEM_SIZE = 100;

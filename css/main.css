@@ -51,6 +51,9 @@
     width: 90px;
     text-align: center;
 }
+#carousel-example-generic #nav .navs .diangzhitable{
+    width: 110px ;
+}
 #carousel-example-generic #nav .navs li a{
     color: #ffffff;
     font-size: 16px;
@@ -63,6 +66,8 @@
     padding:0;
     text-decoration: none;
 }
+
+
 #carousel-example-generic #nav .navs li a:hover{
     background: rgba(48,181,244,0.7);
 }
@@ -461,4 +466,7 @@
 .meishi .meishi-more:hover{
     color: #047ac4;
 }
+
+
+
 

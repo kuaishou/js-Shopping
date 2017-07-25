@@ -165,6 +165,9 @@ body{
     width: 90px;
     text-align: center;
 }
+.nav-base  #nav .navs  .diangzhitable{
+    width: 110px ;
+}
 .nav-base #nav .navs li a{
     color: #ffffff;
     font-size: 16px;
@@ -418,8 +421,14 @@ body{
     position: absolute;
     top: 600px;
     right: 100px;
-  /*  background-color:#e27900 ;*/
 }
 .buyCart a img{
     margin-top: 2px;
+}
+/*Ê±¼ä²å¼þ*/
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover{
+   /* background-image: url('../img/lock.png');*/
+    background-color: #eeeeee;
+    background-repeat:no-repeat;
+    background-size: 12px 15px;
 }

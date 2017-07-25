@@ -7,14 +7,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title></title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-datepicker3.min.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/jingqu.css"/>
-    <style type="text/css">
-        body, html {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
-        #allmap{width:100%;height:500px;}
-        #r-result{width:100%;margin-top:5px;}
-        p{margin:5px; font-size:14px;}
-    </style>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=D2d2d2a3b3b5405b6b74b49173fd899a"></script>
     <!--[if lt IE 9]>
     <script src="../lib/html5shiv/html5shiv.min.js"></script>
@@ -29,46 +24,44 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 ">吉首电子商务欢迎您</div>
-            <div class="col-md-2 ">客服电话:400888888</div>
-            <div class="col-md-4 ">
-                <a href="zhanghu-1.html " class="btn btn-link">个人中心</a>
-                <a href="#">收藏</a>
-                <a href="zhuche.html" class="btn btn-link ">注册</a>
-                <a href="denglu.html" class="btn btn-link ">登录</a>
+            <div class="col-md-4 ">吉首电子商务欢迎您</div>
+            <div class="col-md-3 ">客服电话:400888888</div>
+            <div class="col-md-5 ">
+                <a href="cart.html " class="btn btn-link">购物车</a>
+                <a href="zhuche.html " class="btn btn-link">注册</a>
+                <a href="denglu.html" class="btn btn-link">登录</a>
+
             </div>
         </div>
 
     </div>
-
 </header>
 <!--头部区域-->
 <!--头部轮播图-->
 <section class="nav-base">
-        <!--导航栏-->
-        <nav id="nav" class="clearfix">
-            <div class="container">
-                <a href="../index.html"><img src="../img/logo.jpg" alt=""/></a>
-                <ul class="navs">
-                    <li ><a href="jingqu.html">景区</a></li>
-                    <li ><a href="jiudian.html">酒店</a></li>
-                    <li ><a href="techan.html">特产</a></li>
-                    <li ><a href="meishi.html">美食</a></li>
-                    <li ><a href="jiaotong.html">交通</a></li>
-                    <li ><a href="dingzhi.html">行程定制</a></li>
-                    <li ><a href="daoyoulist.html">预约导游</a></li>
-                </ul>
+    <!--导航栏-->
+    <nav id="nav" class="clearfix">
+        <div class="container">
+            <a href="../index.html"><img src="../img/logo.jpg" alt=""/></a>
+            <ul class="navs">
 
-                <!--搜索框-->
-                <form class="nav-search">
-                    <input type="search" class="nav-search-ipt" placeholder="请输入搜索内容...">
-                        <button class="search-btn-btns"> <span class="search-btn_icon"></span></button>
-                </form>
+                <li ><a href="jingqu.html">景区</a></li>
+                <li ><a href="jiudian.html">酒店</a></li>
+                <li ><a href="techan.html">特产</a></li>
+                <li class="diangzhitable" ><a href="dingzhi.html">行程定制</a></li>
+                <li class="diangzhitable" ><a href="daoyoulist.html">预约导游</a></li>
+                <li ><a href="meishi.html">美食</a></li>
+            </ul>
+            <!--搜索框-->
+            <form class="nav-search">
+                <input type="search" class="nav-search-ipt" placeholder="请输入搜索内容...">
+                <button class="search-btn-btns"> <span class="search-btn_icon"></span></button>
+            </form>
 
 
-            </div>
+        </div>
 
-        </nav>
+    </nav>
 </section>
 <!--景区门票-->
 
@@ -84,9 +77,9 @@
     <div class="jiudian-search">
         <form action="" class="form-control1" method="get">
                 <label for="startDate" class="shangpin-label">入住</label>
-                <input class="form-unit form-date hasDatepicker" id="startDate" name="startDate"  placeholder="请输入开始日期" type="date">
+                <input class="form-unit form-date hasDatepicker form-controlstart" id="startDate" name="startDate"   type="text">
                 <label for="endDate" class="shangpin-label">离店</label>
-                <input class="form-unit form-date hasDatepicker" id="endDate" name="endDate"  placeholder="请输入结束日期" type="date">
+                <input class="form-unit form-date hasDatepicker form-controlend" id="endDate" name="endDate"  type="text">
             <input type="search" class="shangpin_seaech" id="shangpin_bianhao" placeholder="酒店名/位置/品牌">
             <select class="shangpin-chang" name="">
                 <option  value="">酒店级别</option>
@@ -286,12 +279,10 @@
             <div class="line"></div>
             <a href="#" class="footer-tab" id="tab3"> <span class="footer-tab-sp footer-im3  shows3"></span>特产</a>
             <div class="line"></div>
-            <a href="#" class="footer-tab" id="tab4"> <span class="footer-tab-sp footer-im4  shows4"></span>美食</a>
+            <a href="#" class="footer-tab" id="tab5"> <span class="footer-tab-sp footer-im5  shows5"></span>预约导游</a>
             <div class="line"></div>
-            <a href="#" class="footer-tab" id="tab5"> <span class="footer-tab-sp footer-im5  shows5"></span>票务</a>
+            <a href="#" class="footer-tab" id="tab4"> <span class="footer-tab-sp footer-im4  shows4"></span>美食</a>
         </div>
-
-
         <div class="footer-t">
             <div class="footer-con wrap">
                 <dl>
@@ -315,26 +306,24 @@
                 <dl>
                     <dt>关注我们</dt>
                     <dd><a href="#">微信公众号</a></dd>
-                    <dd><a href="#">论坛</a></dd>
                     <dd><a href="#">官方微博</a></dd>
                 </dl>
                 <dl>
                     <dt>特色服务</dt>
                     <dd><a href="#">机票预订</a></dd>
-                    <dd><a href="#">车票预订</a></dd>
-                    <dd><a href="#">酒店门票</a></dd>
+                    <dd><a href="#">火车票预订</a></dd>
                 </dl>
 
                 <div class="lines"></div>
                 <div class="erweima">
                     <span class="tel">400-888-8888</span>
                     <span class="time">周一至周五8:00-18:00</span>
-                    <span class="kefu">24小时在线客服</span>
+                    <span class="kefu">在线客服</span>
                 </div>
             </div>
         </div>
         <div class="footer-b">
-            <p class="wrap">版权所有 2006 - 2018 深圳赛为智能有限公司   京ICP备08001421号京公网安备110108007702</p>
+            <p class="wrap">版权所有 2006 - 2018 深圳赛为智能股份有限公司   京ICP备08001421号京公网安备110108007702</p>
         </div>
     </div>
 </footer>
@@ -348,10 +337,46 @@
 <script src="../js/main.js"></script>
 <script>
       $(document).ready(function(){
-          $('.hasDatepicker').datepicker({
+
+
+          $('.form-controlstart').datepicker({
+              todayHighlight: true,
+              language: "zh-CN",
+              startDate:new Date()
+
+          }).on('changeDate', function(e) {
+              var newDate =$(".form-controlstart").datepicker("getDate");//获取
+              $(".form-controlend").datepicker("setStartDate", newDate).data('datepicker');//设置
+              $(".form-controlend").datepicker("setDate", newDate).data('datepicker');//设置
+              console.log(newDate);
+          }).data('datepicker');
+
+          $('.form-controlend').datepicker({
               todayHighlight: true,
               language: "zh-CN"
+
           });
+
+          var ddd = new Date();
+          var day =ddd.getDate();
+          var day1=ddd.getDate()+1;
+          if(ddd.getMonth()<10){
+              var month = "0"+(ddd.getMonth()+1);
+          }
+
+          if(ddd.getDate()<10){
+              day = "0"+ddd.getDate();
+          }
+          if(day1<10){
+              day1 = "0"+day1;
+          }
+          var datew = ddd.getFullYear()+"-"+month+"-"+day;
+          var dateend= ddd.getFullYear()+"-"+month+"-"+day1;
+          var datew = datew.toString();
+          var dateend=dateend.toString();
+          $("#startDate").val(datew);
+          $("#endDate").val(dateend);
+
 
           $(".shunxu-lis").eq(
                   $(".shunxu-lis").on('click',function(){

@@ -115,9 +115,11 @@ body{
 .dingdan .dingdan-lis .dingdan-zhang{
     font-size: 16px;
 }
-.dingdan .dingdan-lis .dingdan-time{
+.dingdan .dingdan-lis .dingdan-time {
     margin-left: 80px;
-    width: 260px;
+    padding-left: 20px;
+    width: 230px;
+    height: 30px;
     border: 1px solid #69c1ff;
 }
 .dingdan .dingdan-lis .dingdan-danjia1{

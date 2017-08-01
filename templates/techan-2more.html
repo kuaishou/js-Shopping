@@ -73,7 +73,7 @@
     </div>
     <!--景点介绍-->
 
-    <div class="jingqu-list jiudian-list ">
+    <div class="jingqu-list ">
         <div class="nav-tab pull-left">
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active"id="home"><img src="../img/techan02.jpg" alt=""/></div>
@@ -182,18 +182,18 @@
 
 
             <!--订票须知-->
-            <div class="men men-li2">
+            <div class="men men-li2 techan-lis2">
                 <div class="men-li2-title">产品介绍</div>
                 <div class="men-li2-content">
-                    <img class="techan-img" src="../img/techan06.jpg" alt="产品介绍"/>
-                    <img class="techan-img" src="../img/techan07.jpg" alt="产品介绍"/>
-                    <img class="techan-img" src="../img/techan08.jpg" alt="产品介绍"/>
+                    <img class="techan-img techan-img01" src="../img/techan06.jpg" alt="产品介绍"/>
+                    <img class="techan-img techan-img02" src="../img/techan07.jpg" alt="产品介绍"/>
+                    <img class="techan-img techan-img03" src="../img/techan08.jpg" alt="产品介绍"/>
                 </div>
             </div>
 
 
             <!--第三段景区详情-->
-            <div class="men men-li3">
+            <div class="men men-li3 techan-lis3">
                 <div class="men-li3-title">购买须知</div>
                 <div class="men-li3-content1">
                     <ul>
@@ -209,7 +209,7 @@
             </div>
 
             <!--第三段景区详情-->
-            <div class="men men-li3">
+            <div class="men men-li3 techan-lis4">
                 <div class="men-li3-title">店铺介绍</div>
                 <div class="men-li3-content">
                     <ul>
@@ -247,8 +247,7 @@
 
             <!--第四部分地图导航-->
 
-
-            <div class="men men-li4">
+            <div class="men men-li4 techan-lis5">
                 <div class="men-li4-title">用户评论</div>
                 <div class="pingfen-x">
                     <span class="pingfen-x0">整体评分：</span>
@@ -354,28 +353,14 @@
                                     老板服务态度很好，很热情。酒店很卫生。性价比很高。风景如画；美美哒。
                                 </p>
                             </div>
-
-
-
                         </div>
-
-
                     </div>
-
-
-
-
                 </div>
             </div>
         </div>
-
-
     </div>
 
 </section>
-
-
-
 
 <footer class="footer">
     <div class="container">
@@ -472,6 +457,56 @@
         var dateend=dateend.toString();
         $("#startDate").val(datew);
         $("#endDate").val(dateend);
+
+
+            /* 滚动监听 */
+            // 定义一个获取所有div的距离高度
+            var arrOffsetTop = [
+                 $('.techan-lis1').offset().top,
+                 $('.techan-lis2').offset().top,
+                 $('.techan-lis3').offset().top,
+                 $('.techan-lis4').offset().top,
+                 $('.techan-lis5').offset().top,
+            ];
+      /*  alert(arrOffsetTop[1]);*/
+       /* console.log(arrOffsetTop);*/
+            // 获取每个div的平均高度
+            var fTotalHgt = 0;
+
+            for(var i=0; i<$('.men').length; i++) {
+                fTotalHgt += $('.men').eq(i).outerHeight();
+            }
+            var fAverageHgt = parseFloat(fTotalHgt / $('.men').length);
+
+            // 滚动事件(每次滚动都做一次循环判断)
+            $(window).scroll(function() {
+                for(var i=0; i<$('.men').length; i++) {
+                    if($(this).scrollTop() > arrOffsetTop[i] - fAverageHgt) {  // 减去一个固定值，是定位准确点
+                        $('.menpiao-nav').eq(i).addClass('active').siblings().removeClass('active');
+                    }
+                }
+            });
+
+            $(function () {
+                var H = 490;
+                $(window).scroll(function () {
+                    var docSccrollTop = $(document).scrollTop();
+                    if(docSccrollTop > H){
+                        $("#menpiao-top").css({"position":"fixed","top":0});
+                        // 此时 nav的位置固定，如果不设置 main部分的margin-top的话，将有一部分内容被挡住 nav的高度+开始设置的20
+                        $(".men").css("margin-top",60);
+                    }else{
+                        $("#menpiao-top").css({"position":"static"});  /*静态定位*/
+                        $(".men").css("margin-top",0);
+                    }
+                });
+            });
+
+            /* 点击事件 */
+            $('.menpiao-nav').click(function() {
+                $(this).addClass('active').siblings().removeClass('active');
+                $('body, html').animate({scrollTop: arrOffsetTop[$(this).index()]}, 500);
+            });
     })
 
 </script>

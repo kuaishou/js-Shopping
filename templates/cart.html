@@ -104,7 +104,7 @@
       <div class="shop clearfix">
           <div class="checkbox">
               <label>
-                  <input type="checkbox">店铺
+                  <input class="funcClass fathercheck" type="checkbox">店铺
               </label>
           </div>
           <span>猕猴桃</span>
@@ -116,7 +116,7 @@
                 <ul class="">
                     <li class="title2-1  title2-1x">
 
-                        <input class="shop-check" type="checkbox"/>
+                        <input class="shop-check funcClass childcheck" type="checkbox"/>
                         <img class="shop-img" src="../img/commodity_01_80x80.jpg" alt="商品图片"/>
                         <p class="shop-news">吉首猕猴桃，原产地千年深山猕猴桃，纯天然，纯野生</p>
                     </li>
@@ -146,7 +146,7 @@
                 <ul class="">
                     <li class="title2-1  title2-1x">
 
-                        <input class="shop-check" type="checkbox"/>
+                        <input class="shop-check funcClass childcheck" type="checkbox"/>
                         <img class="shop-img" src="../img/commodity_01_80x80.jpg" alt="商品图片"/>
                         <p class="shop-news">吉首猕猴桃，原产地千年深山猕猴桃，纯天然，纯野生</p>
                     </li>
@@ -176,7 +176,7 @@
                 <ul class="">
                     <li class="title2-1  title2-1x">
 
-                        <input class="shop-check" type="checkbox"/>
+                        <input class="shop-check funcClass childcheck" type="checkbox"/>
                         <img class="shop-img" src="../img/commodity_01_80x80.jpg" alt="商品图片"/>
                         <p class="shop-news">吉首猕猴桃，原产地千年深山猕猴桃，纯天然，纯野生</p>
                     </li>
@@ -214,7 +214,7 @@
         <div class="shop clearfix">
             <div class="checkbox">
                 <label>
-                    <input type="checkbox">店铺
+                    <input class="funcClass" type="checkbox">店铺
                 </label>
             </div>
             <span>猕猴桃</span>
@@ -226,7 +226,7 @@
                 <ul class="">
                     <li class="title2-1  title2-1x">
 
-                        <input class="shop-check" type="checkbox"/>
+                        <input class="shop-check funcClass" type="checkbox"/>
                         <img class="shop-img" src="../img/commodity_01_80x80.jpg" alt="商品图片"/>
                         <p class="shop-news">吉首猕猴桃，原产地千年深山猕猴桃，纯天然，纯野生</p>
                     </li>
@@ -263,7 +263,7 @@
         <div class="shop clearfix">
             <div class="checkbox">
                 <label>
-                    <input type="checkbox">店铺
+                    <input class="funcClass" type="checkbox">店铺
                 </label>
             </div>
             <span>猕猴桃</span>
@@ -275,7 +275,7 @@
                 <ul class="">
                     <li class="title2-1  title2-1x">
 
-                        <input class="shop-check" type="checkbox"/>
+                        <input class="shop-check funcClass" type="checkbox"/>
                         <img class="shop-img" src="../img/commodity_01_80x80.jpg" alt="商品图片"/>
                         <p class="shop-news">吉首猕猴桃，原产地千年深山猕猴桃，纯天然，纯野生</p>
                     </li>
@@ -305,7 +305,7 @@
                 <ul class="">
                     <li class="title2-1  title2-1x">
 
-                        <input class="shop-check" type="checkbox"/>
+                        <input class="shop-check funcClass" type="checkbox"/>
                         <img class="shop-img" src="../img/commodity_01_80x80.jpg" alt="商品图片"/>
                         <p class="shop-news">吉首猕猴桃，原产地千年深山猕猴桃，纯天然，纯野生</p>
                     </li>
@@ -335,7 +335,7 @@
                 <ul class="">
                     <li class="title2-1  title2-1x">
 
-                        <input class="shop-check" type="checkbox"/>
+                        <input class="shop-check funcClass" type="checkbox"/>
                         <img class="shop-img" src="../img/commodity_01_80x80.jpg" alt="商品图片"/>
                         <p class="shop-news">吉首猕猴桃，原产地千年深山猕猴桃，纯天然，纯野生</p>
                     </li>
@@ -364,17 +364,8 @@
 
         </div>
 
-
-
-
-
     </div>
-
-
-
-
 <!---->
-
     <div class="cart-buy">
         <div class="cart-buyleft">
             <span class="cart-buy1">继续购物</span>
@@ -391,9 +382,6 @@
             <a href="jingqu-4zhifu.html">去结算</a>
         </div>
     </div>
-
-
-
 
 </section>
 <footer class="footer">
@@ -460,31 +448,50 @@
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/main.js"></script>
 <script>
-    var jian=document.getElementsByClassName('jian');
-    var shu=document.getElementsByClassName('shu');
-    var jia=document.getElementsByClassName('jia');
-    for(var i=0;i<jia.length;i++){
-        jian[i].shu=shu[i];
-        jia[i].shu=shu[i];
-        jia[i].jian=jian[i];
-        jian[i].onclick=function(){
-            var n=parseInt(this.shu.innerHTML)
-            if(n>0){
-                n--;
-            }
-            if(n==0){
-                this.id='jian1';
-            }
-            this.shu.innerHTML=n;
-        };
-        jia[i].onclick=function(){
-            var n=parseInt(this.shu.innerHTML)
-            n++;
-            this.shu.innerHTML=n;
-            this.jian.id='jian2';
-        };
-    }
 
+    $(document).ready(function() {
+
+
+        var jian = document.getElementsByClassName('jian');
+        var shu = document.getElementsByClassName('shu');
+        var jia = document.getElementsByClassName('jia');
+        for (var i = 0; i < jia.length; i++) {
+            jian[i].shu = shu[i];
+            jia[i].shu = shu[i];
+            jia[i].jian = jian[i];
+            jian[i].onclick = function () {
+                var n = parseInt(this.shu.innerHTML)
+                if (n > 0) {
+                    n--;
+                }
+                if (n == 0) {
+                    this.class = 'jian1';
+                }
+                this.shu.innerHTML = n;
+            };
+            jia[i].onclick = function () {
+                var n = parseInt(this.shu.innerHTML)
+                n++;
+                this.shu.innerHTML = n;
+                this.jian.class = 'jian2';
+            };
+        }
+
+        /*店铺商品全选单选*/
+        function checkedadd(father,child){
+
+            $(father).click(function(){
+//判断当前点击的复选框处于什么状态$(this).is(":checked") 返回的是布尔类型
+                if($(this).is(":checked")){
+                    $(child).prop("checked",true);
+                }else{
+                    $(child).prop("checked",false);
+                }
+            });
+        };
+        checkedadd(".title-chexk",".funcClass");
+        checkedadd(".fathercheck",".childcheck");
+    })
 
 </script>
 

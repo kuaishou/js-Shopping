@@ -66,55 +66,7 @@ footertab('#tab5',".footer-im5 ","shows5 ","showr5")
 
 /*门票详情*/
 
-/* 滚动监听 */
-// 定义一个获取所有div的距离高度
-var arrOffsetTop = [
-    $('.men-li1').offset().top,
-    $('.men-li2').offset().top,
-    $('.men-li3').offset().top,
-    $('.men-li4').offset().top,
-];
 
-// 获取每个div的平均高度
-var fTotalHgt = 0;
-for(var i=0; i<$('.men').length; i++) {
-    fTotalHgt += $('.men').eq(i).outerHeight();
-}
-var fAverageHgt = parseFloat(fTotalHgt / $('.men').length);
-
-// 滚动事件(每次滚动都做一次循环判断)
-$(window).scroll(function() {
-    for(var i=0; i<$('.men').length; i++) {
-        if($(this).scrollTop() > arrOffsetTop[i] - fAverageHgt) {  // 减去一个固定值，是定位准确点
-            $('.menpiao-nav').eq(i).addClass('active').siblings().removeClass('active');
-        }
-    }
-});
-
-$(function () {
-    var H = 490;
-    $(window).scroll(function () {
-        var docSccrollTop = $(document).scrollTop();
-        if(docSccrollTop > H){
-            $("#menpiao-top").css({"position":"fixed","top":0});
-            // 此时 nav的位置固定，如果不设置 main部分的margin-top的话，将有一部分内容被挡住 nav的高度+开始设置的20
-            $(".men").css("margin-top",60);
-        }else{
-            $("#menpiao-top").css({"position":"static"});  /*静态定位*/
-            $(".men").css("margin-top",0);
-        }
-    });
-});
-
-
-
-
-
-/* 点击事件 */
-$('.menpiao-nav').click(function() {
-    $(this).addClass('active').siblings().removeClass('active');
-    $('body, html').animate({scrollTop: arrOffsetTop[$(this).index()]}, 500);
-});
 
 
 /*门票预订*/
@@ -151,9 +103,4 @@ map.addControl(new BMap.NavigationControl());
 map.centerAndZoom(new BMap.Point(109.609925,28.333864), 18);
 
 /*3订票页面获取时间*/
-
-
-
-
-
 

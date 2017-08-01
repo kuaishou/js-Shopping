@@ -79,7 +79,7 @@
 
     <div class="jingqu-list jiudian-list ">
         <div class="nav-tab  jiudian-more pull-left">
-                <div class="tab-content jiudian-more1">
+                <div class="tab-content jiudian-more1 clearfix">
                     <div role="tabpanel" class="tab-pane active"id="home"><img src="../img/3tab-big1.jpg" alt=""/></div>
                     <div role="tabpanel" class="tab-pane" id="profile"> <img src="../img/3tab-big2.jpg" alt=""/></div>
                     <div role="tabpanel" class="tab-pane" id="messages"><img src="../img/3tab-big3.jpg" alt=""/></div>
@@ -103,7 +103,7 @@
 
         <div class="jiudian-content pull-left">
             <h4 class="list-name">吉首大酒店</h4>
-            <img src="../img/star1.jpg" alt=""/>
+            <img class="jiudian-starx" src="../img/star1.jpg" alt="酒店星级"/>
 
             <div class="position">
                 <span class="glyphicon glyphicon-map-marker"></span>
@@ -152,7 +152,7 @@
             <li class="menpiao-nav">用户评论</li>
         </ul>
         <div class="menpiao-box">
-        <div class="men men-li1 clearfix">
+        <div class="men men-li1 men-li01 clearfix">
 
             <div class="jiudian-search">
 
@@ -302,7 +302,7 @@
 
 
         <!--订票须知-->
-        <div class="men men-li2">
+        <div class="men men-li2 men-li02">
             <div class="men-li2-title">订购须知</div>
             <div class="men-li2-content">
                 <ul>
@@ -318,7 +318,7 @@
 
 
 <!--第三段景区详情-->
-        <div class="men men-li3">
+        <div class="men men-li3 men-li03">
             <div class="men-li3-title">酒店介绍</div>
             <div class="men-li3-content1">
                 <p class="men-li3-contentw"> 吉首市位于湖南省西部、湘西土家族苗族自治州南部、319、209国道与枝柳铁路交汇处。市境东南部与泸溪县、西北部与花垣县、西南部与凤凰县、北部与保靖县、古丈县毗邻。地理坐标：北纬28°08′～28°29′、东经109°30′～110°04′。东西跨度55.9千米，南重庆秀山137千米、至重庆863千米，至重庆黔江345千米，南至麻阳88千米、至怀化147千米、至贵州铜仁116千米，北至张家界152千米。
@@ -327,8 +327,8 @@
             </div>
         </div>
 
-            <!--第三段景区详情-->
-            <div class="men men-li3">
+         <!--第三段景区详情-->
+        <div class="men men-li3 men-li04">
                 <div class="men-li3-title">设施概况</div>
                 <div class="men-li3-content">
                     <ul>
@@ -365,7 +365,7 @@
             </div>
 
             <!--第四部分地图导航-->
-        <div class="men men-li4">
+        <div class="men men-li4 men-li05">
 
             <div class="men-li4-title">地图导航</div>
             <div class="men-li4-content">
@@ -376,8 +376,8 @@
 
         </div>
 
-
-            <div class="men men-li3">
+<!--评论-->
+        <div class="men men-li3 men-li06">
                 <div class="men-li3-title">用户评论</div>
                 <div class="pingfen-x">
                     <span class="pingfen-x0">整体评分：</span>
@@ -547,7 +547,7 @@
 <script src="../js/main.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-
+        /*input时间插件兼容*/
         $('.form-controlstart').datepicker({
             todayHighlight: true,
             language: "zh-CN",
@@ -566,15 +566,7 @@
 
         });
 
-      /*  $('.input-daterange input').each(function() {
-            $(this).datepicker('clearDates');
-        });*/
-       /* $('.form-date').datepicker({
-            todayHighlight: true,
-            language: "zh-CN"
-        });*/
-
-        /* $(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii'});*/
+        /*环状进度条*/
         $(function () {
             $('.circle').each(function (index, el) {
                 var num = $(this).find('span').text() * 3.6;
@@ -584,10 +576,11 @@
                 } else {
                     $(this).find('.right').css('transform', "rotate(180deg)");
                     $(this).find('.left').css('transform', "rotate(" + (num - 180) + "deg)");
-                }
-                ;
+                };
             });
         });
+
+        /*获取当前日期*/
 
         var ddd = new Date();
         var day =ddd.getDate();
@@ -608,7 +601,57 @@
         var dateend=dateend.toString();
         $("#startDate").val(datew);
         $("#endDate").val(dateend);
-    })
+
+
+        $(function () {
+        /* 滚动监听 */
+        // 定义一个获取所有div的距离高度
+        var arrOffsetTop = [
+            $('.men-li01').offset().top,
+            $('.men-li02').offset().top,
+            $('.men-li03').offset().top,
+            $('.men-li04').offset().top,
+            $('.men-li05').offset().top,
+            $('.men-li06').offset().top,
+        ];
+        // 获取每个div的平均高度
+        var fTotalHgt = 0;
+        for(var i=0; i<$('.men').length; i++) {
+            fTotalHgt += $('.men').eq(i).outerHeight();
+        }
+        var fAverageHgt = parseFloat(fTotalHgt / $('.men').length);
+
+        // 滚动事件(每次滚动都做一次循环判断)
+        $(window).scroll(function() {
+            for(var i=0; i<$('.men').length; i++) {
+                if($(this).scrollTop() > arrOffsetTop[i] - fAverageHgt) {  // 减去一个固定值，是定位准确点
+                    $('.menpiao-nav').eq(i).addClass('active').siblings().removeClass('active');
+                }
+            }
+        });
+
+        $(function () {
+            var H = 490;
+            $(window).scroll(function () {
+                var docSccrollTop = $(document).scrollTop();
+                if(docSccrollTop > H){
+                    $("#menpiao-top").css({"position":"fixed","top":0});
+                    // 此时 nav的位置固定，如果不设置 main部分的margin-top的话，将有一部分内容被挡住 nav的高度+开始设置的20
+                    $(".men").css("margin-top",60);
+                }else{
+                    $("#menpiao-top").css({"position":"static"});  /*静态定位*/
+                    $(".men").css("margin-top",30);
+                }
+            });
+        });
+
+        /* 点击事件 */
+        $('.menpiao-nav').click(function() {
+            $(this).addClass('active').siblings().removeClass('active');
+            $('body, html').animate({scrollTop: arrOffsetTop[$(this).index()]}, 500);
+        });
+    });
+    });
 
 </script>
 

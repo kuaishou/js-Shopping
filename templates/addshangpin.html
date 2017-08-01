@@ -7,6 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title>添加商品</title>
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-datepicker3.min.css">
+
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/zhanghu-1.css"/>
     <link rel="stylesheet" type="text/css" href="../css/webuploader.css">
@@ -138,15 +140,13 @@
             <div class="form-group">
                 <label for="input10" class="col-sm-3 control-label">有效期--开始日期</label>
                 <div class="col-sm-5">
-                    <input type="date" class="form-control" id="input10" value="2017-09-24"/>
-
+                    <input type="text" class="form-control" id="input10" />
                 </div>
             </div>
             <div class="form-group">
                 <label for="input11" class="col-sm-3 control-label">有效期--结束日期</label>
                 <div class="col-sm-5">
-                    <input type="date" class="form-control" id="input11" value="2017-09-24"/>
-
+                    <input type="text" class="form-control" id="input11" />
                 </div>
             </div>
             <p class="rukuadd-title2">商品描述信息填写</p>
@@ -293,8 +293,46 @@
 
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.zh-CN.min.js"></script>
+
 <script src="../js/main.js"></script>
 <script type="text/javascript" src="../js/webuploader.min.js"></script>
 <script type="text/javascript" src="../lib/image-upload/upload.js"></script>
+
+<script>
+    $('#input10').datepicker({
+        language: "zh-CN"
+
+    }).on('changeDate', function(e) {
+        var newDate =$("#input10").datepicker("getDate");//获取
+        $("#input11").datepicker("setStartDate", newDate).data('datepicker');//设置
+    }).data('datepicker');
+
+    $('#input11').datepicker({
+        language: "zh-CN"
+    });
+
+
+   /* var ddd = new Date();
+    var day =ddd.getDate();
+    var day1=ddd.getDate()+1;
+    if(ddd.getMonth()<10){
+        var month = "0"+(ddd.getMonth()+1);
+    }
+
+    if(ddd.getDate()<10){
+        day = "0"+ddd.getDate();
+    }
+    if(day1<10){
+        day1 = "0"+day1;
+    }
+    var datew = ddd.getFullYear()+"-"+month+"-"+day;
+    var dateend= ddd.getFullYear()+"-"+month+"-"+day1;
+    var datew = datew.toString();
+    var dateend=dateend.toString();
+    $("#startDate").val(datew);
+    $("#endDate").val(dateend);*/
+</script>
 
 </html>

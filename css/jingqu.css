@@ -29,10 +29,9 @@
     border: 1px solid #d2d2d2;
     margin-bottom: 20px;
 }
-.jingqu .jingqu-list img{
+.jingqu .jingqu-list img {
     width: 290px;
-    height: 200px;
-
+    height: 193px;
 }
 
 /*.jingqu .jingqu-list .jingqu-list-news{
@@ -201,7 +200,8 @@
 .jingqu .jingqu-list .list-content .jiudian-weizi{
     float: left;
     margin-top: 30px;
-    width: 330px;
+    width: 550px;
+    height: 50px;
 }
 /*地图1*/
 .jingqu .jingqu-list .allmap{width:120%;height:500px;}
@@ -221,6 +221,7 @@
 .jingqu .jingqu-list .list-content .jiudian-pinglun{
     float: left;
     margin-top: 30px;
+    height: 50px;
 }
 .jingqu .jingqu-list .list-content .jiudian-pinglun .wifi img{
     width: 100px;

@@ -114,6 +114,8 @@
                <div class="daoyou-yuyue2">
                      <div class="jiudian-search">
                          <form action="" class="form-control1" method="get" name="formtime">
+
+
                              <label for="startDate" class="shangpin-label ">开始日期</label>
                              <input class="form-unit form-date hasDatepicker form-controlstart" id="startDate" name="startDate" type="text" >
                              <label for="endDate" class="shangpin-label">结束日期</label>
@@ -136,9 +138,6 @@
             <div class="men men-li1 clearfix">
 
             </div>
-
-
-
             <div class="men men-li3">
                 <div class="men-li3-title">用户评论</div>
                 <div class="pingfen-x">
@@ -215,7 +214,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="jiudian-pinglunPeople clearfix">
                         <div class="jidian-pinglunImg ">
                             <img src="../img/userheader.jpg" alt=""/>
@@ -232,14 +230,8 @@
                                     老板服务态度很好，很热情。酒店很卫生。性价比很高。风景如画；美美哒。
                                 </p>
                             </div>
-
-
-
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
         </div>
@@ -247,10 +239,6 @@
     </div>
 
 </section>
-
-
-
-
 <footer class="footer">
     <div class="container">
         <div class="footer-nav">
@@ -332,6 +320,7 @@
         /*选择日期插件*/
 
         $('.form-controlstart').datepicker({
+            datesDisabled: ['2017-7-28', '2017-7-30'],
             todayHighlight: true,
             language: "zh-CN",
             startDate:new Date()
@@ -344,11 +333,13 @@
         }).data('datepicker');
 
         $('.form-controlend').datepicker({
+            datesDisabled: ['2017-7-28', '2017-7-30'],
             todayHighlight: true,
             language: "zh-CN"
-
         });
 
+
+/*获取当天日期*/
         var ddd = new Date();
         var day =ddd.getDate();
         var day1=ddd.getDate()+1;
@@ -402,9 +393,6 @@
                 alert("nihao");
             }
         })(jQuery);
-
-
-
     })
 
 </script>

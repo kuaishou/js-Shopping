@@ -418,11 +418,11 @@ iframe{
     display: inline-block;
     width: 170px;
 }
-#zhiliao .form-2 .form-2lin{
+#zhiliao .form-group .form-2lin{
     margin-left: 64px;
 }
 
-#zhiliao .form-2 .form-2lin1{
+#zhiliao .form-group .form-2lin1{
     margin-left: 50px;
 }
 
@@ -562,13 +562,10 @@ iframe{
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-#zhiliao .people-data .people-data-cont .form-horizontal button{
-   /* background-color: #fff;*/
+#zhiliao .people-data .people-data-cont .form-horizontal button {
     line-height: 30px;
     color: #027bc4;
     background-color: #eaf2fd;
-    margin-left: 10px;
-
 }
 #zhiliao .people-data .people-data-cont .people-databtns1{
     display: inline-block;

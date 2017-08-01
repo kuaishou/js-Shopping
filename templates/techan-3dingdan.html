@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/jingqu-3dingdan.css"/>
+    <link rel="stylesheet" href="../css/address.css"/>
     <!--[if lt IE 9]>
     <script src="../lib/html5shiv/html5shiv.min.js"></script>
     <script src="../lib/respond/respond.min.js"></script>
@@ -65,11 +66,78 @@
 
 <section class="techan-dingdan container">
     <div class="address">
-        <h4>确认收获地址</h4>
+        <h4 class="address-ok">确认收获地址</h4>
         <div class="address1">
             <span class="glyphicon glyphicon-map-marker"></span>
             <span > 收获地址：邢闻道，1888888888，深圳市南山区软件园一期二栋3楼赛为智能，518000</span>
-            <a href="#">修改地址</a>
+           <!-- <a href="#">修改地址</a>-->
+            <button class="modify dingdan-modify" data-toggle="modal" data-target="#myModal">修改地址</button>
+            <!-- 模态框（Modal） -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">修改地址</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="address02">
+                                <h5 class="add-address">新增收货地址</h5>
+
+                                <form class="form-inline">
+                                    <label class="control-label">所在地区<span>*</span></label>
+                                    <div data-toggle="distpicker" class="Provincecity">
+                                        <div class="form-group">
+                                            <label class="sr-only" for="province1">Province</label>
+                                            <select class="form-control" id="province1"></select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="sr-only" for="city1">City</label>
+                                            <select class="form-control" id="city1"></select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="sr-only" for="district1">District</label>
+                                            <select class="form-control" id="district1"></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-block clearfix">
+                                        <label for="exampleInputaddres" class="col-sm-1 control-label">详细地址<span>*</span></label>
+                                        <div class="col-sm-6">
+                                            <textarea name="Inputaddres" class="form-control" id="exampleInputaddres" cols="30" rows="10" placeholder="建议填写详细地址，例如街道名称、门牌号、楼层和房间号" ></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group form-block clearfix">
+                                        <label for="exampleInputName2" class="col-sm-1 control-label">邮政编码<span>*</span></label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" id="exampleInputName2" placeholder="如不清楚，请填写000000">
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-block clearfix">
+                                        <label for="exampleInputName3" class="col-sm-1 control-label" >收货人姓名<span>*</span></label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" id="exampleInputName3" placeholder="长度不超过25个字符">
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-block clearfix">
+                                        <label for="exampleInputphone" class="col-sm-1 control-label" >手机号<span>*</span></label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" id="exampleInputphone" placeholder="电话号、手机号必填一项">
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            <button type="button" class="btn btn-primary">提交更改</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal -->
+            </div>
         </div>
     </div>
 
@@ -244,5 +312,7 @@
 </footer>
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/distpicker.data.js"></script>
+<script src="../js/distpicker.js"></script>
 </body>
 </html>

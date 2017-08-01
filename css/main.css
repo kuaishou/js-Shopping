@@ -168,14 +168,14 @@
     margin-left: 0;
 }
 .jingqu .jingqu-content .jingqu-content-news img{
-    height: 190px;
-    width: 360px;
+    height: 186px;
+    width: 280px;
 }
 .jingqu .jingqu-content .jingqu-content-news .new{
     height: 100px;
-    width: 360px;
+    width: 280px;
     background-color: #ffffff;
-    padding-left: 40px;
+    padding-left: 30px;
     padding-top: 20px;
     padding-right: 20px;
 }
@@ -242,13 +242,13 @@
 }
 .jiudian .row  .jiudian-content a{
     display: block;
-    height: 200px;
+    height: 186px;
     width: 280px;
     position: relative;
     text-decoration: none;
 }
-.jiudian .row .jiudian-content a img{
-    height: 200px;
+.jiudian .row .jiudian-content a img {
+    height: 186px;
     width: 280px;
 }
 .jiudian .row .jiudian-content a .jiudian-biao{
@@ -388,10 +388,9 @@
     position: relative;
 
 }
-.meishi .meishi-content  a img{
-    height: 210px;
+.meishi .meishi-content a img {
+    height: 186px;
     width: 280px;
-
 }
 .meishi .meishi-content strong{
     display: block;
